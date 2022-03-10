@@ -1,0 +1,11 @@
+{
+  "name": "@butopen/user-events-model",
+  "version": "1.0.0",
+  "description": "Model for the butopen user events",
+  "types": "./src/index.ts",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
