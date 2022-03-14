@@ -3,7 +3,11 @@ import {Project} from "ts-morph"
 
 export class SessionGenerator {
 
-    private readonly significantEvents: SignificantEvent[] = []
+    private readonly significantEvents: SignificantEvent[];
+
+    constructor() {
+        this.significantEvents = [];
+    }
 
     addEvent(event: SignificantEvent) {
         this.significantEvents.push(event)
@@ -11,7 +15,7 @@ export class SessionGenerator {
 
     async toPlaywrightScript(headless: boolean, slowMo: number) {
         const project = new Project({
-            tsConfigFilePath: "tsconfig.json",
+            tsConfigFilePath: "../tsconfig.json",
         })
         const playwrightFile = project.createSourceFile('playwright-script/playwright-file.ts')
         playwrightFile.addStatements("const { chromium } = require('playwright')")
@@ -27,5 +31,13 @@ export class SessionGenerator {
         })
         playwrightFile.addStatements(')')
         await playwrightFile.save()
+    }
+
+    toString(): string {
+        let sessionDescription: string = '';
+        for (const event of this.significantEvents) {
+            sessionDescription += event.toString() + `\n`;
+        }
+        return sessionDescription;
     }
 }

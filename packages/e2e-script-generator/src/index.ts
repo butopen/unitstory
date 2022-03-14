@@ -1,17 +1,11 @@
 import {EventsConverter} from "./converter/events-converter";
-import {BLSessionEvent} from "@butopen/user-events-model";
+import {EventsReader} from "./events-catcher/events-reader";
 
 (async () => {
-    const event = {
-        "name": "session-start",
-        "type": "session",
-        "timestamp": 1646910428051,
-        "sid": 1646908359206,
-        "url": "https://www.demoblaze.com/index.html",
-        "tab": 1646910416001
-    } as BLSessionEvent
+    const reader = new EventsReader()
+    const events = reader.read('product-choice');
     const converter = new EventsConverter();
-    const session = converter.convert([event])
-    await session.toPlaywrightScript(false, 100)
+    const session = converter.convert(events)
+    await session.toPlaywrightScript(false, 400)
     console.log('Playwright script created')
 })()

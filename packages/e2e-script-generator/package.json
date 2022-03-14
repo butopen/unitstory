@@ -1,5 +1,10 @@
 {
   "name": "@butopen/e2e-script-generator",
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  },
   "version": "1.0.0",
   "description": "Convert user web events to an e2e test",
   "main": "index.js",

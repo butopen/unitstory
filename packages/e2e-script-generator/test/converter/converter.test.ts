@@ -1,14 +1,11 @@
 import {EventsConverter} from "../../src/converter/events-converter";
-import {BLSessionEvent} from "@butopen/user-events-model";
+import {EventsReader} from "../../src/events-catcher/events-reader";
 
-test("test simple conversion", async () => {
-    const event = {
-        "name": "session-start",
-        "type": "session",
-        "timestamp": 1646910428051,
-        "sid": 1646908359206,
-        "url": "https://www.demoblaze.com/index.html",
-        "tab": 1646910416001
-    } as BLSessionEvent
-    const session = new EventsConverter().convert([event])
+test("Test simple conversion obtaining session description", async () => {
+    const reader = new EventsReader()
+    const events = reader.read('product-choice');
+    const converter = new EventsConverter();
+    const session = converter.convert(events)
+    console.log(session.toString())
+    expect(true).toBe(true)
 })

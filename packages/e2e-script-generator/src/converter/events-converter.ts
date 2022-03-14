@@ -1,6 +1,8 @@
-import {BLEvent, BLSessionEvent} from "@butopen/user-events-model"
+import {BLEvent, BLMouseEvent, BLSessionEvent} from "@butopen/user-events-model"
 import {SessionGenerator} from "../session-generator/session-generator";
 import {SessionStartEvent} from "../significant-events/session-start";
+import {MouseMoveEvent} from "../significant-events/mouse-move";
+import {ClickEvent} from "../significant-events/click";
 
 export class EventsConverter {
 
@@ -14,6 +16,18 @@ export class EventsConverter {
                 const sessionEvent = e as BLSessionEvent
                 const sessionStartEvent = new SessionStartEvent(sessionEvent)
                 sessionGenerator.addEvent(sessionStartEvent)
+            }
+
+            if (e.name == "mousemove") {
+                const mouseEvent = e as BLMouseEvent & { url: string, sid: number, tab: number }
+                const mouseMoveEvent = new MouseMoveEvent(mouseEvent)
+                sessionGenerator.addEvent(mouseMoveEvent)
+            }
+
+            if (e.name == "click") {
+                const mouseEvent = e as BLMouseEvent & { selector: string, url: string, sid: number, tab: number }
+                const clickEvent = new ClickEvent(mouseEvent)
+                sessionGenerator.addEvent(clickEvent)
             }
         }
         return sessionGenerator;
