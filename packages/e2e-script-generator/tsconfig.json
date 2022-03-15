@@ -1,11 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": "../",
-    "paths": {
-      "@butopen/*": [
-        "*/src"
-      ]
-    },
     "experimentalDecorators": true,
     /* Basic Options */
     // "incremental": true,                   /* Enable incremental compilation */

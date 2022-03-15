@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@butopen/user-events-model": "link:..\\user-events-model",
+    "@butopen/user-events-model": "workspace:*",
     "@types/jest": "^27.4.1",
     "@types/node": "^17.0.21",
     "esbuild": "^0.14.25",

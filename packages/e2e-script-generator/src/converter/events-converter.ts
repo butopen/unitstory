@@ -18,13 +18,13 @@ export class EventsConverter {
                 sessionGenerator.addEvent(sessionStartEvent)
             }
 
-            if (e.name == "mousemove") {
+            else if (e.name == "mousemove") {
                 const mouseEvent = e as BLMouseEvent & { url: string, sid: number, tab: number }
                 const mouseMoveEvent = new MouseMoveEvent(mouseEvent)
                 sessionGenerator.addEvent(mouseMoveEvent)
             }
 
-            if (e.name == "click") {
+            else if (e.name == "click") {
                 const mouseEvent = e as BLMouseEvent & { selector: string, url: string, sid: number, tab: number }
                 const clickEvent = new ClickEvent(mouseEvent)
                 sessionGenerator.addEvent(clickEvent)
@@ -34,3 +34,5 @@ export class EventsConverter {
     }
 
 }
+
+
