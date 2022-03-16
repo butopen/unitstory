@@ -3,6 +3,7 @@ import {BLMouseEvent} from "@butopen/user-events-model";
 
 export class ClickEvent implements SignificantEvent {
 
+    private readonly name: string;
     private readonly selector: string;
     private readonly url: string;
     private readonly sid: number;
@@ -11,7 +12,8 @@ export class ClickEvent implements SignificantEvent {
 
 
     constructor(event: BLMouseEvent & { selector: string, url: string, sid: number, tab: number }) {
-        this.selector = event.selector
+        this.name = event.name;
+        this.selector = event.selector;
         this.url = event.url;
         this.sid = event.sid;
         this.tab = event.tab;
@@ -23,6 +25,10 @@ export class ClickEvent implements SignificantEvent {
     }
 
     toString(): string {
-        return `Event name: click ` + `Url: ${this.url} ` + `Sid: ${this.sid} ` + `Tab: ${this.tab} ` + `Timestamp: ${this.timestamp} ` + `selector: ${this.selector}`;
+        return `Event name: ${this.name} ` + `Url: ${this.url} ` + `Sid: ${this.sid} ` + `Tab: ${this.tab} ` + `Timestamp: ${this.timestamp} ` + `selector: ${this.selector}`;
+    }
+
+    getEventName(): string {
+        return this.name;
     }
 }
