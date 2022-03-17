@@ -6,10 +6,10 @@ describe(`Test playwright script generator`, () => {
 
     test(`Test playwright script generator`, async () => {
         const reader = new EventsReader()
-        const events = reader.read('product-choice.json');
+        const events = reader.read('login.json');
         const converter = new EventsConverter();
         const session = converter.convert(events)
-        await session.toPlaywrightScript(false, 400, 'product-choice')
+        await session.toPlaywrightScript(false, 400, 'login')
         console.log('Playwright script created')
     })
 })

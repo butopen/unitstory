@@ -7,5 +7,4 @@ test("Test simple conversion obtaining session description", async () => {
     const converter = new EventsConverter();
     const session = converter.convert(events)
     console.log(session.toString())
-    expect(true).toBe(true)
 })

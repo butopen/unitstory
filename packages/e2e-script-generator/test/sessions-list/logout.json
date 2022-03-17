@@ -69,17 +69,6 @@
     "y": 148
   },
   {
-    "target": "",
-    "value": "t",
-    "name": "value",
-    "type": "keyboard",
-    "timestamp": 1646910428276,
-    "selector": "input[type=\"radio\"][value=\"t\"]",
-    "sid": 1646908359206,
-    "url": "https://www.demoblaze.com/index.html",
-    "tab": 1646910416001
-  },
-  {
     "name": "after-response",
     "type": "http",
     "timestamp": 1646910428448,
