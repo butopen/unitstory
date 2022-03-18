@@ -20,7 +20,8 @@ export class EventsReader {
             event.name === 'after-response' ||
             event.name === 'scroll' ||
             event.name === 'keydown' ||
-            event.name === 'local-full'
+            event.name === 'local-full' ||
+            event.name === 'session-full'
         );
     }
 

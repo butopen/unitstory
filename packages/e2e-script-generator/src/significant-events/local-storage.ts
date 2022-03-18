@@ -22,7 +22,7 @@ export class LocalStorageEvent implements SignificantEvent {
     }
 
     getPlaywrightInstruction(): string {
-        return `const storage = JSON.parse('${JSON.stringify(this.storage).replaceAll('\\', "\\\\")}');\nawait page.evaluate(storage => {\n  for (const key in storage) {\n  localStorage.setItem(key, storage[key]);}\n}, storage);`;
+        return `const storage = JSON.parse('${JSON.stringify(this.storage).replaceAll('\\', "\\\\")}');\nawait page.evaluate(storage => {\n  for (const key in storage) {\n  window.localStorage.setItem(key, storage[key]);}\n}, storage);`;
     }
 
 

@@ -15,6 +15,7 @@ import {AfterResponse} from "../significant-events/after-response";
 import {MouseScrollEvent} from "../significant-events/mouse-scroll";
 import {KeydownEvent} from "../significant-events/keydown";
 import {LocalStorageEvent} from "../significant-events/local-storage";
+import {SessionStorageEvent} from "../significant-events/session-storage";
 
 export class EventsConverter {
 
@@ -55,6 +56,10 @@ export class EventsConverter {
                 const storageEvent = e as BLStorageEvent & { url: string, sid: number, tab: number }
                 const localStorageEvent = new LocalStorageEvent(storageEvent)
                 sessionGenerator.addEvent(localStorageEvent)
+            } else if (e.name == "session-full") {
+                const storageEvent = e as BLStorageEvent & { url: string, sid: number, tab: number }
+                const sessionStorageEvent = new SessionStorageEvent(storageEvent)
+                sessionGenerator.addEvent(sessionStorageEvent)
             }
         }
         return sessionGenerator;
