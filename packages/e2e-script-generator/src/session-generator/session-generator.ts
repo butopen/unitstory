@@ -13,23 +13,26 @@ export class SessionGenerator {
         this.significantEvents.push(event)
     }
 
-    async toPlaywrightScript(headless: boolean, slowMo: number) {
-        const project = new Project({
-            tsConfigFilePath: "../tsconfig.json",
-        })
-        const playwrightFile = project.createSourceFile('playwright-script/playwright-file.ts')
+    async toPlaywrightScript(headless: boolean, slowMo: number, fileName: string) {
+        const project = new Project();
+        const playwrightFile = project.createSourceFile(`playwright-script-generated/` + `${fileName}` + `.ts`, "", {overwrite: true})
         playwrightFile.addStatements("const { chromium } = require('playwright')")
         playwrightFile.addStatements((writer) => {
             writer.write('(async () =>').block(() => {
-                writer.write(`const browser = await chromium.launch({ headless: ${headless}, slowMo: ${slowMo} });\n`)
-                writer.write("const page = await browser.newPage();\n")
+                writer.writeLine(`const browser = await chromium.launch({headless: ${headless}, slowMo: ${slowMo} })`)
+                writer.writeLine(`const context = await browser.newContext()`)
+                const foundCookieEvent = this.significantEvents.find((event) => event.getEventName() === 'cookie-data')
+                if (foundCookieEvent) {
+                    this.significantEvents.splice(this.significantEvents.indexOf(foundCookieEvent), 1)
+                    writer.writeLine(foundCookieEvent.getPlaywrightInstruction())
+                }
+                writer.writeLine("const page = await context.newPage()")
                 for (const event of this.significantEvents) {
-                    writer.write(event.getPlaywrightInstruction() + '\n')
+                    writer.writeLine(event.getPlaywrightInstruction())
                 }
                 writer.write("await browser.close()")
-            })
+            }).write(')')
         })
-        playwrightFile.addStatements(')')
         await playwrightFile.save()
     }
 
