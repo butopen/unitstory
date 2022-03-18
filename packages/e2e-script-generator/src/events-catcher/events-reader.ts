@@ -12,34 +12,15 @@ export class EventsReader {
             'utf-8',
         ).toString()) as BLEvent[];
 
-        const cleanEvents = this.clearEvents(events)
-
-        return cleanEvents.filter((event) =>
+        return events.filter((event) =>
             event.name === 'session-start' ||
             event.name == 'mousemove' ||
             event.name === 'click' ||
             event.name === 'cookie-data' ||
             event.name === 'after-response' ||
             event.name === 'scroll' ||
-            event.name === 'input'
+            event.name === 'keydown'
         );
-    }
-
-    private clearEvents(events: BLEvent[] & { selector? }[]) {
-        // Not yet completed at all
-        let cleanList: BLEvent[] & { selector? }[] = [];
-        let currentSelector: string = '';
-        for (const event of events) {
-            if (event.name != 'input') {
-                cleanList.push(event);
-            } else {
-                if (event.selector != currentSelector) {
-                    cleanList.push(event);
-                    currentSelector = event.selector;
-                }
-            }
-        }
-        return cleanList;
     }
 
 }

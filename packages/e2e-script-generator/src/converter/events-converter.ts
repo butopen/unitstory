@@ -13,7 +13,7 @@ import {ClickEvent} from "../significant-events/click";
 import {CookieEvent} from "../significant-events/cookie";
 import {AfterResponse} from "../significant-events/after-response";
 import {MouseScrollEvent} from "../significant-events/mouse-scroll";
-import {KeyboardInput} from "../significant-events/input";
+import {KeydownEvent} from "../significant-events/keydown";
 
 export class EventsConverter {
 
@@ -40,17 +40,16 @@ export class EventsConverter {
                 const cookieDataEvent = new CookieEvent(cookieEvent);
                 sessionGenerator.addEvent(cookieDataEvent);
             } else if (e.name == "after-response") {
-                const httpEvent = e;
-                const afterResponseEvent = new AfterResponse(httpEvent);
+                const afterResponseEvent = new AfterResponse(e);
                 sessionGenerator.addEvent(afterResponseEvent);
             } else if (e.name == "scroll") {
                 const mouseEvent = e as BLScrollEvent & { url: string, sid: number, tab: number };
                 const scrollEvent = new MouseScrollEvent(mouseEvent)
                 sessionGenerator.addEvent(scrollEvent)
-            } else if (e.name == "input") {
-                const keyboardEvent = e as BLKeyboardEvent & { value: string, selector: string, url: string, sid: number, tab: number }
-                const inputEvent = new KeyboardInput(keyboardEvent)
-                sessionGenerator.addEvent(inputEvent)
+            } else if (e.name == "keydown") {
+                const keyboardEvent = e as BLKeyboardEvent & { url: string, sid: number, tab: number }
+                const keydownEvent = new KeydownEvent(keyboardEvent)
+                sessionGenerator.addEvent(keydownEvent)
             }
         }
         return sessionGenerator;
