@@ -27,6 +27,11 @@ export class SessionGenerator {
                     writer.writeLine(foundCookieEvent.getPlaywrightInstruction())
                 }
                 writer.writeLine("const page = await context.newPage()")
+                const foundLocalStorageEvent = this.significantEvents.find((event) => event.getEventName() === 'local-full')
+                if (foundLocalStorageEvent) {
+                    this.significantEvents.splice(this.significantEvents.indexOf(foundLocalStorageEvent), 1)
+                    writer.writeLine(foundLocalStorageEvent.getPlaywrightInstruction())
+                }
                 for (const event of this.significantEvents) {
                     writer.writeLine(event.getPlaywrightInstruction())
                 }

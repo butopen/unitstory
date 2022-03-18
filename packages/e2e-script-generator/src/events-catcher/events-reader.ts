@@ -19,7 +19,8 @@ export class EventsReader {
             event.name === 'cookie-data' ||
             event.name === 'after-response' ||
             event.name === 'scroll' ||
-            event.name === 'keydown'
+            event.name === 'keydown' ||
+            event.name === 'local-full'
         );
     }
 

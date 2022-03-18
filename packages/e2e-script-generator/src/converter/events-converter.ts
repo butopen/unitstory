@@ -4,7 +4,7 @@ import {
     BLKeyboardEvent,
     BLMouseEvent,
     BLScrollEvent,
-    BLSessionEvent
+    BLSessionEvent, BLStorageEvent
 } from "@butopen/user-events-model"
 import {SessionGenerator} from "../session-generator/session-generator";
 import {SessionStartEvent} from "../significant-events/session-start";
@@ -14,6 +14,7 @@ import {CookieEvent} from "../significant-events/cookie";
 import {AfterResponse} from "../significant-events/after-response";
 import {MouseScrollEvent} from "../significant-events/mouse-scroll";
 import {KeydownEvent} from "../significant-events/keydown";
+import {LocalStorageEvent} from "../significant-events/local-storage";
 
 export class EventsConverter {
 
@@ -50,6 +51,10 @@ export class EventsConverter {
                 const keyboardEvent = e as BLKeyboardEvent & { url: string, sid: number, tab: number }
                 const keydownEvent = new KeydownEvent(keyboardEvent)
                 sessionGenerator.addEvent(keydownEvent)
+            } else if (e.name == "local-full") {
+                const storageEvent = e as BLStorageEvent & { url: string, sid: number, tab: number }
+                const localStorageEvent = new LocalStorageEvent(storageEvent)
+                sessionGenerator.addEvent(localStorageEvent)
             }
         }
         return sessionGenerator;

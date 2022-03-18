@@ -8,6 +8,12 @@ export const {chromium} = require('playwright')
             url: 'https://www.demoblaze.com/index.html'
         }, {name: 'tokenp_', value: 'Y2lhbzE2NDc1MTA=', url: 'https://www.demoblaze.com/index.html'}])
         const page = await context.newPage()
+        const storage = JSON.parse('{"BL_BUGLINK":"{\\"sid\\":1646908359206,\\"version\\":1}","BL_CROSS_TAB_KEY":"{\\"version\\":3}"}');
+        await page.evaluate(storage => {
+            for (const key in storage) {
+                localStorage.setItem(key, storage[key]);
+            }
+        }, storage);
         await page.goto('https://www.demoblaze.com/index.html');
         await page.mouse.move(737, 148);
         await page.route('https://www.demoblaze.com/config.json', (route) => {
