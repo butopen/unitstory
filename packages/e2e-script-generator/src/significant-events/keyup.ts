@@ -1,7 +1,7 @@
 import {SignificantEvent} from "../events-interface/event-interface";
 import {BLKeyboardEvent} from "@butopen/user-events-model"
 
-export class KeydownEvent implements SignificantEvent {
+export class KeyupEvent implements SignificantEvent {
 
     private readonly name: string;
     private readonly code: string;
@@ -23,7 +23,7 @@ export class KeydownEvent implements SignificantEvent {
     }
 
     getPlaywrightInstruction(): string {
-        return `await page.keyboard.down('${this.code}');`
+        return `await page.keyboard.up('${this.code}');`
     }
 
     getEventName(): string {

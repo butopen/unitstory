@@ -5,4 +5,6 @@ export interface SignificantEvent {
     toString(): string
 
     getEventName(): string
+
+    getTimestamp(): number
 }

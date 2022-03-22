@@ -34,4 +34,9 @@ export class MouseMoveEvent implements SignificantEvent {
         return this.name;
     }
 
+    getTimestamp(): number {
+        return this.timestamp
+    }
+
+
 }

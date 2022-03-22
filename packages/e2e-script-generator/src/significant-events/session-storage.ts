@@ -33,4 +33,9 @@ export class SessionStorageEvent implements SignificantEvent {
     toString(): string {
         return `Event name: ${this.name} ` + `Url: ${this.url} ` + `Sid: ${this.sid} ` + `Tab: ${this.tab} ` + `Timestamp: ${this.timestamp} ` + `Storage: ${this.storage}`;
     }
+
+    getTimestamp(): number {
+        return this.timestamp
+    }
+
 }

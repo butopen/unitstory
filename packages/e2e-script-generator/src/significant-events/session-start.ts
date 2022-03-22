@@ -30,4 +30,9 @@ export class SessionStartEvent implements SignificantEvent {
     getEventName(): string {
         return this.name;
     }
+
+    getTimestamp(): number {
+        return this.timestamp
+    }
+
 }

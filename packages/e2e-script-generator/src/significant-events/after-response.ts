@@ -2,6 +2,7 @@ import {SignificantEvent} from "../events-interface/event-interface";
 import {HttpRequest} from "./http-interfaces/request";
 import {HttpResponse} from "./http-interfaces/response";
 
+
 export class AfterResponse implements SignificantEvent {
 
     private readonly request: HttpRequest;
@@ -11,7 +12,6 @@ export class AfterResponse implements SignificantEvent {
     private readonly sid: number;
     private readonly tab: number;
     private readonly timestamp: number;
-
 
     constructor(event: any) {
 
@@ -26,6 +26,7 @@ export class AfterResponse implements SignificantEvent {
     }
 
     getPlaywrightInstruction(): string {
+        this.response.headers['access-control-allow-origin'] = '*'
         return `await page.route('${this.request.url}', (route) => {
         route.fulfill({status: ${this.response.status}, contentType: ${JSON.stringify(this.response.headers['content-type'])}, headers: ${JSON.stringify(this.response.headers)},  body: ${JSON.stringify(this.response.body)}})})`
     }
@@ -36,6 +37,10 @@ export class AfterResponse implements SignificantEvent {
 
     toString(): string {
         return `Event name: ${this.name} ` + `Url: ${this.url} ` + `Sid: ${this.sid} ` + `Tab: ${this.tab} ` + `Timestamp: ${this.timestamp}` + `Request: ${this.request}` + `Response: ${this.response}`;
+    }
+
+    getTimestamp(): number {
+        return this.timestamp
     }
 
 }

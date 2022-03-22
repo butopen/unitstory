@@ -44,6 +44,10 @@ export class CookieEvent implements SignificantEvent {
         return this.name;
     }
 
+    getTimestamp(): number {
+        return this.timestamp
+    }
+
     private getCookieList(): { name: string, value: string, url: string }[] {
 
         const cookieList: { name: string, value: string, url: string }[] = [];
@@ -55,5 +59,6 @@ export class CookieEvent implements SignificantEvent {
         }
         return cookieList;
     }
+
 
 }

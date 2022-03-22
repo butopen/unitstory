@@ -1,7 +1,7 @@
 import {SignificantEvent} from "../events-interface/event-interface";
-import {BLScrollEvent} from "@butopen/user-events-model";
+import {BLMouseEvent} from "@butopen/user-events-model";
 
-export class MouseScrollEvent implements SignificantEvent {
+export class MousedownEvent implements SignificantEvent {
 
     private readonly name: string;
     private readonly x: number;
@@ -11,19 +11,21 @@ export class MouseScrollEvent implements SignificantEvent {
     private readonly tab: number;
     private readonly timestamp: number;
 
-    constructor(event: BLScrollEvent & { url: string, sid: number, tab: number }) {
+
+    constructor(event: BLMouseEvent & { url: string, sid: number, tab: number }) {
 
         this.name = event.name;
         this.x = event.x;
-        this.y = event.y;
+        this.y = event.y
         this.url = event.url;
         this.sid = event.sid;
         this.tab = event.tab;
         this.timestamp = event.timestamp;
+
     }
 
     getPlaywrightInstruction(): string {
-        return `await page.mouse.wheel(${this.x},${this.y});`;
+        return `await page.mouse.move(${this.x},${this.y});\nawait page.mouse.down();`;
     }
 
     toString(): string {
@@ -37,6 +39,5 @@ export class MouseScrollEvent implements SignificantEvent {
     getTimestamp(): number {
         return this.timestamp
     }
-
 
 }
