@@ -35,29 +35,6 @@ export class SessionGenerator {
                     const httpCalls = this.significantEvents.filter((event) => event.getEventName() === 'after-response')
                     httpCalls.forEach((event) => writer.writeLine(event.getPlaywrightInstruction()))
 
-                    /*   const timestampList = this.significantEvents.map((event) => {
-                         if (event.getEventName() !== 'cookie-data' ||
-                             event.getEventName() !== 'after-response' ||
-                             event.getEventName() !== 'local-full' ||
-                             event.getEventName() !== 'session-full') {
-
-                             event.getTimestamp()
-                         }
-                     })
-
-                   const pairwiseAbsoluteDifference = (arr): number[] => {
-                         let diff: number = 0;
-                         let diffList: number[] = [];
-                         for (let i = 0; i < arr.length - 1; i++) {
-                             diff = Math.abs(arr[i] - arr[i + 1]);
-                             diffList.push(diff)
-                         }
-                         return diffList;
-                     }
-
-                     const waitingList = pairwiseAbsoluteDifference(timestampList)*/
-
-
                     for (const event of this.significantEvents) {
                         if (event.getEventName() !== 'after-response') {
                             let indexOfNextElement = this.significantEvents.indexOf(event) + 1
