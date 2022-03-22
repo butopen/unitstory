@@ -8,6 +8,16 @@
     "tab": 1646910416001
   },
   {
+    "name": "resize",
+    "type": "window",
+    "timestamp": 1646910415998,
+    "sid": 1646908359206,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1646910416001,
+    "width": 1280,
+    "height": 619
+  },
+  {
     "referrer": "",
     "name": "referrer",
     "type": "page",

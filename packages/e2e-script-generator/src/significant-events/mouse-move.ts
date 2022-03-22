@@ -1,41 +1,50 @@
 import {SignificantEvent} from "../events-interface/event-interface";
-import {BLMouseEvent} from "@butopen/user-events-model";
+import {BLMoveEvent} from "@butopen/user-events-model";
 
 export class MouseMoveEvent implements SignificantEvent {
 
-    private readonly name: string;
-    private readonly x: number;
-    private readonly y: number;
-    private readonly url: string;
-    private readonly sid: number;
-    private readonly tab: number;
-    private readonly timestamp: number;
 
-    constructor(event: BLMouseEvent & { url: string, sid: number, tab: number }) {
-
-        this.name = event.name;
-        this.x = event.x;
-        this.y = event.y;
-        this.url = event.url;
-        this.sid = event.sid;
-        this.tab = event.tab;
-        this.timestamp = event.timestamp;
+    constructor(private event: BLMoveEvent & { url: string, sid: number, tab: number }) {
     }
 
     getPlaywrightInstruction(): string {
-        return `await page.mouse.move(${this.x},${this.y});`;
+        const {x, y, moves} = this.event
+        let first = {x, y, at: 0}
+        let prev = first
+        const events:{x:number, y:number, at:number}[] = []
+        events.push(first)
+        for (let e of moves) {
+            let next = {
+                at: e.at,
+                x: prev.x + e.x,
+                y: prev.y + e.y
+            }
+            events.push(next)
+            prev = next
+        }
+
+        const moveInstructions = events.map(e => `
+await page.mouse.move(${e.x},${e.y});
+await page.waitForTimeout(${e.at});
+`)
+        
+        return `
+await page.mouse.move(${x},${y});
+${ moveInstructions.join("\n")}
+`;
+        
     }
 
     toString(): string {
-        return `Event name: ${this.name} ` + `Url: ${this.url} ` + `Sid: ${this.sid} ` + `Tab: ${this.tab} ` + `Timestamp: ${this.timestamp} ` + `x: ${this.x} ` + `y: ${this.y}`;
+        return `Event: ${JSON.stringify(this.event)}`;
     }
 
     getEventName(): string {
-        return this.name;
+        return this.event.name;
     }
 
     getTimestamp(): number {
-        return this.timestamp
+        return this.event.timestamp
     }
 
 

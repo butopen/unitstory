@@ -1,43 +1,22 @@
 import {SignificantEvent} from "../events-interface/event-interface";
 import {BLMouseEvent} from "@butopen/user-events-model";
 
-export class MousedownEvent implements SignificantEvent {
+type MousedownEventType = BLMouseEvent & { url: string, sid: number, tab: number, selector:string }
 
-    private readonly name: string;
-    private readonly x: number;
-    private readonly y: number;
-    private readonly url: string;
-    private readonly sid: number;
-    private readonly tab: number;
-    private readonly timestamp: number;
-
-
-    constructor(event: BLMouseEvent & { url: string, sid: number, tab: number }) {
-
-        this.name = event.name;
-        this.x = event.x;
-        this.y = event.y
-        this.url = event.url;
-        this.sid = event.sid;
-        this.tab = event.tab;
-        this.timestamp = event.timestamp;
-
-    }
+export class MousedownEvent extends SignificantEvent<MousedownEventType> {
 
     getPlaywrightInstruction(): string {
-        return `await page.mouse.move(${this.x},${this.y});\nawait page.mouse.down();`;
-    }
-
-    toString(): string {
-        return `Event name: ${this.name} ` + `Url: ${this.url} ` + `Sid: ${this.sid} ` + `Tab: ${this.tab} ` + `Timestamp: ${this.timestamp} ` + `x: ${this.x} ` + `y: ${this.y}`;
-    }
-
-    getEventName(): string {
-        return this.name;
-    }
-
-    getTimestamp(): number {
-        return this.timestamp
+        const r = Math.round(Math.random() * 1000000)
+        const {selector, relative} = this.event
+        const {x, y} = relative!
+        return `
+const r${r} = await page.evaluate(async (s)=>{
+    const {x, y} = document.querySelector(s)!.getBoundingClientRect()
+    return {x, y}
+}, \`${selector}\`); 
+        
+await page.mouse.move(${x} - r${r}.x,${y} - r${r}.y);
+await page.mouse.down();`;
     }
 
 }

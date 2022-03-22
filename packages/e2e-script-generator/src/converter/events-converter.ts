@@ -2,9 +2,9 @@ import {
     BLCookieEvent,
     BLEvent,
     BLKeyboardEvent,
-    BLMouseEvent,
+    BLMouseEvent, BLMoveEvent,
     BLScrollEvent,
-    BLSessionEvent, BLStorageEvent
+    BLSessionEvent, BLStorageEvent, BLWindowResizeEvent
 } from "@butopen/user-events-model"
 import {SessionGenerator} from "../session-generator/session-generator";
 import {SessionStartEvent} from "../significant-events/session-start";
@@ -18,6 +18,7 @@ import {SessionStorageEvent} from "../significant-events/session-storage";
 import {KeyupEvent} from "../significant-events/keyup";
 import {MousedownEvent} from "../significant-events/mousedown";
 import {MouseupEvent} from "../significant-events/mouseup";
+import {WindowResizeEvent} from "../significant-events/window-resize";
 
 export class EventsConverter {
 
@@ -32,7 +33,7 @@ export class EventsConverter {
                 const sessionStartEvent = new SessionStartEvent(sessionEvent);
                 sessionGenerator.addEvent(sessionStartEvent);
             } else if (e.name == "mousemove") {
-                const mouseEvent = e as BLMouseEvent & { url: string, sid: number, tab: number };
+                const mouseEvent = e as BLMoveEvent & { url: string, sid: number, tab: number };
                 const mouseMoveEvent = new MouseMoveEvent(mouseEvent);
                 sessionGenerator.addEvent(mouseMoveEvent);
             } else if (e.name == "mousedown") {
@@ -70,6 +71,10 @@ export class EventsConverter {
                 const storageEvent = e as BLStorageEvent & { url: string, sid: number, tab: number }
                 const sessionStorageEvent = new SessionStorageEvent(storageEvent)
                 sessionGenerator.addEvent(sessionStorageEvent)
+            } else if (e.name == "resize") {
+                const resizeEvent = e as BLWindowResizeEvent & { url: string, sid: number, tab: number }
+                const sessionWindowResizeEvent = new WindowResizeEvent(resizeEvent)
+                sessionGenerator.addEvent(sessionWindowResizeEvent)
             }
         }
         return sessionGenerator;
