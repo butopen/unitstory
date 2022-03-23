@@ -6,6 +6,7 @@ export type MouseMoveEventType = BLMoveEvent & { url: string, sid: number, tab: 
 export class MouseMoveEvent extends SignificantEvent<MouseMoveEventType> {
 
     getPlaywrightInstruction(): string {
+
         const {x, y, moves} = this.event
         let first = {x, y, at: 0}
         let prev = first
@@ -23,7 +24,6 @@ export class MouseMoveEvent extends SignificantEvent<MouseMoveEventType> {
         const moveInstructions = events.map((e) => `await page.mouse.move(${e.x},${e.y});
 await page.waitForTimeout(${e.at});`)
 
-        return `await page.mouse.move(${x},${y});
-${moveInstructions.join("\n")}`;
+        return `${moveInstructions.join("\n")}`;
     }
 }

@@ -571,29 +571,13 @@ test('Login', async () => {
     })
     await page.goto('https://www.demoblaze.com/index.html');
     await page.waitForTimeout(4)
-    const sessionStorage1 = JSON.parse('{"BL_BUGLINK":"{\\"version\\":1}","BL_CROSS_TAB_KEY":"{\\"tabIsDuplicated\\":\\"duplicated\\",\\"version\\":3,\\"tabId\\":1648057416202}"}');
-    await page.evaluate(sessionStorage1 => {
-        for (const key in sessionStorage1) {
-            window.sessionStorage.setItem(key, sessionStorage1[key]);
-        }
-    }, sessionStorage1);
-    await page.waitForTimeout(0)
-    const storage1 = JSON.parse('{"BL_BUGLINK":"{\\"sid\\":1648050057200,\\"version\\":1}","BL_CROSS_TAB_KEY":"{\\"version\\":3}"}');
-    await page.evaluate(storage1 => {
-        for (const key in storage1) {
-            window.localStorage.setItem(key, storage1[key]);
-        }
-    }, storage1);
     await page.waitForTimeout(14)
-    await page.mouse.move(1324, 58);
     await page.mouse.move(1324, 58);
     await page.waitForTimeout(0);
     await page.waitForTimeout(9)
     await page.mouse.move(1318, 56);
-    await page.mouse.move(1318, 56);
     await page.waitForTimeout(0);
     await page.waitForTimeout(55)
-    await page.mouse.move(1302, 51);
     await page.mouse.move(1302, 51);
     await page.waitForTimeout(0);
     await page.mouse.move(1289, 44);
@@ -605,27 +589,15 @@ test('Login', async () => {
     await page.waitForTimeout(79)
     await page.setViewportSize({width: 1920, height: 979});
     await page.waitForTimeout(736)
-    const r11950 = await page.evaluate(async (s) => {
-        const {x, y} = document.querySelector(s)!.getBoundingClientRect()
-        return {x, y}
-    }, `a#login2.nav-link[href="#"][data-toggle="modal"][data-target="#logInModal"][style="display: block;"]`);
-    await page.mouse.move(25.0625 - r11950.x, 20.9375 - r11950.y);
     await page.mouse.down();
     await page.waitForTimeout(259)
-    const r489861 = await page.evaluate(async (s) => {
-        const {x, y} = document.querySelector(s)!.getBoundingClientRect()
-        return {x, y}
-    }, `a#login2.nav-link[href="#"][data-toggle="modal"][data-target="#logInModal"][style="display: block;"]`);
-    await page.mouse.move(25.0625 - r489861.x, 20.9375 - r489861.y);
     await page.mouse.up();
     await page.waitForTimeout(284)
-    await page.mouse.move(1284, 38);
     await page.mouse.move(1284, 38);
     await page.waitForTimeout(0);
     await page.mouse.move(1259, 39);
     await page.waitForTimeout(50);
     await page.waitForTimeout(101)
-    await page.mouse.move(1189, 46);
     await page.mouse.move(1189, 46);
     await page.waitForTimeout(0);
     await page.mouse.move(1076, 55);
@@ -638,16 +610,13 @@ test('Login', async () => {
     await page.waitForTimeout(51);
     await page.waitForTimeout(265)
     await page.mouse.move(848, 97);
-    await page.mouse.move(848, 97);
     await page.waitForTimeout(0);
     await page.waitForTimeout(51)
-    await page.mouse.move(837, 110);
     await page.mouse.move(837, 110);
     await page.waitForTimeout(0);
     await page.mouse.move(833, 114);
     await page.waitForTimeout(55);
     await page.waitForTimeout(221)
-    await page.mouse.move(816, 153);
     await page.mouse.move(816, 153);
     await page.waitForTimeout(0);
     await page.mouse.move(816, 154);
@@ -661,18 +630,8 @@ test('Login', async () => {
     await page.mouse.move(816, 164);
     await page.waitForTimeout(52);
     await page.waitForTimeout(216)
-    const r410606 = await page.evaluate(async (s) => {
-        const {x, y} = document.querySelector(s)!.getBoundingClientRect()
-        return {x, y}
-    }, `input#loginusername.form-control[type="text"]`);
-    await page.mouse.move(98.5 - r410606.x, 12 - r410606.y);
     await page.mouse.down();
     await page.waitForTimeout(127)
-    const r146113 = await page.evaluate(async (s) => {
-        const {x, y} = document.querySelector(s)!.getBoundingClientRect()
-        return {x, y}
-    }, `input#loginusername.form-control[type="text"]`);
-    await page.mouse.move(98.5 - r146113.x, 12 - r146113.y);
     await page.mouse.up();
     await page.waitForTimeout(918)
     await page.keyboard.down('KeyC');
@@ -712,18 +671,14 @@ test('Login', async () => {
     await page.keyboard.up('KeyO');
     await page.waitForTimeout(494)
     await page.mouse.move(813, 169);
-    await page.mouse.move(813, 169);
     await page.waitForTimeout(0);
     await page.waitForTimeout(50)
-    await page.mouse.move(906, 249);
     await page.mouse.move(906, 249);
     await page.waitForTimeout(0);
     await page.waitForTimeout(50)
     await page.mouse.move(968, 290);
-    await page.mouse.move(968, 290);
     await page.waitForTimeout(0);
     await page.waitForTimeout(50)
-    await page.mouse.move(1116, 383);
     await page.mouse.move(1116, 383);
     await page.waitForTimeout(0);
     await page.mouse.move(1116, 390);
@@ -740,26 +695,15 @@ test('Login', async () => {
     await page.waitForTimeout(53);
     await page.waitForTimeout(152)
     await page.mouse.move(1114, 417);
-    await page.mouse.move(1114, 417);
     await page.waitForTimeout(0);
     await page.mouse.move(1129, 420);
     await page.waitForTimeout(50);
     await page.waitForTimeout(250)
-    const r612307 = await page.evaluate(async (s) => {
-        const {x, y} = document.querySelector(s)!.getBoundingClientRect()
-        return {x, y}
-    }, `button.btn.btn-primary[type="button"][onclick="logIn()"]`);
-    await page.mouse.move(45.09375 - r612307.x, 16 - r612307.y);
+    await page.mouse.move(1153, 390);
     await page.mouse.down();
     await page.waitForTimeout(59)
-    const r470178 = await page.evaluate(async (s) => {
-        const {x, y} = document.querySelector(s)!.getBoundingClientRect()
-        return {x, y}
-    }, `button.btn.btn-primary[type="button"][onclick="logIn()"]`);
-    await page.mouse.move(45.09375 - r470178.x, 16 - r470178.y);
     await page.mouse.up();
     await page.waitForTimeout(471)
-    await page.mouse.move(1151, 388);
     await page.mouse.move(1151, 388);
     await page.waitForTimeout(0);
     await page.mouse.move(1134, 378);
@@ -781,7 +725,6 @@ test('Login', async () => {
         }
     }, storage);
     await page.waitForTimeout(1)
-    await page.mouse.move(980, 291);
     await page.mouse.move(980, 291);
     await page.waitForTimeout(0);
     await page.mouse.move(969, 286);
@@ -806,12 +749,10 @@ test('Login', async () => {
     }, {name: 'tokenp_', value: 'Y2lhbzE2NDg2NTc=', url: 'https://www.demoblaze.com/index.html'}])
     await page.waitForTimeout(504)
     await page.mouse.move(1353, 284);
-    await page.mouse.move(1353, 284);
     await page.waitForTimeout(0);
     await page.mouse.move(1417, 291);
     await page.waitForTimeout(55);
     await page.waitForTimeout(832)
-    await page.mouse.move(1462, 123);
     await page.mouse.move(1462, 123);
     await page.waitForTimeout(0);
     await page.mouse.move(1385, 76);
@@ -825,7 +766,6 @@ test('Login', async () => {
     await page.mouse.move(1254, 58);
     await page.waitForTimeout(50);
     await page.waitForTimeout(50)
-    await page.mouse.move(1414, 96);
     await page.mouse.move(1414, 96);
     await page.waitForTimeout(0);
     await page.mouse.move(1387, 78);
@@ -880,12 +820,10 @@ test('Login', async () => {
     await page.mouse.wheel(0, 0);
     await page.waitForTimeout(32)
     await page.mouse.move(1286, 119);
-    await page.mouse.move(1286, 119);
     await page.waitForTimeout(0);
     await page.mouse.move(1265, 84);
     await page.waitForTimeout(50);
     await page.waitForTimeout(250)
-    await page.mouse.move(1250, 50);
     await page.mouse.move(1250, 50);
     await page.waitForTimeout(0);
     await browser.close()
