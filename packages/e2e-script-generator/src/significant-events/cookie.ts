@@ -1,27 +1,9 @@
 import {BLCookieEvent} from "@butopen/user-events-model";
-import {SignificantEvent} from "../events-interface/event-interface";
+import {SignificantEvent} from "../events-abstract/event-abstract";
 
+export type CookieEventType = BLCookieEvent & { url: string, sid: number, tab: number }
 
-export class CookieEvent implements SignificantEvent {
-
-    private readonly name: string;
-    private readonly cookies: string;
-    private readonly url: string;
-    private readonly sid: number;
-    private readonly tab: number;
-    private readonly timestamp: number;
-
-
-    constructor(event: BLCookieEvent & { url: string, sid: number, tab: number }) {
-
-        this.name = event.name;
-        this.cookies = event.cookie;
-        this.url = event.url;
-        this.sid = event.sid;
-        this.tab = event.tab;
-        this.timestamp = event.timestamp;
-
-    }
+export class CookieEvent extends SignificantEvent<CookieEventType> {
 
     getPlaywrightInstruction(): string {
         let str = "await context.addCookies([";
@@ -36,26 +18,14 @@ export class CookieEvent implements SignificantEvent {
         return str;
     }
 
-    toString(): string {
-        return `Event name: ${this.name} ` + `Url: ${this.url} ` + `Sid: ${this.sid} ` + `Tab: ${this.tab} ` + `Timestamp: ${this.timestamp} ` + `cookie: ${this.cookies}`;
-    }
-
-    getEventName(): string {
-        return this.name;
-    }
-
-    getTimestamp(): number {
-        return this.timestamp
-    }
-
     private getCookieList(): { name: string, value: string, url: string }[] {
 
         const cookieList: { name: string, value: string, url: string }[] = [];
-        const rawCookieList: string[] = this.cookies.split(' ').join('').split(';');
+        const rawCookieList: string[] = this.event.cookie.split(' ').join('').split(';');
         for (const element of rawCookieList) {
             let cookieName: string = element.split(/=(.+)/)[0];
             let cookieValue: string = element.split(/=(.+)/)[1];
-            cookieList.push({name: cookieName, value: cookieValue, url: this.url});
+            cookieList.push({name: cookieName, value: cookieValue, url: this.event.url});
         }
         return cookieList;
     }

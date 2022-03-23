@@ -1,39 +1,21 @@
-import {SignificantEvent} from "../events-interface/event-interface";
+import {SignificantEvent} from "../events-abstract/event-abstract";
 import {BLMouseEvent} from "@butopen/user-events-model";
 
-export class MouseupEvent implements SignificantEvent {
+export type MouseupEventType = BLMouseEvent & { url: string, sid: number, tab: number, selector: string }
 
-    private readonly name: string;
-    private readonly url: string;
-    private readonly sid: number;
-    private readonly tab: number;
-    private readonly timestamp: number;
-
-
-    constructor(event: BLMouseEvent & { url: string, sid: number, tab: number }) {
-
-        this.name = event.name;
-        this.url = event.url;
-        this.sid = event.sid;
-        this.tab = event.tab;
-        this.timestamp = event.timestamp;
-
-    }
+export class MouseupEvent extends SignificantEvent<MouseupEventType> {
 
     getPlaywrightInstruction(): string {
-        return `await page.mouse.up();`;
+        const r = Math.round(Math.random() * 1000000)
+        const {selector, relative} = this.event
+        const {x, y} = relative!
+        return `const r${r} = await page.evaluate(async (s)=>{
+     const {x, y} = document.querySelector(s)!.getBoundingClientRect()
+     return {x, y}
+     }, \`${selector}\`);
+ await page.mouse.move(${x} - r${r}.x,${y} - r${r}.y);
+ await page.mouse.up();`;
     }
 
-    toString(): string {
-        return `Event name: ${this.name} ` + `Url: ${this.url} ` + `Sid: ${this.sid} ` + `Tab: ${this.tab} ` + `Timestamp: ${this.timestamp} `;
-    }
-
-    getEventName(): string {
-        return this.name;
-    }
-
-    getTimestamp(): number {
-        return this.timestamp
-    }
 
 }

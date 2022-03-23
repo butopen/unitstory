@@ -1,41 +1,12 @@
-import {SignificantEvent} from "../events-interface/event-interface";
+import {SignificantEvent} from "../events-abstract/event-abstract";
 import {BLKeyboardEvent} from "@butopen/user-events-model"
 
-export class KeydownEvent implements SignificantEvent {
+export type KeydownEventType = BLKeyboardEvent & { url: string, sid: number, tab: number }
 
-    private readonly name: string;
-    private readonly code: string;
-    private readonly url: string;
-    private readonly sid: number;
-    private readonly tab: number;
-    private readonly timestamp: number;
-
-
-    constructor(event: BLKeyboardEvent & { url: string, sid: number, tab: number }) {
-
-        this.name = event.name;
-        this.code = event.code;
-        this.url = event.url;
-        this.sid = event.sid;
-        this.tab = event.tab;
-        this.timestamp = event.timestamp;
-
-    }
+export class KeydownEvent extends SignificantEvent<KeydownEventType> {
 
     getPlaywrightInstruction(): string {
-        return `await page.keyboard.down('${this.code}');`
-    }
-
-    getEventName(): string {
-        return this.name;
-    }
-
-    toString(): string {
-        return `Event name: ${this.name} ` + `Url: ${this.url} ` + `Sid: ${this.sid} ` + `Tab: ${this.tab} ` + `Timestamp: ${this.timestamp} ` + `Key: ${this.code}`;
-    }
-
-    getTimestamp(): number {
-        return this.timestamp
+        return `await page.keyboard.down('${this.event.code}');`
     }
 
 }

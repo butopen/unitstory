@@ -1,46 +1,14 @@
-import {SignificantEvent} from "../events-interface/event-interface";
-import {HttpRequest} from "./http-interfaces/request";
-import {HttpResponse} from "./http-interfaces/response";
+import {SignificantEvent} from "../events-abstract/event-abstract";
+import {BLHTTPResponseEvent} from "@butopen/user-events-model"
 
+export type AfterResponseEventType = BLHTTPResponseEvent & { response: any }
 
-export class AfterResponse implements SignificantEvent {
-
-    private readonly request: HttpRequest;
-    private readonly response: HttpResponse;
-    private readonly name: string;
-    private readonly url: string;
-    private readonly sid: number;
-    private readonly tab: number;
-    private readonly timestamp: number;
-
-    constructor(event: any) {
-
-        this.request = event.request;
-        this.response = event.response;
-        this.name = event.name;
-        this.url = event.url;
-        this.sid = event.sid;
-        this.tab = event.tab;
-        this.timestamp = event.timestamp;
-
-    }
+export class AfterResponseEvent extends SignificantEvent<AfterResponseEventType> {
 
     getPlaywrightInstruction(): string {
-        this.response.headers['access-control-allow-origin'] = '*'
-        return `await page.route('${this.request.url}', (route) => {
-        route.fulfill({status: ${this.response.status}, contentType: ${JSON.stringify(this.response.headers['content-type'])}, headers: ${JSON.stringify(this.response.headers)},  body: ${JSON.stringify(this.response.body)}})})`
-    }
-
-    getEventName(): string {
-        return this.name;
-    }
-
-    toString(): string {
-        return `Event name: ${this.name} ` + `Url: ${this.url} ` + `Sid: ${this.sid} ` + `Tab: ${this.tab} ` + `Timestamp: ${this.timestamp}` + `Request: ${this.request}` + `Response: ${this.response}`;
-    }
-
-    getTimestamp(): number {
-        return this.timestamp
+        this.event.response.headers['access-control-allow-origin'] = '*'
+        return `await page.route('${this.event.request.url}', (route) => {
+        route.fulfill({status: ${this.event.response.status}, contentType: ${JSON.stringify(this.event.response.headers['content-type'])}, headers: ${JSON.stringify(this.event.response.headers)},  body: ${JSON.stringify(this.event.response.body)}})})`
     }
 
 }

@@ -1,17 +1,15 @@
-import {SignificantEvent} from "../events-interface/event-interface";
+import {SignificantEvent} from "../events-abstract/event-abstract";
 import {BLMoveEvent} from "@butopen/user-events-model";
 
-export class MouseMoveEvent implements SignificantEvent {
+export type MouseMoveEventType = BLMoveEvent & { url: string, sid: number, tab: number }
 
-
-    constructor(private event: BLMoveEvent & { url: string, sid: number, tab: number }) {
-    }
+export class MouseMoveEvent extends SignificantEvent<MouseMoveEventType> {
 
     getPlaywrightInstruction(): string {
         const {x, y, moves} = this.event
         let first = {x, y, at: 0}
         let prev = first
-        const events:{x:number, y:number, at:number}[] = []
+        const events: { x: number, y: number, at: number }[] = []
         events.push(first)
         for (let e of moves) {
             let next = {
@@ -22,30 +20,10 @@ export class MouseMoveEvent implements SignificantEvent {
             events.push(next)
             prev = next
         }
+        const moveInstructions = events.map((e) => `await page.mouse.move(${e.x},${e.y});
+await page.waitForTimeout(${e.at});`)
 
-        const moveInstructions = events.map(e => `
-await page.mouse.move(${e.x},${e.y});
-await page.waitForTimeout(${e.at});
-`)
-        
-        return `
-await page.mouse.move(${x},${y});
-${ moveInstructions.join("\n")}
-`;
-        
+        return `await page.mouse.move(${x},${y});
+${moveInstructions.join("\n")}`;
     }
-
-    toString(): string {
-        return `Event: ${JSON.stringify(this.event)}`;
-    }
-
-    getEventName(): string {
-        return this.event.name;
-    }
-
-    getTimestamp(): number {
-        return this.event.timestamp
-    }
-
-
 }
