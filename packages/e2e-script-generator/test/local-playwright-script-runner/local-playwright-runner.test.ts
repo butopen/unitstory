@@ -571,6 +571,19 @@ test('Login', async () => {
     })
     await page.goto('https://www.demoblaze.com/index.html');
     await page.waitForTimeout(4)
+    const sessionStorage1 = JSON.parse('{"BL_BUGLINK":"{\\"version\\":1}","BL_CROSS_TAB_KEY":"{\\"tabIsDuplicated\\":\\"duplicated\\",\\"version\\":3,\\"tabId\\":1648057416202}"}');
+    await page.evaluate(sessionStorage1 => {
+        for (const key in sessionStorage1) {
+            window.sessionStorage.setItem(key, sessionStorage1[key]);
+        }
+    }, sessionStorage1);
+    await page.waitForTimeout(0)
+    const storage1 = JSON.parse('{"BL_BUGLINK":"{\\"sid\\":1648050057200,\\"version\\":1}","BL_CROSS_TAB_KEY":"{\\"version\\":3}"}');
+    await page.evaluate(storage1 => {
+        for (const key in storage1) {
+            window.localStorage.setItem(key, storage1[key]);
+        }
+    }, storage1);
     await page.waitForTimeout(14)
     await page.mouse.move(1324, 58);
     await page.waitForTimeout(0);
@@ -589,6 +602,7 @@ test('Login', async () => {
     await page.waitForTimeout(79)
     await page.setViewportSize({width: 1920, height: 979});
     await page.waitForTimeout(736)
+    await page.mouse.move(1286, 38);
     await page.mouse.down();
     await page.waitForTimeout(259)
     await page.mouse.up();
@@ -630,6 +644,7 @@ test('Login', async () => {
     await page.mouse.move(816, 164);
     await page.waitForTimeout(52);
     await page.waitForTimeout(216)
+    await page.mouse.move(816, 164);
     await page.mouse.down();
     await page.waitForTimeout(127)
     await page.mouse.up();
