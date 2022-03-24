@@ -6,7 +6,7 @@ export type LocalStorageEventType = BLStorageEvent & { url: string, sid: number,
 export class LocalStorageEvent extends SignificantEvent<LocalStorageEventType> {
 
     getPlaywrightInstruction(): string {
-        return `const storage = JSON.parse('${JSON.stringify(this.event.storage).replaceAll('\\', "\\\\")}');\nawait page.evaluate(storage => {\n  for (const key in storage) {\n  window.localStorage.setItem(key, storage[key]);}\n}, storage);`;
+        return `const localStorage${this.event.timestamp} = JSON.parse('${JSON.stringify(this.event.storage).replaceAll('\\', "\\\\")}');\nawait page.evaluate(localStorage${this.event.timestamp} => {\n  for (const key in localStorage${this.event.timestamp}) {\n    window.localStorage.setItem(key, localStorage${this.event.timestamp}[key]);}\n}, localStorage${this.event.timestamp});`;
     }
 
 }

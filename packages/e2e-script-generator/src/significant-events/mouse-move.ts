@@ -8,22 +8,28 @@ export class MouseMoveEvent extends SignificantEvent<MouseMoveEventType> {
     getPlaywrightInstruction(): string {
 
         const {x, y, moves} = this.event
-        let first = {x, y, at: 0}
-        let prev = first
-        const events: { x: number, y: number, at: number }[] = []
-        events.push(first)
-        for (let e of moves) {
-            let next = {
-                at: e.at,
-                x: prev.x + e.x,
-                y: prev.y + e.y
-            }
-            events.push(next)
-            prev = next
-        }
-        const moveInstructions = events.map((e) => `await page.mouse.move(${e.x},${e.y});
-await page.waitForTimeout(${e.at});`)
-
-        return `${moveInstructions.join("\n")}`;
+        /* let first = {x, y, at: 0}
+         let prev = first
+         const events: { x: number, y: number, at: number }[] = []
+         events.push(first)
+         for (let e of moves) {
+             let next = {
+                 at: e.at,
+                 x: prev.x + e.x,
+                 y: prev.y + e.y
+             }
+             events.push(next)
+             prev = next
+         }
+         const moveInstructions = events.map((e) => {
+             let str = ''
+             if (e.at !== 0) {
+                 str += `await page.waitForTimeout(${e.at});\n`
+             }
+             str += `await page.mouse.move(${e.x},${e.y});`
+             return str;
+         })
+         return `${moveInstructions.join("\n")}`;*/
+        return `await page.mouse.move(${x},${y});`
     }
 }

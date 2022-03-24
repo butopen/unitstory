@@ -1,4 +1,4 @@
-import {Project} from "ts-morph"
+import {IndentationText, NewLineKind, Project, QuoteKind} from "ts-morph"
 import {BLEvent, BLSessionEvent} from "@butopen/user-events-model"
 import {AfterResponseEvent, AfterResponseEventType} from "../significant-events/after-response";
 import {CookieEvent, CookieEventType} from "../significant-events/cookie";
@@ -33,6 +33,7 @@ export class SessionGenerator {
     private customEventList: CustomEvent[] = [];
 
     createSession(events: BLEvent[]): void {
+
         for (const e of events) {
             if (e.name === 'session-start') {
                 this.customEventList.push(new SessionStartEvent(e as BLSessionEvent))
@@ -65,7 +66,13 @@ export class SessionGenerator {
 
     toPlaywrightScript(headless?: boolean, slowMo?: number, fileName?: string) {
 
-        const project = new Project();
+        const project = new Project({
+            manipulationSettings: {
+                indentationText: IndentationText.Tab,
+                newLineKind: NewLineKind.LineFeed,
+                quoteKind: QuoteKind.Single,
+            },
+        });
         const playwrightFile = project.createSourceFile(`playwright-script-generated/` + `${fileName}` + `.ts`, "", {overwrite: true})
 
         playwrightFile.addStatements("const { chromium } = require('playwright')")
@@ -86,6 +93,7 @@ export class SessionGenerator {
                     const httpCalls = this.customEventList.filter((event) => event.getEventName() === 'after-response')
                     httpCalls.forEach((event) => writer.writeLine(event.getPlaywrightInstruction()))
 
+
                     for (const event of this.customEventList) {
                         if (event.getEventName() !== 'after-response') {
                             writer.writeLine(event.getPlaywrightInstruction())
@@ -93,16 +101,17 @@ export class SessionGenerator {
                                 let indexOfNextElement = this.customEventList.indexOf(event) + 1
                                 writer.writeLine(`await page.waitForTimeout(${Math.abs(event.getTimestamp() - this.customEventList[indexOfNextElement].getTimestamp())})`)
                             }
-
+                        } else {
+                            if (this.customEventList.indexOf(event) !== this.customEventList.length - 1) {
+                                let indexOfNextElement = this.customEventList.indexOf(event) + 1
+                                writer.writeLine(`await page.waitForTimeout(${Math.abs(event.getTimestamp() - this.customEventList[indexOfNextElement].getTimestamp())})`)
+                            }
                         }
                     }
-
                     writer.write("await browser.close()")
-
                 }
             ).write(')')
         })
-
         playwrightFile.saveSync()
     }
 
