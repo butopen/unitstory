@@ -1,19 +1,19 @@
-import {BLEvent} from "@butopen/user-events-model"
+import {BLEvent, BLEventName} from "@butopen/user-events-model"
 
 export abstract class SignificantEvent<T extends BLEvent> {
 
-    constructor(protected event: T) {
+    constructor(public event: T) {
     }
 
     toString(): string {
         return `Event: ${JSON.stringify(this.event)}`
     }
 
-    getEventName(): string {
+    get eventName(): BLEventName {
         return this.event.name;
     }
 
-    getTimestamp(): number {
+    get timestamp(): number {
         return this.event.timestamp;
     }
 

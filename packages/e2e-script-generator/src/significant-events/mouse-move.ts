@@ -30,6 +30,17 @@ export class MouseMoveEvent extends SignificantEvent<MouseMoveEventType> {
              return str;
          })
          return `${moveInstructions.join("\n")}`;*/
-        return `await page.mouse.move(${x},${y});`
+        
+        let lastMoveAction = ""
+        if(moves && moves.length > 0){
+            let lastX = x
+            let lastY = y
+            for(let m of moves){
+                lastX += m.x
+                lastY += m.y
+            }
+            lastMoveAction = `await page.mouse.move(${lastX},${lastY});`
+        }
+        return `await page.mouse.move(${x},${y});${lastMoveAction}`
     }
 }
