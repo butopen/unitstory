@@ -81,8 +81,10 @@ export class SessionGenerator {
             writer.write('(async () =>').block(() => {
                     writer.writeLine(`const browser = await chromium.launch({headless: ${headless}, slowMo: ${slowMo} })`)
                     writer.writeLine(`const context = await browser.newContext()`)
+                
+                    
 
-                    const foundCookieEvent = this.customEventList.find((event) => event.getEventName() === 'cookie-data')
+                    const foundCookieEvent = this.customEventList.find((event) => event.eventName === 'cookie-data')
                     if (foundCookieEvent) {
                         this.customEventList.splice(this.customEventList.indexOf(foundCookieEvent), 1)
                         writer.writeLine(foundCookieEvent.getPlaywrightInstruction())
@@ -90,21 +92,21 @@ export class SessionGenerator {
 
                     writer.writeLine("const page = await context.newPage()")
 
-                    const httpCalls = this.customEventList.filter((event) => event.getEventName() === 'after-response')
+                    const httpCalls = this.customEventList.filter((event) => event.eventName === 'after-response')
                     httpCalls.forEach((event) => writer.writeLine(event.getPlaywrightInstruction()))
 
 
                     for (const event of this.customEventList) {
-                        if (event.getEventName() !== 'after-response') {
+                        if (event.eventName !== 'after-response') {
                             writer.writeLine(event.getPlaywrightInstruction())
                             if (this.customEventList.indexOf(event) !== this.customEventList.length - 1) {
                                 let indexOfNextElement = this.customEventList.indexOf(event) + 1
-                                writer.writeLine(`await page.waitForTimeout(${Math.abs(event.getTimestamp() - this.customEventList[indexOfNextElement].getTimestamp())})`)
+                                writer.writeLine(`await page.waitForTimeout(${Math.abs(event.timestamp - this.customEventList[indexOfNextElement].timestamp)})`)
                             }
                         } else {
                             if (this.customEventList.indexOf(event) !== this.customEventList.length - 1) {
                                 let indexOfNextElement = this.customEventList.indexOf(event) + 1
-                                writer.writeLine(`await page.waitForTimeout(${Math.abs(event.getTimestamp() - this.customEventList[indexOfNextElement].getTimestamp())})`)
+                                writer.writeLine(`await page.waitForTimeout(${Math.abs(event.timestamp - this.customEventList[indexOfNextElement].timestamp)})`)
                             }
                         }
                     }
