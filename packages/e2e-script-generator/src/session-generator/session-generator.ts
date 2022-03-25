@@ -1,4 +1,4 @@
-import {IndentationText, NewLineKind, Project, QuoteKind} from "ts-morph"
+import {Project} from "ts-morph"
 import {BLEvent, BLSessionEvent} from "@butopen/user-events-model"
 import {AfterResponseEvent, AfterResponseEventType} from "../significant-events/after-response";
 import {CookieEvent, CookieEventType} from "../significant-events/cookie";
@@ -12,6 +12,7 @@ import {MouseMoveEvent, MouseMoveEventType} from "../significant-events/mouse-mo
 import {MouseScrollEvent, MouseScrollEventType} from "../significant-events/mouse-scroll";
 import {SessionStartEvent} from "../significant-events/session-start";
 import {WindowResizeEvent, WindowResizeEventType} from "../significant-events/window-resize";
+import {HttpEventsRouterGenerator} from "../significant-events/http-events-router-generator";
 
 type CustomEvent =
     AfterResponseEvent
@@ -64,25 +65,18 @@ export class SessionGenerator {
         }
     }
 
-    toPlaywrightScript(headless?: boolean, slowMo?: number, fileName?: string) {
+    toPlaywrightScript(fileName: string, headless?: boolean, slowMo?: number, devtools?: boolean) {
 
-        const project = new Project({
-            manipulationSettings: {
-                indentationText: IndentationText.Tab,
-                newLineKind: NewLineKind.LineFeed,
-                quoteKind: QuoteKind.Single,
-            },
-        });
+        const project = new Project({});
         const playwrightFile = project.createSourceFile(`playwright-script-generated/` + `${fileName}` + `.ts`, "", {overwrite: true})
 
         playwrightFile.addStatements("const { chromium } = require('playwright')")
         playwrightFile.addStatements((writer) => {
 
             writer.write('(async () =>').block(() => {
-                    writer.writeLine(`const browser = await chromium.launch({headless: ${headless}, slowMo: ${slowMo} })`)
+                    writer.writeLine(`const browser = await chromium.launch({headless: ${headless}, slowMo: ${slowMo}, devtools: ${devtools}})`)
                     writer.writeLine(`const context = await browser.newContext()`)
-                
-                    
+
 
                     const foundCookieEvent = this.customEventList.find((event) => event.eventName === 'cookie-data')
                     if (foundCookieEvent) {
@@ -91,13 +85,17 @@ export class SessionGenerator {
                     }
 
                     writer.writeLine("const page = await context.newPage()")
+                    writer.writeLine(`let ts = ${this.customEventList[0].timestamp}`)
 
-                    const httpCalls = this.customEventList.filter((event) => event.eventName === 'after-response')
-                    httpCalls.forEach((event) => writer.writeLine(event.getPlaywrightInstruction()))
+                    writer.writeLine(new HttpEventsRouterGenerator().generateRoutes(this.customEventList))
+
+                    /*const httpCalls = this.customEventList.filter((event) => event.eventName === 'after-response')
+                    httpCalls.forEach((event) => writer.writeLine(event.getPlaywrightInstruction()))*/
 
 
                     for (const event of this.customEventList) {
                         if (event.eventName !== 'after-response') {
+                            writer.writeLine(`ts = ${event.timestamp}`)
                             writer.writeLine(event.getPlaywrightInstruction())
                             if (this.customEventList.indexOf(event) !== this.customEventList.length - 1) {
                                 let indexOfNextElement = this.customEventList.indexOf(event) + 1

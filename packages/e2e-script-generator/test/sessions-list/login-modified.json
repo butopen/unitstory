@@ -1,0 +1,1591 @@
+[
+  {
+    "name": "session-start",
+    "type": "session",
+    "timestamp": 1648057416207,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "storage": {
+      "BL_BUGLINK": "{\"version\":1}",
+      "BL_CROSS_TAB_KEY": "{\"tabIsDuplicated\":\"duplicated\",\"version\":3,\"tabId\":1648057416202}"
+    },
+    "name": "session-full",
+    "type": "storage",
+    "timestamp": 1648057416211,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "storage": {
+      "BL_BUGLINK": "{\"sid\":1648050057200,\"version\":1}",
+      "BL_CROSS_TAB_KEY": "{\"version\":3}"
+    },
+    "name": "local-full",
+    "type": "storage",
+    "timestamp": 1648057416211,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057416225,
+    "type": "mouse",
+    "moves": [],
+    "x": 1324,
+    "y": 58
+  },
+  {
+    "name": "after-response",
+    "type": "http",
+    "timestamp": 1648057416234,
+    "request": {
+      "headers": {},
+      "method": "GET",
+      "path": "https://hls.demoblaze.com/index.m3u8",
+      "timestamp": 1648057416222,
+      "url": "https://hls.demoblaze.com/index.m3u8",
+      "body": null
+    },
+    "status": 200,
+    "response": {
+      "body": "#EXTM3U\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=8674000,RESOLUTION=1024x576,CODECS=\"avc1.4d001f,mp4a.40.2\"\nabout_demo_hls_2M.m3u8\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=7633000,RESOLUTION=960x540,CODECS=\"avc1.4d001f,mp4a.40.2\"\nabout_demo_hls_1-5M.m3u8\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3733000,RESOLUTION=640x360,CODECS=\"avc1.4d001f,mp4a.40.2\"\nabout_demo_hls_1M.m3u8\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2624000,RESOLUTION=480x270,CODECS=\"avc1.42001e,mp4a.40.2\"\nabout_demo_hls_600k.m3u8\n",
+      "headers": {
+        "cache-control": "public, max-age=3600",
+        "content-length": "501",
+        "content-type": "binary/octet-stream",
+        "date": "Wed, 23 Mar 2022 17:43:34 GMT",
+        "expires": "Wed, 23 Mar 2022 18:43:34 GMT",
+        "last-modified": "Fri, 13 Sep 2019 14:27:35 GMT",
+        "server": "UploadServer",
+        "x-guploader-uploadid": "ADPycdukaPq7Klt0Kl2gGoQK5x5hHtTahjIQgp6ejSVAqsoTCQd06VFDg3nOFrPdVoMHm63FM__9Sqi-QgOZvT4S27ofDxF3KA"
+      },
+      "status": 200,
+      "timestamp": 1648057416234
+    },
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "name": "after-response",
+    "type": "http",
+    "timestamp": 1648057416256,
+    "request": {
+      "headers": {},
+      "method": "GET",
+      "path": "https://hls.demoblaze.com/about_demo_hls_600k.m3u8",
+      "timestamp": 1648057416233,
+      "url": "https://hls.demoblaze.com/about_demo_hls_600k.m3u8",
+      "body": null
+    },
+    "status": 200,
+    "response": {
+      "body": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-MEDIA-SEQUENCE:0\n#EXT-X-ALLOW-CACHE:YES\n#EXT-X-TARGETDURATION:13\n#EXTINF:12.046444,\nabout_demo_hls_600k00000.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00001.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00002.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00003.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00004.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00005.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00006.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00007.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00008.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00009.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00010.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00011.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00012.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00013.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00014.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00015.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00016.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00017.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00018.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00019.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00020.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00021.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00022.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00023.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00024.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00025.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00026.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00027.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00028.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00029.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00030.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00031.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00032.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00033.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00034.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00035.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00036.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00037.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00038.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00039.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00040.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00041.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00042.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00043.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00044.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00045.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00046.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00047.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00048.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00049.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00050.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00051.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00052.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00053.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00054.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00055.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00056.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00057.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00058.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00059.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00060.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00061.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00062.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00063.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00064.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00065.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00066.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00067.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00068.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00069.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00070.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00071.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00072.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00073.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00074.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00075.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00076.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00077.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00078.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00079.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00080.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00081.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00082.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00083.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00084.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00085.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00086.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00087.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00088.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00089.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00090.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00091.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00092.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00093.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00094.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00095.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00096.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00097.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00098.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00099.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00100.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00101.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00102.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00103.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00104.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00105.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00106.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00107.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00108.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00109.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00110.ts\n#EXTINF:10.133333,\nabout_demo_hls_600k00111.ts\n#EXT-X-ENDLIST\n",
+      "headers": {
+        "cache-control": "public, max-age=3600",
+        "content-length": "5302",
+        "content-type": "binary/octet-stream",
+        "date": "Wed, 23 Mar 2022 17:43:34 GMT",
+        "expires": "Wed, 23 Mar 2022 18:43:34 GMT",
+        "last-modified": "Fri, 13 Sep 2019 14:27:34 GMT",
+        "server": "UploadServer",
+        "x-guploader-uploadid": "ADPycduWcPtiKZF0IIaTuZ5fFh6i_EdbJpGFRw4Eu78A97CjchQfIOzfGFgUXJb-yadyRpC1tLxssID9XnO3LJT605w"
+      },
+      "status": 200,
+      "timestamp": 1648057416256
+    },
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057416278,
+    "type": "mouse",
+    "moves": [],
+    "x": 1318,
+    "y": 56
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057416333,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -13,
+        "y": -7,
+        "at": 77
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "at": 53
+      },
+      {
+        "x": -3,
+        "y": -5,
+        "at": 63
+      }
+    ],
+    "x": 1302,
+    "y": 51
+  },
+  {
+    "width": 1920,
+    "height": 979,
+    "name": "resize",
+    "type": "window",
+    "timestamp": 1648057416412,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 1286,
+    "y": 38,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 25.0625,
+      "y": 20.9375
+    },
+    "name": "mousedown",
+    "type": "mouse",
+    "timestamp": 1648057417148,
+    "selector": "a#login2.nav-link[href=\"#\"][data-toggle=\"modal\"][data-target=\"#logInModal\"][style=\"display: block;\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "cookie": "user=c5d32a3d-b141-59d0-2cc5-cfcb2dc17694",
+    "name": "cookie-data",
+    "type": "cookie",
+    "timestamp": 1648057417214,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 1286,
+    "y": 38,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 25.0625,
+      "y": 20.9375
+    },
+    "name": "mouseup",
+    "type": "mouse",
+    "timestamp": 1648057417407,
+    "selector": "a#login2.nav-link[href=\"#\"][data-toggle=\"modal\"][data-target=\"#logInModal\"][style=\"display: block;\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057417691,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -25,
+        "y": 1,
+        "at": 50
+      }
+    ],
+    "x": 1284,
+    "y": 38
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057417792,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -113,
+        "y": 9,
+        "at": 51
+      },
+      {
+        "x": -46,
+        "y": 3,
+        "at": 56
+      },
+      {
+        "x": -109,
+        "y": 1,
+        "at": 57
+      },
+      {
+        "x": -52,
+        "y": 19,
+        "at": 51
+      }
+    ],
+    "x": 1189,
+    "y": 46
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057418057,
+    "type": "mouse",
+    "moves": [],
+    "x": 848,
+    "y": 97
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057418108,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -4,
+        "y": 4,
+        "at": 55
+      }
+    ],
+    "x": 837,
+    "y": 110
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057418329,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 0,
+        "y": 1,
+        "at": 56
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "at": 53
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "at": 96
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "at": 54
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "at": 52
+      }
+    ],
+    "x": 816,
+    "y": 153
+  },
+  {
+    "performance": -5,
+    "name": "cpu",
+    "type": "performance",
+    "timestamp": 1648057418335,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "performance": -3,
+    "name": "cpu",
+    "type": "performance",
+    "timestamp": 1648057418535,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 816,
+    "y": 164,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 98.5,
+      "y": 12
+    },
+    "name": "mousedown",
+    "type": "mouse",
+    "timestamp": 1648057418545,
+    "selector": "input#loginusername.form-control[type=\"text\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 816,
+    "y": 164,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 98.5,
+      "y": 12
+    },
+    "name": "mouseup",
+    "type": "mouse",
+    "timestamp": 1648057418672,
+    "selector": "input#loginusername.form-control[type=\"text\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 816,
+    "y": 164,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 98.5,
+      "y": 12
+    },
+    "name": "click",
+    "type": "mouse",
+    "timestamp": 1648057418673,
+    "selector": "input#loginusername.form-control[type=\"text\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "modifier": "none",
+    "name": "keydown",
+    "type": "keyboard",
+    "timestamp": 1648057419590,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "target": "",
+    "value": "c",
+    "name": "input",
+    "type": "keyboard",
+    "timestamp": 1648057419606,
+    "selector": "input#loginusername.form-control[type=\"text\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "modifier": "none",
+    "name": "keydown",
+    "type": "keyboard",
+    "timestamp": 1648057419724,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "modifier": "none",
+    "name": "keyup",
+    "type": "keyboard",
+    "timestamp": 1648057419729,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "target": "",
+    "value": "ci",
+    "name": "input",
+    "type": "keyboard",
+    "timestamp": 1648057419739,
+    "selector": "input#loginusername.form-control[type=\"text\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "modifier": "none",
+    "name": "keydown",
+    "type": "keyboard",
+    "timestamp": 1648057419848,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "modifier": "none",
+    "name": "keyup",
+    "type": "keyboard",
+    "timestamp": 1648057419855,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "target": "",
+    "value": "cia",
+    "name": "input",
+    "type": "keyboard",
+    "timestamp": 1648057419856,
+    "selector": "input#loginusername.form-control[type=\"text\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "modifier": "none",
+    "name": "keyup",
+    "type": "keyboard",
+    "timestamp": 1648057419948,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "modifier": "none",
+    "name": "keydown",
+    "type": "keyboard",
+    "timestamp": 1648057419984,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "target": "",
+    "value": "ciao",
+    "name": "input",
+    "type": "keyboard",
+    "timestamp": 1648057419989,
+    "selector": "input#loginusername.form-control[type=\"text\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "modifier": "none",
+    "name": "keyup",
+    "type": "keyboard",
+    "timestamp": 1648057420098,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "Tab",
+    "code": "Tab",
+    "modifier": "none",
+    "name": "keydown",
+    "type": "keyboard",
+    "timestamp": 1648057420278,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "target": "",
+    "value": "ciao",
+    "name": "input",
+    "type": "keyboard",
+    "timestamp": 1648057420289,
+    "selector": "input#loginusername.form-control[type=\"text\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "Tab",
+    "code": "Tab",
+    "modifier": "none",
+    "name": "keyup",
+    "type": "keyboard",
+    "timestamp": 1648057420398,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "modifier": "none",
+    "name": "keydown",
+    "type": "keyboard",
+    "timestamp": 1648057420649,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "target": "",
+    "value": "*",
+    "name": "input",
+    "type": "keyboard",
+    "timestamp": 1648057420656,
+    "selector": "input#loginpassword.form-control[type=\"password\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "modifier": "none",
+    "name": "keyup",
+    "type": "keyboard",
+    "timestamp": 1648057420771,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "modifier": "none",
+    "name": "keydown",
+    "type": "keyboard",
+    "timestamp": 1648057420778,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "target": "",
+    "value": "**",
+    "name": "input",
+    "type": "keyboard",
+    "timestamp": 1648057420788,
+    "selector": "input#loginpassword.form-control[type=\"password\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "modifier": "none",
+    "name": "keydown",
+    "type": "keyboard",
+    "timestamp": 1648057420890,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "target": "",
+    "value": "***",
+    "name": "input",
+    "type": "keyboard",
+    "timestamp": 1648057420906,
+    "selector": "input#loginpassword.form-control[type=\"password\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "modifier": "none",
+    "name": "keyup",
+    "type": "keyboard",
+    "timestamp": 1648057420907,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "modifier": "none",
+    "name": "keyup",
+    "type": "keyboard",
+    "timestamp": 1648057420993,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "modifier": "none",
+    "name": "keydown",
+    "type": "keyboard",
+    "timestamp": 1648057421013,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "target": "",
+    "value": "****",
+    "name": "input",
+    "type": "keyboard",
+    "timestamp": 1648057421022,
+    "selector": "input#loginpassword.form-control[type=\"password\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "modifier": "none",
+    "name": "keyup",
+    "type": "keyboard",
+    "timestamp": 1648057421111,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "memory": {
+      "totalJSHeapSize": 32658704,
+      "usedJSHeapSize": 15327676,
+      "jsHeapSizeLimit": 4294705152
+    },
+    "name": "memory",
+    "type": "performance",
+    "timestamp": 1648057421216,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "mutations": [
+      {
+        "name": "mutation-attribute",
+        "attributes": {
+          "class": ""
+        },
+        "id": 69,
+        "timestamp": 1648057421250
+      },
+      {
+        "name": "mutation-attribute",
+        "attributes": {
+          "class": "active"
+        },
+        "id": 71,
+        "timestamp": 1648057421250
+      },
+      {
+        "name": "mutation-attribute",
+        "attributes": {
+          "class": "carousel-item carousel-item-next carousel-item-left"
+        },
+        "id": 86,
+        "timestamp": 1648057421250
+      },
+      {
+        "name": "mutation-attribute",
+        "attributes": {
+          "class": "carousel-item active carousel-item-left"
+        },
+        "id": 81,
+        "timestamp": 1648057421250
+      }
+    ],
+    "timestamp": 1648057421255,
+    "type": "dom",
+    "name": "dom-change",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057421605,
+    "type": "mouse",
+    "moves": [],
+    "x": 813,
+    "y": 169
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057421655,
+    "type": "mouse",
+    "moves": [],
+    "x": 906,
+    "y": 249
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057421705,
+    "type": "mouse",
+    "moves": [],
+    "x": 968,
+    "y": 290
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057421755,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 0,
+        "y": 7,
+        "at": 50
+      },
+      {
+        "x": -4,
+        "y": 17,
+        "at": 51
+      },
+      {
+        "x": 29,
+        "y": 2,
+        "at": 151
+      },
+      {
+        "x": 8,
+        "y": -9,
+        "at": 54
+      },
+      {
+        "x": 3,
+        "y": -6,
+        "at": 54
+      },
+      {
+        "x": 1,
+        "y": -4,
+        "at": 53
+      }
+    ],
+    "x": 1116,
+    "y": 383
+  },
+  {
+    "mutations": [
+      {
+        "name": "mutation-attribute",
+        "attributes": {
+          "class": "carousel-item active"
+        },
+        "id": 86,
+        "timestamp": 1648057421855
+      },
+      {
+        "name": "mutation-attribute",
+        "attributes": {
+          "class": "carousel-item"
+        },
+        "id": 81,
+        "timestamp": 1648057421855
+      }
+    ],
+    "timestamp": 1648057421857,
+    "type": "dom",
+    "name": "dom-change",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057421907,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 15,
+        "y": 3,
+        "at": 50
+      }
+    ],
+    "x": 1114,
+    "y": 417
+  },
+  {
+    "x": 1153,
+    "y": 390,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 45.09375,
+      "y": 16
+    },
+    "name": "mousedown",
+    "type": "mouse",
+    "timestamp": 1648057422157,
+    "selector": "button.btn.btn-primary[type=\"button\"][onclick=\"logIn()\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "target": "",
+    "value": "****",
+    "name": "input",
+    "type": "keyboard",
+    "timestamp": 1648057422171,
+    "selector": "input#loginpassword.form-control[type=\"password\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 1153,
+    "y": 390,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 45.09375,
+      "y": 16
+    },
+    "name": "mouseup",
+    "type": "mouse",
+    "timestamp": 1648057422216,
+    "selector": "button.btn.btn-primary[type=\"button\"][onclick=\"logIn()\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 1153,
+    "y": 390,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 45.09375,
+      "y": 16
+    },
+    "name": "click",
+    "type": "mouse",
+    "timestamp": 1648057422217,
+    "selector": "button.btn.btn-primary[type=\"button\"][onclick=\"logIn()\"]",
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057422687,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -17,
+        "y": -10,
+        "at": 50
+      }
+    ],
+    "x": 1151,
+    "y": 388
+  },
+  {
+    "name": "after-response",
+    "type": "http",
+    "timestamp": 1648057422749,
+    "request": {
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ],
+        "Accept": [
+          "*/*"
+        ]
+      },
+      "method": "POST",
+      "path": "https://api.demoblaze.com/login",
+      "timestamp": 1648057422219,
+      "url": "https://api.demoblaze.com/login",
+      "body": "{\"username\":\"ciao\",\"password\":\"Y2lhbw==\"}"
+    },
+    "status": 200,
+    "response": {
+      "body": "\"Auth_token: Y2lhbzE2NDg2NTc=\"\n",
+      "headers": {
+        "cache-control": "private",
+        "content-length": "57",
+        "content-type": "application/json"
+      },
+      "status": 200,
+      "timestamp": 1648057422749
+    },
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "name": "session-start",
+    "type": "session",
+    "timestamp": 1648057423073,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "referrer": "https://www.demoblaze.com/index.html",
+    "name": "referrer",
+    "type": "page",
+    "timestamp": 1648057423075,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "timing": {
+      "connectStart": 1648057422762,
+      "navigationStart": 1648057422753,
+      "loadEventEnd": 1648057423082,
+      "domLoading": 1648057422951,
+      "secureConnectionStart": 0,
+      "fetchStart": 1648057422762,
+      "domContentLoadedEventStart": 1648057423012,
+      "responseStart": 1648057422940,
+      "responseEnd": 1648057422942,
+      "domInteractive": 1648057423011,
+      "domainLookupEnd": 1648057422762,
+      "redirectStart": 0,
+      "requestStart": 1648057422770,
+      "unloadEventEnd": 1648057422946,
+      "unloadEventStart": 1648057422946,
+      "domComplete": 1648057423077,
+      "domainLookupStart": 1648057422762,
+      "loadEventStart": 1648057423077,
+      "domContentLoadedEventEnd": 1648057423012,
+      "redirectEnd": 0,
+      "connectEnd": 1648057422762
+    },
+    "name": "timing",
+    "type": "performance",
+    "timestamp": 1648057423075,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "storage": {
+      "BL_BUGLINK": "{\"version\":1}",
+      "BL_CROSS_TAB_KEY": "{\"tabIsDuplicated\":\"duplicated\",\"version\":3,\"tabId\":1648057416202}"
+    },
+    "name": "session-full",
+    "type": "storage",
+    "timestamp": 1648057423075,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "storage": {
+      "BL_BUGLINK": "{\"sid\":1648050057200,\"version\":1}",
+      "BL_CROSS_TAB_KEY": "{\"version\":3}"
+    },
+    "name": "local-full",
+    "type": "storage",
+    "timestamp": 1648057423075,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057423076,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -11,
+        "y": -5,
+        "at": 52
+      },
+      {
+        "x": -102,
+        "y": -61,
+        "at": 58
+      },
+      {
+        "x": -9,
+        "y": -5,
+        "at": 70
+      },
+      {
+        "x": 261,
+        "y": 36,
+        "at": 1080
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "at": 149
+      },
+      {
+        "x": 43,
+        "y": 5,
+        "at": 50
+      }
+    ],
+    "x": 980,
+    "y": 291
+  },
+  {
+    "performance": -1.29,
+    "name": "cpu",
+    "type": "performance",
+    "timestamp": 1648057423260,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "name": "after-response",
+    "type": "http",
+    "timestamp": 1648057423283,
+    "request": {
+      "headers": {},
+      "method": "GET",
+      "path": "https://hls.demoblaze.com/index.m3u8",
+      "timestamp": 1648057423271,
+      "url": "https://hls.demoblaze.com/index.m3u8",
+      "body": null
+    },
+    "status": 200,
+    "response": {
+      "body": "#EXTM3U\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=8674000,RESOLUTION=1024x576,CODECS=\"avc1.4d001f,mp4a.40.2\"\nabout_demo_hls_2M.m3u8\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=7633000,RESOLUTION=960x540,CODECS=\"avc1.4d001f,mp4a.40.2\"\nabout_demo_hls_1-5M.m3u8\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3733000,RESOLUTION=640x360,CODECS=\"avc1.4d001f,mp4a.40.2\"\nabout_demo_hls_1M.m3u8\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2624000,RESOLUTION=480x270,CODECS=\"avc1.42001e,mp4a.40.2\"\nabout_demo_hls_600k.m3u8\n",
+      "headers": {
+        "cache-control": "public, max-age=3600",
+        "content-length": "501",
+        "content-type": "binary/octet-stream",
+        "date": "Wed, 23 Mar 2022 17:43:34 GMT",
+        "expires": "Wed, 23 Mar 2022 18:43:34 GMT",
+        "last-modified": "Fri, 13 Sep 2019 14:27:35 GMT",
+        "server": "UploadServer",
+        "x-guploader-uploadid": "ADPycdukaPq7Klt0Kl2gGoQK5x5hHtTahjIQgp6ejSVAqsoTCQd06VFDg3nOFrPdVoMHm63FM__9Sqi-QgOZvT4S27ofDxF3KA"
+      },
+      "status": 200,
+      "timestamp": 1648057423283
+    },
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "name": "after-response",
+    "type": "http",
+    "timestamp": 1648057423303,
+    "request": {
+      "headers": {},
+      "method": "GET",
+      "path": "https://hls.demoblaze.com/about_demo_hls_600k.m3u8",
+      "timestamp": 1648057423282,
+      "url": "https://hls.demoblaze.com/about_demo_hls_600k.m3u8",
+      "body": null
+    },
+    "status": 200,
+    "response": {
+      "body": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-MEDIA-SEQUENCE:0\n#EXT-X-ALLOW-CACHE:YES\n#EXT-X-TARGETDURATION:13\n#EXTINF:12.046444,\nabout_demo_hls_600k00000.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00001.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00002.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00003.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00004.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00005.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00006.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00007.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00008.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00009.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00010.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00011.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00012.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00013.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00014.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00015.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00016.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00017.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00018.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00019.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00020.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00021.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00022.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00023.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00024.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00025.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00026.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00027.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00028.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00029.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00030.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00031.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00032.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00033.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00034.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00035.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00036.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00037.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00038.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00039.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00040.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00041.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00042.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00043.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00044.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00045.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00046.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00047.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00048.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00049.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00050.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00051.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00052.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00053.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00054.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00055.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00056.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00057.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00058.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00059.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00060.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00061.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00062.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00063.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00064.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00065.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00066.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00067.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00068.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00069.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00070.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00071.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00072.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00073.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00074.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00075.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00076.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00077.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00078.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00079.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00080.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00081.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00082.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00083.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00084.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00085.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00086.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00087.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00088.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00089.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00090.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00091.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00092.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00093.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00094.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00095.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00096.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00097.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00098.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00099.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00100.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00101.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00102.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00103.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00104.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00105.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00106.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00107.ts\n#EXTINF:12.000000,\nabout_demo_hls_600k00108.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00109.ts\n#EXTINF:9.000000,\nabout_demo_hls_600k00110.ts\n#EXTINF:10.133333,\nabout_demo_hls_600k00111.ts\n#EXT-X-ENDLIST\n",
+      "headers": {
+        "cache-control": "public, max-age=3600",
+        "content-length": "5302",
+        "content-type": "binary/octet-stream",
+        "date": "Wed, 23 Mar 2022 17:43:34 GMT",
+        "expires": "Wed, 23 Mar 2022 18:43:34 GMT",
+        "last-modified": "Fri, 13 Sep 2019 14:27:34 GMT",
+        "server": "UploadServer",
+        "x-guploader-uploadid": "ADPycduWcPtiKZF0IIaTuZ5fFh6i_EdbJpGFRw4Eu78A97CjchQfIOzfGFgUXJb-yadyRpC1tLxssID9XnO3LJT605w"
+      },
+      "status": 200,
+      "timestamp": 1648057423303
+    },
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "width": 1920,
+    "height": 979,
+    "name": "resize",
+    "type": "window",
+    "timestamp": 1648057423394,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "name": "after-response",
+    "type": "http",
+    "timestamp": 1648057423416,
+    "request": {
+      "headers": {
+        "Accept": [
+          "*/*"
+        ]
+      },
+      "method": "GET",
+      "path": "https://api.demoblaze.com/entries",
+      "timestamp": 1648057423222,
+      "url": "https://api.demoblaze.com/entries",
+      "body": null
+    },
+    "status": 200,
+    "response": {
+      "body": "This is a mocked body response",
+      "headers": {
+        "cache-control": "private",
+        "content-length": "1055",
+        "content-type": "application/json"
+      },
+      "status": 200,
+      "timestamp": 1648057423416
+    },
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "name": "after-response",
+    "type": "http",
+    "timestamp": 1648057423546,
+    "request": {
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ],
+        "Accept": [
+          "*/*"
+        ]
+      },
+      "method": "POST",
+      "path": "https://api.demoblaze.com/check",
+      "timestamp": 1648057423219,
+      "url": "https://api.demoblaze.com/check",
+      "body": "{\"token\":\"Y2lhbzE2NDg2NTc=\"}"
+    },
+    "status": 200,
+    "response": {
+      "body": "{\"Item\":{\"expiration\":1648657,\"token\":\"Y2lhbzE2NDg2NTc=\",\"username\":\"ciao\"}}\n",
+      "headers": {
+        "cache-control": "private",
+        "content-length": "101",
+        "content-type": "application/json"
+      },
+      "status": 200,
+      "timestamp": 1648057423546
+    },
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "open": false,
+    "name": "devtools-open",
+    "type": "devtools",
+    "timestamp": 1648057423680,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "performance": -6,
+    "name": "cpu",
+    "type": "performance",
+    "timestamp": 1648057423681,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "cookie": "user=c5d32a3d-b141-59d0-2cc5-cfcb2dc17694; tokenp_=Y2lhbzE2NDg2NTc=",
+    "name": "cookie-data",
+    "type": "cookie",
+    "timestamp": 1648057424082,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "active": true,
+    "name": "visibility",
+    "type": "page",
+    "timestamp": 1648057424083,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "performance": -6.99,
+    "name": "cpu",
+    "type": "performance",
+    "timestamp": 1648057424232,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057424586,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 64,
+        "y": 7,
+        "at": 55
+      }
+    ],
+    "x": 1353,
+    "y": 284
+  },
+  {
+    "performance": -6.02,
+    "name": "cpu",
+    "type": "performance",
+    "timestamp": 1648057425205,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057425418,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -77,
+        "y": -47,
+        "at": 150
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "at": 50
+      },
+      {
+        "x": -121,
+        "y": 1,
+        "at": 1299
+      },
+      {
+        "x": -1,
+        "y": -8,
+        "at": 50
+      },
+      {
+        "x": -6,
+        "y": -10,
+        "at": 50
+      }
+    ],
+    "x": 1462,
+    "y": 123
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057425468,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -27,
+        "y": -18,
+        "at": 50
+      },
+      {
+        "x": -14,
+        "y": 2,
+        "at": 150
+      },
+      {
+        "x": -16,
+        "y": 20,
+        "at": 50
+      },
+      {
+        "x": -15,
+        "y": 26,
+        "at": 50
+      },
+      {
+        "x": -5,
+        "y": 31,
+        "at": 50
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "at": 63
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "at": 403
+      },
+      {
+        "x": 5,
+        "y": 21,
+        "at": 50
+      },
+      {
+        "x": 14,
+        "y": 39,
+        "at": 50
+      },
+      {
+        "x": 13,
+        "y": 31,
+        "at": 50
+      },
+      {
+        "x": 3,
+        "y": 7,
+        "at": 50
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "at": 50
+      },
+      {
+        "x": 0,
+        "y": -2,
+        "at": 133
+      },
+      {
+        "x": -4,
+        "y": -11,
+        "at": 50
+      },
+      {
+        "x": -42,
+        "y": -75,
+        "at": 50
+      }
+    ],
+    "x": 1414,
+    "y": 96
+  },
+  {
+    "x": 0,
+    "y": 1,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1648057426042,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 0,
+    "y": 24,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1648057426101,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 0,
+    "y": 78,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1648057426151,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 0,
+    "y": 95,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1648057426201,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 0,
+    "y": 100,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1648057426261,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 0,
+    "y": 99,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1648057426584,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 0,
+    "y": 77,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1648057426634,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 0,
+    "y": 35,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1648057426684,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 0,
+    "y": 5,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1648057426734,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "x": 0,
+    "y": 0,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1648057426785,
+    "sid": 1648050057200,
+    "url": "https://www.demoblaze.com/index.html",
+    "tab": 1648057416202
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057426817,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -21,
+        "y": -35,
+        "at": 50
+      }
+    ],
+    "x": 1286,
+    "y": 119
+  },
+  {
+    "url": "https://www.demoblaze.com/index.html",
+    "sid": 1648050057200,
+    "tab": 1648057416202,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1648057427067,
+    "type": "mouse",
+    "moves": [],
+    "x": 1250,
+    "y": 50
+  }
+]

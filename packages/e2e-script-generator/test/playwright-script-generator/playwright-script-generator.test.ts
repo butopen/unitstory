@@ -6,11 +6,11 @@ describe(`Test playwright script generator`, () => {
 
     test(`Test playwright script generator`, async () => {
         const reader = new EventsReader()
-        const events = reader.read('login.json');
+        const events = reader.read('login-modified.json');
         const session = new SessionGenerator()
         session.createSession(events)
-        session.toPlaywrightScript(false, 0, 'login')
+        session.toPlaywrightScript('login-modified', false, 0, true)
         console.log('Playwright script created')
-        //console.log(session.toString())
+        console.log(session.toString())
     })
 })

@@ -1,5 +1,5 @@
 import {readFileSync} from "fs";
-import {BLEvent} from "@butopen/user-events-model";
+import {BLEvent, BLHTTPResponseEvent} from "@butopen/user-events-model";
 
 const path = require("path");
 
@@ -11,6 +11,13 @@ export class EventsReader {
             path.resolve(__dirname, `../../test/sessions-list/${fileName}`),
             'utf-8',
         ).toString()) as BLEvent[];
+
+        for (let e of events) {
+            if (e.name === 'after-response') {
+                let event = e as BLHTTPResponseEvent
+                e.timestamp = event.request.timestamp
+            }
+        }
 
         events.sort((e1, e2) => e1.timestamp - e2.timestamp);
 
@@ -25,8 +32,8 @@ export class EventsReader {
             event.name === 'keydown' ||
             event.name === 'keyup' ||
             event.name === 'local-full' ||
-            event.name === 'session-full' || 
-            event.name === 'resize' 
+            event.name === 'session-full' ||
+            event.name === 'resize'
         );
     }
 
