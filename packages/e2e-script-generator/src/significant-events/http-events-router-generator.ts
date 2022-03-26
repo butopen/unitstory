@@ -15,7 +15,7 @@ export class HttpEventsRouterGenerator {
             codeLines.push(`
 await page.route('${url}', (route) => {
     ${httpRequests.map(h => `
-    if (ts > ${h.timestamp}) {
+    if (ts >= (${h.timestamp} - 10)) {
         route.fulfill({status: ${h.event.response.status}, contentType: ${JSON.stringify(h.event.response.headers['content-type'])}, headers: ${JSON.stringify(h.event.response.headers)},  body: ${JSON.stringify(h.event.response.body)}})
     }`).join("\n")}
 })`)
@@ -32,8 +32,9 @@ await page.route('${url}', (route) => {
                 let event = e as SignificantEvent<AfterResponseEventType>
                 event.event.response.headers['access-control-allow-origin'] = '*'
                 this.httpCode(routesMap, lastEventTimestamp, event)
+            } else {
+                lastEventTimestamp = e.timestamp
             }
-            lastEventTimestamp = e.timestamp
         }
         return routesMap
     }
