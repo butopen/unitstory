@@ -33,7 +33,8 @@ export class EventsReader {
             event.name === 'keyup' ||
             event.name === 'local-full' ||
             event.name === 'session-full' ||
-            event.name === 'resize'
+            event.name === 'resize' ||
+            event.name === 'input'
         );
     }
 

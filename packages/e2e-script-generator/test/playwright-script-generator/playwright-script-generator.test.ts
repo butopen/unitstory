@@ -6,10 +6,10 @@ describe(`Test playwright script generator`, () => {
 
     test(`Test playwright script generator`, async () => {
         const reader = new EventsReader()
-        const events = reader.read('login-modified.json');
+        const events = reader.read('login-with-autofill.json');
         const session = new SessionGenerator()
         session.createSession(events)
-        session.toPlaywrightScript('login-modified', false, 0, true)
+        session.toPlaywrightScript('login-with-autofill', false, 0, false)
         console.log('Playwright script created')
         console.log(session.toString())
     })

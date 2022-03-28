@@ -13,6 +13,7 @@ import {MouseScrollEvent, MouseScrollEventType} from "../significant-events/mous
 import {SessionStartEvent} from "../significant-events/session-start";
 import {WindowResizeEvent, WindowResizeEventType} from "../significant-events/window-resize";
 import {HttpEventsRouterGenerator} from "../significant-events/http-events-router-generator";
+import {InputEvent, InputEventType} from "../significant-events/input";
 
 type CustomEvent =
     AfterResponseEvent
@@ -60,8 +61,9 @@ export class SessionGenerator {
                 this.customEventList.push(new KeydownEvent(e as KeydownEventType))
             } else if (e.name === 'keyup') {
                 this.customEventList.push(new KeyupEvent(e as KeyupEventType))
+            } else if (e.name === 'input') {
+                this.customEventList.push(new InputEvent(e as InputEventType))
             }
-
         }
     }
 
@@ -76,7 +78,8 @@ export class SessionGenerator {
             writer.write('(async () =>').block(() => {
                     writer.writeLine(`const browser = await chromium.launch({headless: ${headless}, slowMo: ${slowMo}, devtools: ${devtools}})`)
                     writer.writeLine(`const context = await browser.newContext()`)
-
+                    writer.writeLine('let selector;')
+                    writer.writeLine('let text;')
 
                     const foundCookieEvent = this.customEventList.find((event) => event.eventName === 'cookie-data')
                     if (foundCookieEvent) {
