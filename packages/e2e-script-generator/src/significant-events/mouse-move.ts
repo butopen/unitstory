@@ -17,9 +17,9 @@ export class MouseMoveEvent extends SignificantEvent<MouseMoveEventType> {
                  at: e.at,
                  x: prev.x + e.x,
                  y: prev.y + e.y
-             }
+             }  
              events.push(next)
-             prev = next
+             prev = next 
          }
          const moveInstructions = events.map((e) => {
              let str = ''
