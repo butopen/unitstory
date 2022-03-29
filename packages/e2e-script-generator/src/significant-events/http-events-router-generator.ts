@@ -12,31 +12,26 @@ export class HttpEventsRouterGenerator {
         const routesMap = this.generateHttpEventsMap(events);
         for (let url in routesMap) {
             const httpRequests = routesMap[url]
-            codeLines.push(`
-
-    
-    ${httpRequests.map((h, i) => {
-        const headers = {...h.event.response.headers, "x-unit-story":`${h.timestamp}`}
-                
-        return `
+            codeLines.push(`${httpRequests.map((h) => {
+                const headers = {...h.event.response.headers, "x-unit-story": `${h.timestamp}`}
+                return `
     if (ts >= (${h.timestamp} - 10) && route.request().url() == "${h.event.request.url}" ) {
-        responseOptions = {status: ${h.event.response.status}, contentType: ${JSON.stringify(h.event.response.headers['content-type'])}, headers: ${JSON.stringify(headers)},  body: ${JSON.stringify(h.event.response.body    )}}
-        mocked = true
+    responseOptions = {status: ${h.event.response.status}, contentType: ${JSON.stringify(h.event.response.headers['content-type'])}, headers: ${JSON.stringify(headers)},  body: ${JSON.stringify(h.event.response.body)}}
+    mocked = true
     }`
             }).join("\n")}`)
         }
-        return `
-await page.route('**/*', (route) => {  
-let mocked = false;    
-let responseOptions = {} as any
+        return `await page.route('**/*', (route) => {  
+    let mocked = false;    
+    let responseOptions = {} as any
         ${codeLines.join("\n")}
-        if(mocked)
-route.fulfill(responseOptions)
-        else {
-            route.continue()
-        }
-});
-        `
+        
+    if(mocked) {
+        route.fulfill(responseOptions)
+    } else {
+        route.continue()
+    }
+});`
     }
 
     private generateHttpEventsMap(events: SignificantEvent<BLEvent>[]): { [url: string]: { timestamp: number, event: AfterResponseEventType }[] } {

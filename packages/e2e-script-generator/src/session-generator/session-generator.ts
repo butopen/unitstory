@@ -78,6 +78,7 @@ export class SessionGenerator {
             writer.write('(async () =>').block(() => {
                     writer.writeLine(`const browser = await chromium.launch({headless: ${headless}, slowMo: ${slowMo}, devtools: ${devtools}})`)
                     writer.writeLine(`const context = await browser.newContext()`)
+                    writer.writeLine('let selector;')
                     writer.writeLine('let element;')
                     writer.writeLine('let text;')
 
@@ -91,10 +92,6 @@ export class SessionGenerator {
                     writer.writeLine(`let ts = ${this.customEventList[0].timestamp}`)
 
                     writer.writeLine(new HttpEventsRouterGenerator().generateRoutes(this.customEventList))
-
-                    /*const httpCalls = this.customEventList.filter((event) => event.eventName === 'after-response')
-                    httpCalls.forEach((event) => writer.writeLine(event.getPlaywrightInstruction()))*/
-
 
                     for (const event of this.customEventList) {
                         if (event.eventName !== 'after-response') {

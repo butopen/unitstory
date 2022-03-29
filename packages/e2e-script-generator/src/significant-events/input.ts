@@ -8,8 +8,13 @@ export class InputEvent extends SignificantEvent<InputEventType> {
 
     getPlaywrightInstruction(): string {
 
-        return `element = await page.locator('${this.event.selector}');\ntext = await element.inputValue();\nif('${this.event.value}' !== text){
-    await page.fill('${this.event.selector}','${this.event.value}')
+        return `selector = '${this.event.selector}'
+if(!selector.includes('password')){
+    element = await page.locator(selector);
+    text = await element.inputValue();
+    if('${this.event.value}' !== text){
+        await page.fill(selector,'${this.event.value}')
+    }
 }`
     }
 }
