@@ -7,7 +7,7 @@ describe(`Local testing of generated playwright scripts`, () => {
     test('Login including autofill in browser', async () => {
         const browser = await chromium.launch({headless: false, slowMo: 0, devtools: false})
         const context = await browser.newContext()
-        let selector;
+        let element;
         let text;
         await context.addCookies([{
             name: 'user',
@@ -307,21 +307,6 @@ describe(`Local testing of generated playwright scripts`, () => {
         await page.waitForTimeout(108)
         ts = 1648484519708
         await page.mouse.up();
-        selector = 'a#login2.nav-link[href="#"][data-toggle="modal"][data-target="#logInModal"][style="display: block;"]';
-        text = await page.evaluate((selector) => {
-            let element = document.querySelector(selector)!
-            if (element) {
-                if (element.hasAttribute('type')) {
-                    if (element.getAttribute('type') === 'text') {
-                        let htmlElement = element as HTMLInputElement
-                        text = htmlElement.value
-                        return text;
-                    }
-                }
-            } else {
-                return "";
-            }
-        }, selector)
         await page.waitForTimeout(460)
         ts = 1648484520168
         await page.mouse.move(1291, 28);
@@ -350,21 +335,6 @@ describe(`Local testing of generated playwright scripts`, () => {
         await page.waitForTimeout(48)
         ts = 1648484521102
         await page.mouse.up();
-        selector = 'input#loginusername.form-control[type="text"]';
-        text = await page.evaluate((selector) => {
-            let element = document.querySelector(selector)!
-            if (element) {
-                if (element.hasAttribute('type')) {
-                    if (element.getAttribute('type') === 'text') {
-                        let htmlElement = element as HTMLInputElement
-                        text = htmlElement.value
-                        return text;
-                    }
-                }
-            } else {
-                return "";
-            }
-        }, selector)
         await page.waitForTimeout(1348)
         ts = 1648484522450
         await page.mouse.move(972, 161);
@@ -376,22 +346,10 @@ describe(`Local testing of generated playwright scripts`, () => {
         await page.waitForTimeout(1198)
         ts = 1648484524369
         await page.keyboard.down('KeyC');
-        text = await page.evaluate((selector) => {
-            let element = document.querySelector(selector)!
-            if (element) {
-                if (element.hasAttribute('type')) {
-                    if (element.getAttribute('type') === 'text') {
-                        let htmlElement = element as HTMLInputElement
-                        text = htmlElement.value
-                        return text;
-                    }
-                }
-            } else {
-                return "";
-            }
-        }, selector);
         await page.waitForTimeout(14)
         ts = 1648484524383
+        element = await page.locator('input#loginusername.form-control[type="text"]');
+        text = await element.inputValue();
         if ('c' !== text) {
             await page.fill('input#loginusername.form-control[type="text"]', 'c')
         }
@@ -401,22 +359,10 @@ describe(`Local testing of generated playwright scripts`, () => {
         await page.waitForTimeout(46)
         ts = 1648484524554
         await page.keyboard.down('KeyI');
-        text = await page.evaluate((selector) => {
-            let element = document.querySelector(selector)!
-            if (element) {
-                if (element.hasAttribute('type')) {
-                    if (element.getAttribute('type') === 'text') {
-                        let htmlElement = element as HTMLInputElement
-                        text = htmlElement.value
-                        return text;
-                    }
-                }
-            } else {
-                return "";
-            }
-        }, selector);
         await page.waitForTimeout(11)
         ts = 1648484524565
+        element = await page.locator('input#loginusername.form-control[type="text"]');
+        text = await element.inputValue();
         if ('ci' !== text) {
             await page.fill('input#loginusername.form-control[type="text"]', 'ci')
         }
@@ -426,22 +372,10 @@ describe(`Local testing of generated playwright scripts`, () => {
         await page.waitForTimeout(459)
         ts = 1648484525153
         await page.keyboard.down('KeyA');
-        text = await page.evaluate((selector) => {
-            let element = document.querySelector(selector)!
-            if (element) {
-                if (element.hasAttribute('type')) {
-                    if (element.getAttribute('type') === 'text') {
-                        let htmlElement = element as HTMLInputElement
-                        text = htmlElement.value
-                        return text;
-                    }
-                }
-            } else {
-                return "";
-            }
-        }, selector);
         await page.waitForTimeout(12)
         ts = 1648484525165
+        element = await page.locator('input#loginusername.form-control[type="text"]');
+        text = await element.inputValue();
         if ('cia' !== text) {
             await page.fill('input#loginusername.form-control[type="text"]', 'cia')
         }
@@ -454,6 +388,8 @@ describe(`Local testing of generated playwright scripts`, () => {
         await page.mouse.move(890, 183);
         await page.waitForTimeout(868)
         ts = 1648484526632
+        element = await page.locator('input#loginusername.form-control[type="text"]');
+        text = await element.inputValue();
         if ('ciao' !== text) {
             await page.fill('input#loginusername.form-control[type="text"]', 'ciao')
         }
@@ -471,40 +407,13 @@ describe(`Local testing of generated playwright scripts`, () => {
         await page.waitForTimeout(42)
         ts = 1648484528451
         await page.mouse.up();
-        selector = 'input#loginpassword.form-control[type="password"]';
-        text = await page.evaluate((selector) => {
-            let element = document.querySelector(selector)!
-            if (element) {
-                if (element.hasAttribute('type')) {
-                    if (element.getAttribute('type') === 'text') {
-                        let htmlElement = element as HTMLInputElement
-                        text = htmlElement.value
-                        return text;
-                    }
-                }
-            } else {
-                return "";
-            }
-        }, selector)
         await page.waitForTimeout(1624)
         ts = 1648484530075
         await page.keyboard.down('KeyC');
-        text = await page.evaluate((selector) => {
-            let element = document.querySelector(selector)!
-            if (element) {
-                if (element.hasAttribute('type')) {
-                    if (element.getAttribute('type') === 'text') {
-                        let htmlElement = element as HTMLInputElement
-                        text = htmlElement.value
-                        return text;
-                    }
-                }
-            } else {
-                return "";
-            }
-        }, selector);
         await page.waitForTimeout(3)
         ts = 1648484530078
+        element = await page.locator('input#loginpassword.form-control[type="password"]');
+        text = await element.inputValue();
         if ('*' !== text) {
             await page.fill('input#loginpassword.form-control[type="password"]', '*')
         }
@@ -514,22 +423,10 @@ describe(`Local testing of generated playwright scripts`, () => {
         await page.waitForTimeout(4)
         ts = 1648484530210
         await page.keyboard.down('KeyI');
-        text = await page.evaluate((selector) => {
-            let element = document.querySelector(selector)!
-            if (element) {
-                if (element.hasAttribute('type')) {
-                    if (element.getAttribute('type') === 'text') {
-                        let htmlElement = element as HTMLInputElement
-                        text = htmlElement.value
-                        return text;
-                    }
-                }
-            } else {
-                return "";
-            }
-        }, selector);
         await page.waitForTimeout(1)
         ts = 1648484530211
+        element = await page.locator('input#loginpassword.form-control[type="password"]');
+        text = await element.inputValue();
         if ('**' !== text) {
             await page.fill('input#loginpassword.form-control[type="password"]', '**')
         }
@@ -539,22 +436,10 @@ describe(`Local testing of generated playwright scripts`, () => {
         await page.waitForTimeout(351)
         ts = 1648484530707
         await page.keyboard.down('KeyA');
-        text = await page.evaluate((selector) => {
-            let element = document.querySelector(selector)!
-            if (element) {
-                if (element.hasAttribute('type')) {
-                    if (element.getAttribute('type') === 'text') {
-                        let htmlElement = element as HTMLInputElement
-                        text = htmlElement.value
-                        return text;
-                    }
-                }
-            } else {
-                return "";
-            }
-        }, selector);
         await page.waitForTimeout(3)
         ts = 1648484530710
+        element = await page.locator('input#loginpassword.form-control[type="password"]');
+        text = await element.inputValue();
         if ('***' !== text) {
             await page.fill('input#loginpassword.form-control[type="password"]', '***')
         }
@@ -564,22 +449,10 @@ describe(`Local testing of generated playwright scripts`, () => {
         await page.waitForTimeout(143)
         ts = 1648484530985
         await page.keyboard.down('KeyO');
-        text = await page.evaluate((selector) => {
-            let element = document.querySelector(selector)!
-            if (element) {
-                if (element.hasAttribute('type')) {
-                    if (element.getAttribute('type') === 'text') {
-                        let htmlElement = element as HTMLInputElement
-                        text = htmlElement.value
-                        return text;
-                    }
-                }
-            } else {
-                return "";
-            }
-        }, selector);
         await page.waitForTimeout(8)
         ts = 1648484530993
+        element = await page.locator('input#loginpassword.form-control[type="password"]');
+        text = await element.inputValue();
         if ('****' !== text) {
             await page.fill('input#loginpassword.form-control[type="password"]', '****')
         }
@@ -596,27 +469,14 @@ describe(`Local testing of generated playwright scripts`, () => {
         await page.mouse.down();
         await page.waitForTimeout(7)
         ts = 1648484532392
+        element = await page.locator('input#loginpassword.form-control[type="password"]');
+        text = await element.inputValue();
         if ('****' !== text) {
             await page.fill('input#loginpassword.form-control[type="password"]', '****')
         }
         await page.waitForTimeout(52)
         ts = 1648484532444
         await page.mouse.up();
-        selector = 'button.btn.btn-primary[type="button"][onclick="logIn()"]';
-        text = await page.evaluate((selector) => {
-            let element = document.querySelector(selector)!
-            if (element) {
-                if (element.hasAttribute('type')) {
-                    if (element.getAttribute('type') === 'text') {
-                        let htmlElement = element as HTMLInputElement
-                        text = htmlElement.value
-                        return text;
-                    }
-                }
-            } else {
-                return "";
-            }
-        }, selector)
         await page.waitForTimeout(1)
         await page.waitForTimeout(598)
         ts = 1648484533043
@@ -683,21 +543,6 @@ describe(`Local testing of generated playwright scripts`, () => {
         await page.waitForTimeout(72)
         ts = 1648484537933
         await page.mouse.up();
-        selector = 'a#logout2.nav-link[href="#"][style="display: block;"][onclick="logOut()"]';
-        text = await page.evaluate((selector) => {
-            let element = document.querySelector(selector)!
-            if (element) {
-                if (element.hasAttribute('type')) {
-                    if (element.getAttribute('type') === 'text') {
-                        let htmlElement = element as HTMLInputElement
-                        text = htmlElement.value
-                        return text;
-                    }
-                }
-            } else {
-                return "";
-            }
-        }, selector)
         await page.waitForTimeout(225)
         ts = 1648484538158
         await page.goto('https://www.demoblaze.com/index.html');

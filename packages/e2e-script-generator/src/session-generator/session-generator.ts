@@ -78,7 +78,7 @@ export class SessionGenerator {
             writer.write('(async () =>').block(() => {
                     writer.writeLine(`const browser = await chromium.launch({headless: ${headless}, slowMo: ${slowMo}, devtools: ${devtools}})`)
                     writer.writeLine(`const context = await browser.newContext()`)
-                    writer.writeLine('let selector;')
+                    writer.writeLine('let element;')
                     writer.writeLine('let text;')
 
                     const foundCookieEvent = this.customEventList.find((event) => event.eventName === 'cookie-data')

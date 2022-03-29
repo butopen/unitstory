@@ -8,7 +8,7 @@ export class InputEvent extends SignificantEvent<InputEventType> {
 
     getPlaywrightInstruction(): string {
 
-        return `if('${this.event.value}' !== text){
+        return `element = await page.locator('${this.event.selector}');\ntext = await element.inputValue();\nif('${this.event.value}' !== text){
     await page.fill('${this.event.selector}','${this.event.value}')
 }`
     }
