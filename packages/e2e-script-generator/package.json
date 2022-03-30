@@ -14,8 +14,8 @@
     "prepare": "npm run build",
     "test": "jest",
     "test:watch": "jest --watch",
-    "generate:login": "jest playwright-script-generator.test",
-    "run:generated:login": "jest temp.test.ts",
+    "generate:script": "jest playwright-script-generator.test",
+    "run:generated:script": "jest temp.test.ts",
     "generator:watch": "node generator.js"
   },
   "author": "",

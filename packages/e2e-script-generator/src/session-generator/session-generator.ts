@@ -76,11 +76,13 @@ export class SessionGenerator {
         playwrightFile.addStatements((writer) => {
 
             writer.write('(async () =>').block(() => {
-                    writer.writeLine(`const browser = await chromium.launch({headless: ${headless}, slowMo: ${slowMo}, devtools: ${devtools}})`)
-                    writer.writeLine(`const context = await browser.newContext()`)
+                    writer.writeLine('let localStorage;')
+                    writer.writeLine('let sessionStorage;')
                     writer.writeLine('let selector;')
                     writer.writeLine('let element;')
                     writer.writeLine('let text;')
+                    writer.writeLine(`const browser = await chromium.launch({headless: ${headless}, slowMo: ${slowMo}, devtools: ${devtools}})`)
+                    writer.writeLine(`const context = await browser.newContext()`)
 
                     const foundCookieEvent = this.customEventList.find((event) => event.eventName === 'cookie-data')
                     if (foundCookieEvent) {

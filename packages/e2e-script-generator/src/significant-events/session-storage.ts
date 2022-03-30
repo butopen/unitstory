@@ -6,7 +6,7 @@ export type SessionStorageEventType = BLStorageEvent & { url: string, sid: numbe
 export class SessionStorageEvent extends SignificantEvent<SessionStorageEventType> {
 
     getPlaywrightInstruction(): string {
-        return `const sessionStorage${this.event.timestamp} = JSON.parse('${JSON.stringify(this.event.storage).replaceAll('\\', "\\\\")}');\nawait page.evaluate(sessionStorage${this.event.timestamp} => {\n  for (const key in sessionStorage${this.event.timestamp}) {\n    window.sessionStorage.setItem(key, sessionStorage${this.event.timestamp}[key]);}\n}, sessionStorage${this.event.timestamp});`;
+        return `sessionStorage = JSON.parse('${JSON.stringify(this.event.storage).replaceAll('\\', "\\\\")}');\nawait page.evaluate(sessionStorage => {\n  for (const key in sessionStorage) {\n    window.sessionStorage.setItem(key, sessionStorage[key]);}\n}, sessionStorage);`;
     }
 
 }

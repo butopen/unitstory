@@ -1,13 +1,12 @@
 const chokidar = require('chokidar');
 
-
 const execSync = require('child_process').execSync;
 
 function generateScript() {
-    execSync(`npm run generate:login`);
+    execSync(`npm run generate:script`);
 
     const fs = require("fs")
-    const content = fs.readFileSync("./playwright-script-generated/login-with-autofill.ts", "utf8")
+    const content = fs.readFileSync("./playwright-script-generated/playwright-script.ts", "utf8")
     const lines = content.split("\n")
     fs.writeFileSync("./test/playwright-script-generator/temp.test.ts", `import {chromium} from "playwright"
 
@@ -16,7 +15,7 @@ test("temp test", async () => {
 ${lines.slice(2, lines.length - 3).join("\n")}
 })
 `, {encoding: 'utf8', flag: 'w'})
-//execSync(`npm run run:generated:login`);
+    // execSync(`npm run run:generated:script`);
 }
 
 // One-liner for current directory

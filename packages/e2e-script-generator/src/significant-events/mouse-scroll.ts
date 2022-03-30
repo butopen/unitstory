@@ -6,7 +6,7 @@ export type MouseScrollEventType = BLScrollEvent & { url: string, sid: number, t
 export class MouseScrollEvent extends SignificantEvent<MouseScrollEventType> {
 
     getPlaywrightInstruction(): string {
-        return `await page.mouse.wheel(${this.event.x},${this.event.y});`;
+        return `await page.evaluate(() => window.scroll(${this.event.x},${this.event.y}));`;
     }
 
 }
