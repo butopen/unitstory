@@ -15,7 +15,7 @@ export class HttpEventsRouterGenerator {
             codeLines.push(`${httpRequests.map((h) => {
                 const headers = {...h.event.response.headers, "x-unit-story": `${h.timestamp}`}
                 return `
-    if (ts >= (${h.timestamp} - 10) && route.request().url() == "${h.event.request.url}" ) {
+    if (ts >= (${h.timestamp}) && route.request().url() == "${h.event.request.url}" ) {
     responseOptions = {status: ${h.event.response.status}, contentType: ${JSON.stringify(h.event.response.headers['content-type'])}, headers: ${JSON.stringify(headers)},  body: ${JSON.stringify(h.event.response.body)}}
     mocked = true
     }`
@@ -38,7 +38,8 @@ export class HttpEventsRouterGenerator {
         const routesMap = {}
         let firstTimestamp = events[0].timestamp
         let lastEventTimestamp = firstTimestamp
-        for (let e of events) {
+        const eventsFiltered = events.filter((e) => e.event.name === 'after-response' || e.event.name === 'session-start' || e.event.name === 'mouseup' || e.event.name === 'mousedown' || e.event.name === 'keydown' || e.event.name === 'keyup')
+        for (let e of eventsFiltered) {
             if (e.eventName == "after-response") {
                 let event = e as SignificantEvent<AfterResponseEventType>
                 event.event.response.headers['access-control-allow-origin'] = '*'

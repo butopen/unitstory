@@ -1,5 +1,6 @@
 import {readFileSync} from "fs";
-import {BLEvent, BLHTTPResponseEvent} from "@butopen/user-events-model";
+import {BLEvent} from "@butopen/user-events-model";
+import {AfterResponseEventType} from "../significant-events/after-response";
 
 const path = require("path");
 
@@ -13,10 +14,12 @@ export class EventsReader {
         ).toString()) as BLEvent[];
 
         for (let e of events) {
+
             if (e.name === 'after-response') {
-                let event = e as BLHTTPResponseEvent
+                let event = e as AfterResponseEventType
                 e.timestamp = event.request.timestamp
             }
+
         }
 
         events.sort((e1, e2) => e1.timestamp - e2.timestamp);
