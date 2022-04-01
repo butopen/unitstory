@@ -23,5 +23,6 @@ chokidar.watch('./src/significant-events/**/*.ts').on('change', (event, path) =>
     console.log(event, path);
     generateScript()
 });
+generateScript()
 
 

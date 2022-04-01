@@ -8,52 +8,34 @@ export class HttpEventsRouterGenerator {
      * @param events - the list of blevents ordered by timestamp
      */
     generateRoutes(events: SignificantEvent<BLEvent>[]): string {
-        const codeLines: string[] = []
-        const routesMap = this.generateHttpEventsMap(events);
-        for (let url in routesMap) {
-            const httpRequests = routesMap[url]
-            codeLines.push(`${httpRequests.map((h) => {
-                const headers = {...h.event.response.headers, "x-unit-story": `${h.timestamp}`}
-                return `
-    if (ts >= (${h.timestamp}) && route.request().url() == "${h.event.request.url}" ) {
-    responseOptions = {status: ${h.event.response.status}, contentType: ${JSON.stringify(h.event.response.headers['content-type'])}, headers: ${JSON.stringify(headers)},  body: ${JSON.stringify(h.event.response.body)}}
-    mocked = true
-    }`
-            }).join("\n")}`)
+        const httpEvents = events.sort( (e1, e2) => e1.event.timestamp - e2.event.timestamp)
+            .filter(e => e.event.name == "after-response").map(e => e as SignificantEvent<AfterResponseEventType>)
+
+        const requestsScript:string[] = []
+        requestsScript.push(`
+        let requests:any[] = []
+        `)
+        for (let e of httpEvents) {
+            const headers = {...e.event.response.headers, "x-unit-story": `${e.timestamp}`}
+            headers['access-control-allow-origin'] = '*'
+            const eventData = `{url: \`${e.event.request.url}\`,status: ${e.event.response.status}, contentType: ${JSON.stringify(e.event.response.headers['content-type'])}, headers: ${JSON.stringify(headers)},  body: ${JSON.stringify(e.event.response.body)}}`
+            requestsScript.push(`requests.push(${eventData})`)
         }
-        return `await page.route('**/*', (route) => {  
-    let mocked = false;    
-    let responseOptions = {} as any
-        ${codeLines.join("\n")}
         
-    if(mocked) {
+        // the code below considers both unique URL requests and requests with same URL
+        return `
+        ${requestsScript.join("\n")}
+        await page.route('**/*', (route) => {  
+    let responseOptions = {} as any
+    const index = requests.findIndex(r => r.url == route.request().url())
+    if(index >= 0){
+        responseOptions = requests.splice(index, 1)[0]
         route.fulfill(responseOptions)
-    } else {
+    }else {
         route.continue()
     }
 });`
     }
 
-    private generateHttpEventsMap(events: SignificantEvent<BLEvent>[]): { [url: string]: { timestamp: number, event: AfterResponseEventType }[] } {
-        const routesMap = {}
-        let firstTimestamp = events[0].timestamp
-        let lastEventTimestamp = firstTimestamp
-        const eventsFiltered = events.filter((e) => e.event.name === 'after-response' || e.event.name === 'session-start' || e.event.name === 'mouseup' || e.event.name === 'mousedown' || e.event.name === 'keydown' || e.event.name === 'keyup')
-        for (let e of eventsFiltered) {
-            if (e.eventName == "after-response") {
-                let event = e as SignificantEvent<AfterResponseEventType>
-                event.event.response.headers['access-control-allow-origin'] = '*'
-                this.httpCode(routesMap, lastEventTimestamp, event)
-            } else {
-                lastEventTimestamp = e.timestamp
-            }
-        }
-        return routesMap
-    }
-
-    private httpCode(routesMap: {}, lastEventTimestamp: number, e: SignificantEvent<AfterResponseEventType>) {
-        routesMap[e.event.request.url] = routesMap[e.event.request.url] ?? []
-        routesMap[e.event.request.url].push({timestamp: lastEventTimestamp, event: e.event})
-    }
 
 }
