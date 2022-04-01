@@ -32,6 +32,7 @@ export class EventsReader {
             event.name === 'cookie-data' ||
             event.name === 'after-response' ||
             event.name === 'scroll' ||
+            event.name === 'elementscroll' ||
             event.name === 'keydown' ||
             event.name === 'keyup' ||
             event.name === 'local-full' ||

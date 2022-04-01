@@ -14,6 +14,7 @@ import {SessionStartEvent} from "../significant-events/session-start";
 import {WindowResizeEvent, WindowResizeEventType} from "../significant-events/window-resize";
 import {HttpEventsRouterGenerator} from "../significant-events/http-events-router-generator";
 import {InputEvent, InputEventType} from "../significant-events/input";
+import {ElementScrollEvent, ElementScrollEventType} from "../significant-events/element-scroll";
 
 type CustomEvent =
     AfterResponseEvent
@@ -63,6 +64,8 @@ export class SessionGenerator {
                 this.customEventList.push(new KeyupEvent(e as KeyupEventType))
             } else if (e.name === 'input') {
                 this.customEventList.push(new InputEvent(e as InputEventType))
+            } else if (e.name === 'elementscroll') {
+                this.customEventList.push(new ElementScrollEvent(e as ElementScrollEventType))
             }
         }
     }
@@ -91,13 +94,11 @@ export class SessionGenerator {
                     }
 
                     writer.writeLine("const page = await context.newPage()")
-                    writer.writeLine(`let ts = ${this.customEventList[0].timestamp}`)
 
                     writer.writeLine(new HttpEventsRouterGenerator().generateRoutes(this.customEventList))
 
                     for (const event of this.customEventList) {
                         if (event.eventName !== 'after-response') {
-                            writer.writeLine(`ts = ${event.timestamp}`)
                             writer.writeLine(event.getPlaywrightInstruction())
                             if (this.customEventList.indexOf(event) !== this.customEventList.length - 1) {
                                 let indexOfNextElement = this.customEventList.indexOf(event) + 1

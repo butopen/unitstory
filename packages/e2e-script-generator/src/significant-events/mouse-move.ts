@@ -32,15 +32,17 @@ export class MouseMoveEvent extends SignificantEvent<MouseMoveEventType> {
          return `${moveInstructions.join("\n")}`;*/
 
         let lastMoveAction = ""
+        let sumTs = 0
         if (moves && moves.length > 0) {
             let lastX = x
             let lastY = y
             for (let m of moves) {
                 lastX += m.x
                 lastY += m.y
+                sumTs += m.at
             }
             lastMoveAction = `await page.mouse.move(${lastX},${lastY});`
         }
-        return `await page.mouse.move(${x},${y});\n${lastMoveAction}`
+        return `await page.mouse.move(${x},${y});\nawait page.waitForTimeout(${sumTs})\n${lastMoveAction}`
     }
 }
