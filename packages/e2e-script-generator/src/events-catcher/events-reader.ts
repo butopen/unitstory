@@ -9,7 +9,7 @@ export class EventsReader {
     read(fileName: string): BLEvent[] {
 
         const events = JSON.parse(readFileSync(
-            path.resolve(__dirname, `../../test/sessions-list/${fileName}`),
+            path.resolve(__dirname, `../../test/use-cases/${fileName}`),
             'utf-8',
         ).toString()) as BLEvent[];
 

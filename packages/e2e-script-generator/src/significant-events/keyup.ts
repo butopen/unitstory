@@ -6,7 +6,18 @@ export type KeyupEventType = BLKeyboardEvent & { url: string, sid: number, tab: 
 export class KeyupEvent extends SignificantEvent<KeyupEventType> {
 
     getPlaywrightInstruction(): string {
-        return `await page.keyboard.up('${this.event.code}');`
+        if (this.isUpper(this.event.key)) {
+            return `await page.keyboard.up('${this.event.code}')
+await page.keyboard.up('Shift')`
+        } else {
+            return `await page.keyboard.up('${this.event.code}');`
+        }
+    }
+
+    private isUpper(str: string): boolean {
+
+        return !/[a-z]/.test(str) && /[A-Z]/.test(str);
+
     }
 
 }
