@@ -6,7 +6,7 @@ describe(`Test playwright script generator`, () => {
 
     test(`Test playwright script generator`, async () => {
         const reader = new EventsReader()
-        const events = reader.read('product-purchase-demoblaze.json');
+        const events = reader.read('product-choice-onlinestore.json');
         const session = new SessionGenerator()
         session.createSession(events)
         session.toPlaywrightScript('playwright-script', false, 0, false)

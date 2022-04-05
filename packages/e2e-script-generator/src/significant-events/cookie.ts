@@ -9,9 +9,9 @@ export class CookieEvent extends SignificantEvent<CookieEventType> {
         let str = "await context.addCookies([";
         for (const cookie of this.getCookieList()) {
             if (JSON.stringify(this.getCookieList()[this.getCookieList().length - 1]) != JSON.stringify(cookie)) {
-                str += `{name: '${cookie.name}', value: '${cookie.value}', url: '${cookie.url}'}, `
+                str += `{name: '${encodeURIComponent(cookie.name)}', value: '${encodeURIComponent(cookie.value)}', url: '${cookie.url}'}, `
             } else {
-                str += `{name: '${cookie.name}', value: '${cookie.value}', url: '${cookie.url}'}`
+                str += `{name: '${encodeURIComponent(cookie.name)}', value: '${encodeURIComponent(cookie.value)}', url: '${cookie.url}'}`
             }
         }
         str += '])'

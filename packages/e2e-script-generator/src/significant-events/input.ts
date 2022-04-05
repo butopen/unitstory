@@ -8,12 +8,12 @@ export class InputEvent extends SignificantEvent<InputEventType> {
 
     getPlaywrightInstruction(): string {
 
-        return `selector = '${this.event.selector}'
+        return `selector = '${this.event.selector.replaceAll('\\', "\\\\")}'
 if(!selector.includes('password')){
     element = await page.locator(selector);
     text = await element.inputValue();
-    if('${this.event.value}' !== text){
-        await page.fill(selector,'${this.event.value}')
+    if('${this.event.value.replaceAll("\\", "\\\\")}' !== text){
+        await page.fill(selector,'${this.event.value.replaceAll("\\", "\\\\")}')
     }
 }`
     }

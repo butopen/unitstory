@@ -177,7 +177,8 @@ export type BLKeyboardEvent = BLEvent & {
 }
 export type BLInputChangeEvent = BLEvent & {
     target?: EventTarget | number,
-    value: string | boolean
+    //value: string | boolean
+    value: string
 }
 export type BLInputCheckboxChangeEvent = BLEvent & {
     target?: EventTarget | number,

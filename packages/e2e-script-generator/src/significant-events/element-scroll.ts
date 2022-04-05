@@ -10,7 +10,7 @@ export class ElementScrollEvent extends SignificantEvent<ElementScrollEventType>
         return `await page.evaluate(async (s) => {
     const element = document.querySelector(s)!
     element.scroll(${this.event.x},${this.event.y})
-}, '${this.event.selector}');`;
+}, '${this.event.selector.replaceAll('\\', "\\\\")}');`;
 
     }
 
