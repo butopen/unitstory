@@ -1,9 +1,16 @@
 const chokidar = require('chokidar');
 
-const execSync = require('child_process').execSync;
+//const execSync = require('child_process').execSync
+const childProcess = require('child_process');
 
 function generateScript() {
+
+    /*
     execSync(`npm run generate:script`);
+    */
+
+    childProcess.execSync(`npm run generate:script`, {maxBuffer: 1024*1024*1024})
+
 
     const fs = require("fs")
     const content = fs.readFileSync("./playwright-script-generated/playwright-script.ts", "utf8")
