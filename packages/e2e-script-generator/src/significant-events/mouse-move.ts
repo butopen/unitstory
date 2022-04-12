@@ -7,8 +7,8 @@ export class MouseMoveEvent extends SignificantEvent<MouseMoveEventType> {
 
     getPlaywrightInstruction(): string {
 
-        const {x, y, moves} = this.event
-        /* let first = {x, y, at: 0}
+         const {x, y, moves} = this.event
+         let first = {x, y, at: 0}
          let prev = first
          const events: { x: number, y: number, at: number }[] = []
          events.push(first)
@@ -29,9 +29,9 @@ export class MouseMoveEvent extends SignificantEvent<MouseMoveEventType> {
              str += `await page.mouse.move(${e.x},${e.y});`
              return str;
          })
-         return `${moveInstructions.join("\n")}`;*/
+         return `${moveInstructions.join("\n")}`;
 
-        let lastMoveAction = ""
+       /* let lastMoveAction = ""
         let sumTs = 0
         if (moves && moves.length > 0) {
             let lastX = x
@@ -43,6 +43,6 @@ export class MouseMoveEvent extends SignificantEvent<MouseMoveEventType> {
             }
             lastMoveAction = `await page.mouse.move(${lastX},${lastY});`
         }
-        return `await page.mouse.move(${x},${y});\nawait page.waitForTimeout(${sumTs})\n${lastMoveAction}`
+        return `await page.mouse.move(${x},${y});\nawait page.waitForTimeout(${sumTs})\n${lastMoveAction}`*/
     }
 }

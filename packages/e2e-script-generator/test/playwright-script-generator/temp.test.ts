@@ -2,14 +2,11 @@ import {chromium} from "playwright"
 
 jest.setTimeout(3000 * 100)
 test("temp test", async () => {
-    let localStorage;
-    let sessionStorage;
     let selector;
     let element;
     let text;
     const browser = await chromium.launch({headless: false, slowMo: 0, devtools: false})
     const context = await browser.newContext()
-    await context.addCookies([{name: 'user', value: '8ad378e2-d16b-253c-a559-ad175baebea8', url: 'https://www.demoblaze.com/'}])
     const page = await context.newPage()
     let requests:any[] = []
     requests.push({url: `https://api.demoblaze.com/entries`,status: 200, contentType: "application/json", headers: {"cache-control":"private","content-length":"1055","content-type":"application/json","x-unit-story":"1649515912897","access-control-allow-origin":"*"},  body: "{\"Items\":[{\"cat\":\"phone\",\"desc\":\"The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420\\n processor and it comes with 3GB of RAM. The phone packs 32GB of \\ninternal storage cannot be expanded. \",\"id\":1,\"img\":\"imgs/galaxy_s6.jpg\",\"price\":360.0,\"title\":\"Samsung galaxy s6\"},{\"cat\":\"phone\",\"desc\":\"The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM. \",\"id\":2,\"img\":\"imgs/Lumia_1520.jpg\",\"price\":820.0,\"title\":\"Nokia lumia 1520\"},{\"cat\":\"phone\",\"desc\":\"The Motorola Google Nexus 6 is powered by 2.7GHz quad-core Qualcomm Snapdragon 805 processor and it comes with 3GB of RAM.\",\"id\":3,\"img\":\"imgs/Nexus_6.jpg\",\"price\":650.0,\"title\":\"Nexus 6\"},{\"cat\":\"phone\",\"desc\":\"The Samsung Galaxy S7 is powered by 1.6GHz octa-core it comes with 4GB \\nof RAM. The phone packs 32GB of internal storage that can be expanded up\\n to 200GB via a microSD card.\",\"id\":4,\"img\":\"imgs/galaxy_s6.jpg\",\"price\":800.0,\"title\":\"Samsung galaxy s7\"},{\"cat\":\"phone\",\"desc\":\"It comes with 1GB of RAM. The phone packs 16GB of internal storage \\ncannot be expanded. As far as the cameras are concerned, the Apple \\niPhone 6 packs a 8-megapixel primary camera on the rear and a \\n1.2-megapixel front shooter for selfies.\",\"id\":5,\"img\":\"imgs/iphone_6.jpg\",\"price\":790.0,\"title\":\"Iphone 6 32gb\"},{\"cat\":\"phone\",\"desc\":\"Sony Xperia Z5 Dual smartphone was launched in September 2015. The phone\\n comes with a 5.20-inch touchscreen display with a resolution of 1080 \\npixels by 1920 pixels at a PPI of 424 pixels per inch.\",\"id\":6,\"img\":\"imgs/xperia_z5.jpg\",\"price\":320.0,\"title\":\"Sony xperia z5\"},{\"cat\":\"phone\",\"desc\":\"The HTC One M9 is powered by 1.5GHz octa-core Qualcomm Snapdragon 810 \\nprocessor and it comes with 3GB of RAM. The phone packs 32GB of internal\\n storage that can be expanded up to 128GB via a microSD card. \",\"id\":7,\"img\":\"imgs/HTC_M9.jpg\",\"price\":700.0,\"title\":\"HTC One M9\"},{\"cat\":\"notebook\",\"desc\":\"Sony is so confident that the VAIO S is a superior ultraportable laptop \\nthat the company proudly compares the notebook to Apple's 13-inch \\nMacBook Pro. And in a lot of ways this notebook is better, thanks to a \\nlighter weight.\",\"id\":8,\"img\":\"imgs/sony_vaio_5.jpg\",\"price\":790.0,\"title\":\"Sony vaio i5\"},{\"cat\":\"notebook\",\"desc\":\"REVIEW\\n \\nSony is so confident that the VAIO S is a superior \\nultraportable laptop that the company proudly compares the notebook to \\nApple's 13-inch MacBook Pro. And in a lot of ways this notebook is \\nbetter, thanks to a lighter weight, higher-resolution display, more \\nstorage space, and a Blu-ray drive. \",\"id\":9,\"img\":\"imgs/sony_vaio_5.jpg\",\"price\":790.0,\"title\":\"Sony vaio i7\\n\"}],\"LastEvaluatedKey\":{\"id\":\"9\"}}\n"})
@@ -40,7 +37,9 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
                 route.continue()
             }
         });
-    await page.goto('https://www.demoblaze.com/');
+    let localStorage;
+    let sessionStorage;
+    await page.goto('https://www.demoblaze.com/', {waitUntil: 'load'});
     await page.waitForTimeout(2)
     sessionStorage = JSON.parse('{"BL_BUGLINK":"{\\"version\\":1}","BL_CROSS_TAB_KEY":"{\\"tabIsDuplicated\\":\\"duplicated\\",\\"version\\":3,\\"tabId\\":1649515912892}"}');
     await page.evaluate(sessionStorage => {
@@ -54,29 +53,74 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
         window.localStorage.setItem(key, localStorage[key]);}
     }, localStorage);
     await page.waitForTimeout(3)
-    await page.waitForTimeout(27)
+    await page.waitForTimeout(296)
+    await page.waitForTimeout(269)
     await page.mouse.move(1012,94);
-    await page.waitForTimeout(1865)
+    await page.waitForTimeout(1865);
     await page.mouse.move(1012,93);
     await page.waitForTimeout(15)
-    await page.waitForTimeout(10)
-    await page.waitForTimeout(53)
+    await page.waitForTimeout(11)
+    await page.waitForTimeout(1)
+    await page.waitForTimeout(12)
+    await page.waitForTimeout(41)
     await page.setViewportSize({ width: 1280, height: 619 });
-    await page.waitForTimeout(1837)
+    await page.waitForTimeout(899)
+    await context.addCookies([{name: 'user', value: '8ad378e2-d16b-253c-a559-ad175baebea8', url: 'https://www.demoblaze.com/'}])
+    await page.waitForTimeout(938)
     await page.mouse.move(1022,76);
-    await page.waitForTimeout(50)
+    await page.waitForTimeout(50);
     await page.mouse.move(1027,63);
     await page.waitForTimeout(100)
     await page.mouse.move(1042,31);
-    await page.waitForTimeout(100)
+    await page.waitForTimeout(50);
+    await page.mouse.move(1046,24);
+    await page.waitForTimeout(50);
     await page.mouse.move(1048,19);
     await page.waitForTimeout(150)
     await page.mouse.move(1050,16);
-    await page.waitForTimeout(1029)
+    await page.waitForTimeout(50);
+    await page.mouse.move(1054,13);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1060,11);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1065,10);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1070,8);
+    await page.waitForTimeout(59);
+    await page.mouse.move(1072,8);
+    await page.waitForTimeout(56);
+    await page.mouse.move(1074,8);
+    await page.waitForTimeout(51);
+    await page.mouse.move(1094,7);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1110,7);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1121,7);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1130,9);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1142,11);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1156,13);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1179,15);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1206,18);
+    await page.waitForTimeout(53);
+    await page.mouse.move(1214,19);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1225,21);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1240,24);
+    await page.waitForTimeout(52);
+    await page.mouse.move(1246,25);
+    await page.waitForTimeout(51);
+    await page.mouse.move(1254,26);
+    await page.waitForTimeout(57);
     await page.mouse.move(1260,26);
     await page.waitForTimeout(1082)
     await page.mouse.move(1275,29);
-    await page.waitForTimeout(50)
+    await page.waitForTimeout(50);
     await page.mouse.move(1276,29);
     await page.waitForTimeout(239)
     await page.mouse.move(1276, 29);
@@ -221,23 +265,41 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     await page.mouse.up();
     await page.waitForTimeout(27)
     await page.mouse.move(1279,176);
-    await page.waitForTimeout(66)
+    await page.waitForTimeout(66);
     await page.mouse.move(1276,176);
     await page.waitForTimeout(117)
     await page.mouse.move(1232,177);
-    await page.waitForTimeout(53)
+    await page.waitForTimeout(53);
     await page.mouse.move(1207,177);
     await page.waitForTimeout(107)
     await page.mouse.move(1124,175);
-    await page.waitForTimeout(50)
+    await page.waitForTimeout(50);
     await page.mouse.move(1017,167);
     await page.waitForTimeout(101)
     await page.mouse.move(945,165);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(51)
     await page.mouse.move(872,163);
-    await page.waitForTimeout(577)
+    await page.waitForTimeout(55);
+    await page.mouse.move(828,163);
+    await page.waitForTimeout(52);
+    await page.mouse.move(750,163);
+    await page.waitForTimeout(50);
+    await page.mouse.move(736,163);
+    await page.waitForTimeout(50);
+    await page.mouse.move(697,163);
+    await page.waitForTimeout(50);
+    await page.mouse.move(654,163);
+    await page.waitForTimeout(56);
+    await page.mouse.move(605,159);
+    await page.waitForTimeout(54);
+    await page.mouse.move(577,157);
+    await page.waitForTimeout(56);
+    await page.mouse.move(542,153);
+    await page.waitForTimeout(50);
+    await page.mouse.move(496,147);
+    await page.waitForTimeout(50);
+    await page.mouse.move(479,145);
+    await page.waitForTimeout(54);
     await page.mouse.move(476,145);
     await page.waitForTimeout(1349)
     await page.mouse.move(474, 145);
@@ -245,7 +307,7 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     await page.waitForTimeout(106)
     await page.mouse.up();
     await page.waitForTimeout(711)
-    await page.goto('https://www.demoblaze.com/prod.html?idp_=1');
+    await page.goto('https://www.demoblaze.com/prod.html?idp_=1', {waitUntil: 'load'});
     await page.waitForTimeout(1)
     sessionStorage = JSON.parse('{"BL_BUGLINK":"{\\"version\\":1}","BL_CROSS_TAB_KEY":"{\\"tabIsDuplicated\\":\\"duplicated\\",\\"version\\":3,\\"tabId\\":1649515912892}"}');
     await page.evaluate(sessionStorage => {
@@ -259,48 +321,66 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
         window.localStorage.setItem(key, localStorage[key]);}
     }, localStorage);
     await page.waitForTimeout(30)
-    await page.waitForTimeout(181)
-    await page.waitForTimeout(30)
+    await page.waitForTimeout(179)
+    await page.waitForTimeout(2)
+    await page.waitForTimeout(553)
+    await page.waitForTimeout(523)
     await page.waitForTimeout(6)
-    await page.waitForTimeout(39)
+    await page.waitForTimeout(0)
+    await page.waitForTimeout(7)
+    await page.waitForTimeout(32)
     await page.setViewportSize({ width: 1280, height: 619 });
     await page.waitForTimeout(385)
     await page.mouse.move(476,145);
-    await page.waitForTimeout(50)
+    await page.waitForTimeout(50);
     await page.mouse.move(487,145);
     await page.waitForTimeout(110)
     await page.mouse.move(498,145);
-    await page.waitForTimeout(56)
+    await page.waitForTimeout(56);
     await page.mouse.move(516,149);
     await page.waitForTimeout(106)
     await page.mouse.move(534,153);
-    await page.waitForTimeout(200)
+    await page.waitForTimeout(50);
+    await page.mouse.move(554,157);
+    await page.waitForTimeout(50);
+    await page.mouse.move(570,159);
+    await page.waitForTimeout(50);
+    await page.mouse.move(589,164);
+    await page.waitForTimeout(50);
     await page.mouse.move(600,166);
     await page.waitForTimeout(118)
     await context.addCookies([{name: 'user', value: '8ad378e2-d16b-253c-a559-ad175baebea8', url: 'https://www.demoblaze.com/prod.html?idp_=1'}])
     await page.waitForTimeout(132)
     await page.mouse.move(608,170);
-    await page.waitForTimeout(644)
+    await page.waitForTimeout(50);
+    await page.mouse.move(612,173);
+    await page.waitForTimeout(50);
+    await page.mouse.move(623,180);
+    await page.waitForTimeout(50);
+    await page.mouse.move(634,188);
+    await page.waitForTimeout(103);
+    await page.mouse.move(653,234);
+    await page.waitForTimeout(280);
+    await page.mouse.move(648,386);
+    await page.waitForTimeout(59);
+    await page.mouse.move(646,393);
+    await page.waitForTimeout(52);
     await page.mouse.move(644,411);
     await page.waitForTimeout(200)
     await page.mouse.move(651,223);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(109)
     await page.mouse.move(656,270);
-    await page.waitForTimeout(60)
+    await page.waitForTimeout(60);
     await page.mouse.move(656,298);
     await page.waitForTimeout(111)
     await page.mouse.move(656,323);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(63)
     await page.mouse.move(650,368);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(216)
     await page.mouse.move(642,429);
-    await page.waitForTimeout(100)
+    await page.waitForTimeout(50);
+    await page.mouse.move(638,447);
+    await page.waitForTimeout(50);
     await page.mouse.move(638,449);
     await page.waitForTimeout(353)
     await page.mouse.move(638, 449);
@@ -308,21 +388,38 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     await page.waitForTimeout(78)
     await page.mouse.up();
     await page.waitForTimeout(3)
-    await page.waitForTimeout(1852)
+    await page.waitForTimeout(542)
+    await page.waitForTimeout(1310)
     await page.mouse.move(806,85);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(58)
     await page.mouse.move(806,86);
-    await page.waitForTimeout(1803)
+    await page.waitForTimeout(1753);
+    await page.mouse.move(706,87);
+    await page.waitForTimeout(50);
     await page.mouse.move(690,79);
     await page.waitForTimeout(1436)
     await page.mouse.move(804,90);
-    await page.waitForTimeout(264)
+    await page.waitForTimeout(51);
+    await page.mouse.move(797,91);
+    await page.waitForTimeout(52);
+    await page.mouse.move(794,92);
+    await page.waitForTimeout(51);
+    await page.mouse.move(788,93);
+    await page.waitForTimeout(52);
+    await page.mouse.move(782,93);
+    await page.waitForTimeout(58);
     await page.mouse.move(761,91);
     await page.waitForTimeout(423)
     await page.mouse.move(685,77);
-    await page.waitForTimeout(268)
+    await page.waitForTimeout(55);
+    await page.mouse.move(673,71);
+    await page.waitForTimeout(55);
+    await page.mouse.move(657,51);
+    await page.waitForTimeout(51);
+    await page.mouse.move(655,49);
+    await page.waitForTimeout(55);
+    await page.mouse.move(655,43);
+    await page.waitForTimeout(52);
     await page.mouse.move(655,40);
     await page.waitForTimeout(299)
     await page.mouse.move(655, 40);
@@ -330,7 +427,7 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     await page.waitForTimeout(58)
     await page.mouse.up();
     await page.waitForTimeout(303)
-    await page.goto('https://www.demoblaze.com/cart.html');
+    await page.goto('https://www.demoblaze.com/cart.html', {waitUntil: 'load'});
     await page.waitForTimeout(1)
     sessionStorage = JSON.parse('{"BL_BUGLINK":"{\\"version\\":1}","BL_CROSS_TAB_KEY":"{\\"tabIsDuplicated\\":\\"duplicated\\",\\"version\\":3,\\"tabId\\":1649515912892}"}');
     await page.evaluate(sessionStorage => {
@@ -345,56 +442,85 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     }, localStorage);
     await page.waitForTimeout(227)
     await page.mouse.move(655,40);
-    await page.waitForTimeout(371)
+    await page.waitForTimeout(371);
     await page.mouse.move(658,42);
     await page.waitForTimeout(26)
-    await page.waitForTimeout(9)
-    await page.waitForTimeout(20)
+    await page.waitForTimeout(7)
+    await page.waitForTimeout(2)
+    await page.waitForTimeout(560)
+    await page.waitForTimeout(540)
     await page.waitForTimeout(6)
-    await page.waitForTimeout(38)
+    await page.waitForTimeout(0)
+    await page.waitForTimeout(8)
+    await page.waitForTimeout(30)
     await page.setViewportSize({ width: 1280, height: 619 });
     await page.waitForTimeout(323)
     await page.mouse.move(682,61);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(50)
     await page.mouse.move(710,83);
-    await page.waitForTimeout(52)
+    await page.waitForTimeout(52);
     await page.mouse.move(714,86);
     await page.waitForTimeout(110)
     await page.mouse.move(730,107);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(14)
-    await page.waitForTimeout(41)
+    await page.waitForTimeout(511)
+    await page.waitForTimeout(470)
     await page.mouse.move(752,141);
-    await page.waitForTimeout(255)
+    await page.waitForTimeout(51);
+    await page.mouse.move(758,153);
+    await page.waitForTimeout(50);
+    await page.mouse.move(762,159);
+    await page.waitForTimeout(50);
+    await page.mouse.move(764,165);
+    await page.waitForTimeout(50);
+    await page.mouse.move(766,174);
+    await page.waitForTimeout(54);
     await page.mouse.move(767,177);
     await page.waitForTimeout(139)
     await context.addCookies([{name: 'user', value: '8ad378e2-d16b-253c-a559-ad175baebea8', url: 'https://www.demoblaze.com/cart.html'}])
     await page.waitForTimeout(166)
     await page.mouse.move(772,187);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(51)
     await page.mouse.move(781,200);
-    await page.waitForTimeout(161)
+    await page.waitForTimeout(56);
+    await page.mouse.move(792,213);
+    await page.waitForTimeout(51);
+    await page.mouse.move(814,233);
+    await page.waitForTimeout(54);
     await page.mouse.move(833,247);
     await page.waitForTimeout(212)
     await page.mouse.move(887,280);
-    await page.waitForTimeout(465)
+    await page.waitForTimeout(51);
+    await page.mouse.move(894,284);
+    await page.waitForTimeout(55);
+    await page.mouse.move(910,293);
+    await page.waitForTimeout(57);
+    await page.mouse.move(924,302);
+    await page.waitForTimeout(52);
+    await page.mouse.move(930,305);
+    await page.waitForTimeout(51);
+    await page.mouse.move(936,307);
+    await page.waitForTimeout(99);
+    await page.mouse.move(937,307);
+    await page.waitForTimeout(50);
+    await page.mouse.move(945,292);
+    await page.waitForTimeout(50);
     await page.mouse.move(952,275);
     await page.waitForTimeout(515)
     await page.mouse.move(958,251);
-    await page.waitForTimeout(50)
+    await page.waitForTimeout(50);
     await page.mouse.move(958,248);
     await page.waitForTimeout(100)
     await page.mouse.move(959,241);
-    await page.waitForTimeout(100)
+    await page.waitForTimeout(50);
+    await page.mouse.move(960,232);
+    await page.waitForTimeout(50);
     await page.mouse.move(960,219);
     await page.waitForTimeout(150)
     await page.mouse.move(956,206);
-    await page.waitForTimeout(101)
+    await page.waitForTimeout(50);
+    await page.mouse.move(952,197);
+    await page.waitForTimeout(51);
     await page.mouse.move(952,195);
     await page.waitForTimeout(156)
     await page.mouse.move(950, 193);
@@ -403,15 +529,27 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     await page.mouse.up();
     await page.waitForTimeout(568)
     await page.mouse.move(946,193);
-    await page.waitForTimeout(50)
+    await page.waitForTimeout(50);
     await page.mouse.move(904,203);
     await page.waitForTimeout(100)
     await page.mouse.move(824,220);
-    await page.waitForTimeout(310)
+    await page.waitForTimeout(50);
+    await page.mouse.move(759,224);
+    await page.waitForTimeout(50);
+    await page.mouse.move(712,225);
+    await page.waitForTimeout(52);
+    await page.mouse.move(697,225);
+    await page.waitForTimeout(57);
+    await page.mouse.move(663,225);
+    await page.waitForTimeout(50);
+    await page.mouse.move(641,224);
+    await page.waitForTimeout(51);
     await page.mouse.move(623,222);
     await page.waitForTimeout(359)
     await page.mouse.move(608,215);
-    await page.waitForTimeout(101)
+    await page.waitForTimeout(50);
+    await page.mouse.move(600,209);
+    await page.waitForTimeout(51);
     await page.mouse.move(593,203);
     await page.waitForTimeout(178)
     await page.mouse.move(592, 199);
@@ -534,26 +672,46 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     await page.keyboard.up('KeyO');
     await page.waitForTimeout(468)
     await page.mouse.move(578,209);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(50)
     await page.mouse.move(546,251);
-    await page.waitForTimeout(100)
+    await page.waitForTimeout(50);
+    await page.mouse.move(546,269);
+    await page.waitForTimeout(50);
     await page.mouse.move(546,270);
     await page.waitForTimeout(284)
     await page.mouse.move(546,272);
-    await page.waitForTimeout(50)
+    await page.waitForTimeout(50);
     await page.mouse.move(545,279);
     await page.waitForTimeout(103)
     await page.mouse.move(545,281);
-    await page.waitForTimeout(331)
+    await page.waitForTimeout(51);
+    await page.mouse.move(545,292);
+    await page.waitForTimeout(59);
+    await page.mouse.move(545,295);
+    await page.waitForTimeout(53);
+    await page.mouse.move(548,297);
+    await page.waitForTimeout(67);
+    await page.mouse.move(547,297);
+    await page.waitForTimeout(50);
+    await page.mouse.move(538,297);
+    await page.waitForTimeout(51);
     await page.mouse.move(444,297);
     await page.waitForTimeout(133)
     await page.mouse.move(546, 297);
     await page.mouse.down();
     await page.waitForTimeout(254)
     await page.mouse.move(334,297);
-    await page.waitForTimeout(654)
+    await page.waitForTimeout(53);
+    await page.mouse.move(300,297);
+    await page.waitForTimeout(56);
+    await page.mouse.move(300,297);
+    await page.waitForTimeout(384);
+    await page.mouse.move(301,297);
+    await page.waitForTimeout(51);
+    await page.mouse.move(304,297);
+    await page.waitForTimeout(58);
+    await page.mouse.move(329,303);
+    await page.waitForTimeout(52);
     await page.mouse.move(372,323);
     await page.waitForTimeout(30)
     await page.mouse.up();
@@ -567,11 +725,11 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     await page.keyboard.up('KeyC');
     await page.waitForTimeout(13)
     await page.mouse.move(458,374);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(54)
     await page.mouse.move(486,391);
-    await page.waitForTimeout(179)
+    await page.waitForTimeout(51);
+    await page.mouse.move(487,391);
+    await page.waitForTimeout(128);
     await page.mouse.move(488,391);
     await page.waitForTimeout(209)
     await page.mouse.move(488, 391);
@@ -606,7 +764,17 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     await page.keyboard.up('ControlLeft');
     await page.waitForTimeout(115)
     await page.mouse.move(490,391);
-    await page.waitForTimeout(316)
+    await page.waitForTimeout(51);
+    await page.mouse.move(495,391);
+    await page.waitForTimeout(53);
+    await page.mouse.move(550,392);
+    await page.waitForTimeout(59);
+    await page.mouse.move(594,391);
+    await page.waitForTimeout(53);
+    await page.mouse.move(605,385);
+    await page.waitForTimeout(50);
+    await page.mouse.move(606,383);
+    await page.waitForTimeout(50);
     await page.mouse.move(606,381);
     await page.waitForTimeout(516)
     await page.evaluate(async (s) => {
@@ -655,23 +823,29 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     }, 'div#orderModal.modal.fade.show[tabindex="-\\31 "][role="dialog"][aria-labelledby="orderModalLabel"][style="display\\:\\ block\\;"]');
     await page.waitForTimeout(182)
     await page.mouse.move(604,380);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(51)
     await page.mouse.move(592,363);
-    await page.waitForTimeout(99)
+    await page.waitForTimeout(49);
+    await page.mouse.move(574,341);
+    await page.waitForTimeout(50);
     await page.mouse.move(569,333);
     await page.waitForTimeout(149)
     await page.mouse.move(567,326);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(50)
     await page.mouse.move(566,316);
-    await page.waitForTimeout(100)
+    await page.waitForTimeout(50);
+    await page.mouse.move(564,308);
+    await page.waitForTimeout(50);
     await page.mouse.move(563,299);
     await page.waitForTimeout(158)
     await page.mouse.move(563,297);
-    await page.waitForTimeout(808)
+    await page.waitForTimeout(125);
+    await page.mouse.move(560,295);
+    await page.waitForTimeout(51);
+    await page.mouse.move(558,295);
+    await page.waitForTimeout(582);
+    await page.mouse.move(558,297);
+    await page.waitForTimeout(50);
     await page.mouse.move(557,307);
     await page.waitForTimeout(34)
     await page.mouse.move(563, 296);
@@ -706,11 +880,17 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     await page.keyboard.up('KeyV');
     await page.waitForTimeout(96)
     await page.mouse.move(539,339);
-    await page.waitForTimeout(50)
+    await page.waitForTimeout(50);
     await page.mouse.move(525,365);
     await page.waitForTimeout(100)
     await page.mouse.move(521,386);
-    await page.waitForTimeout(908)
+    await page.waitForTimeout(50);
+    await page.mouse.move(520,395);
+    await page.waitForTimeout(50);
+    await page.mouse.move(520,405);
+    await page.waitForTimeout(757);
+    await page.mouse.move(520,408);
+    await page.waitForTimeout(51);
     await page.mouse.move(520,409);
     await page.waitForTimeout(161)
     await page.mouse.move(520, 405);
@@ -745,15 +925,35 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     await page.keyboard.up('ControlLeft');
     await page.waitForTimeout(99)
     await page.mouse.move(518,433);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(52)
     await page.mouse.move(516,441);
-    await page.waitForTimeout(160)
+    await page.waitForTimeout(52);
+    await page.mouse.move(514,451);
+    await page.waitForTimeout(53);
+    await page.mouse.move(513,473);
+    await page.waitForTimeout(55);
     await page.mouse.move(513,475);
     await page.waitForTimeout(212)
     await page.mouse.move(516,482);
-    await page.waitForTimeout(608)
+    await page.waitForTimeout(56);
+    await page.mouse.move(518,488);
+    await page.waitForTimeout(53);
+    await page.mouse.move(520,489);
+    await page.waitForTimeout(117);
+    await page.mouse.move(522,489);
+    await page.waitForTimeout(57);
+    await page.mouse.move(524,489);
+    await page.waitForTimeout(54);
+    await page.mouse.move(542,496);
+    await page.waitForTimeout(55);
+    await page.mouse.move(602,505);
+    await page.waitForTimeout(50);
+    await page.mouse.move(738,508);
+    await page.waitForTimeout(53);
+    await page.mouse.move(740,506);
+    await page.waitForTimeout(60);
+    await page.mouse.move(748,501);
+    await page.waitForTimeout(53);
     await page.mouse.move(748,499);
     await page.waitForTimeout(32)
     await page.mouse.move(518, 488);
@@ -818,15 +1018,21 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     }, 'div#orderModal.modal.fade.show[tabindex="-\\31 "][role="dialog"][aria-labelledby="orderModalLabel"][style="display\\:\\ block\\;"]');
     await page.waitForTimeout(23)
     await page.mouse.move(749,500);
-    await page.waitForTimeout(50)
+    await page.waitForTimeout(50);
     await page.mouse.move(770,519);
     await page.waitForTimeout(105)
     await page.mouse.move(775,524);
-    await page.waitForTimeout(228)
+    await page.waitForTimeout(57);
+    await page.mouse.move(780,529);
+    await page.waitForTimeout(171);
     await page.mouse.move(782,533);
     await page.waitForTimeout(278)
     await page.mouse.move(786,547);
-    await page.waitForTimeout(156)
+    await page.waitForTimeout(50);
+    await page.mouse.move(786,550);
+    await page.waitForTimeout(50);
+    await page.mouse.move(790,549);
+    await page.waitForTimeout(56);
     await page.mouse.move(792,548);
     await page.waitForTimeout(65)
     await page.mouse.move(788, 553);
@@ -843,9 +1049,28 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     await page.waitForTimeout(42)
     await page.mouse.up();
     await page.waitForTimeout(2)
-    await page.waitForTimeout(287)
+    await page.waitForTimeout(532)
+    await page.waitForTimeout(245)
     await page.mouse.move(791,545);
-    await page.waitForTimeout(516)
+    await page.waitForTimeout(50);
+    await page.mouse.move(782,535);
+    await page.waitForTimeout(51);
+    await page.mouse.move(762,517);
+    await page.waitForTimeout(50);
+    await page.mouse.move(724,489);
+    await page.waitForTimeout(51);
+    await page.mouse.move(714,482);
+    await page.waitForTimeout(51);
+    await page.mouse.move(694,479);
+    await page.waitForTimeout(50);
+    await page.mouse.move(677,479);
+    await page.waitForTimeout(52);
+    await page.mouse.move(657,484);
+    await page.waitForTimeout(54);
+    await page.mouse.move(639,481);
+    await page.waitForTimeout(56);
+    await page.mouse.move(624,467);
+    await page.waitForTimeout(51);
     await page.mouse.move(619,457);
     await page.waitForTimeout(510)
     await page.mouse.move(619, 457);
@@ -853,7 +1078,7 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     await page.waitForTimeout(43)
     await page.mouse.up();
     await page.waitForTimeout(303)
-    await page.goto('https://www.demoblaze.com/index.html');
+    await page.goto('https://www.demoblaze.com/index.html', {waitUntil: 'load'});
     await page.waitForTimeout(3)
     sessionStorage = JSON.parse('{"BL_BUGLINK":"{\\"version\\":1}","BL_CROSS_TAB_KEY":"{\\"tabIsDuplicated\\":\\"duplicated\\",\\"version\\":3,\\"tabId\\":1649515912892}"}');
     await page.evaluate(sessionStorage => {
@@ -868,39 +1093,97 @@ requests.push({url: `https://hls.demoblaze.com/about_demo_hls_600k.m3u8`,status:
     }, localStorage);
     await page.waitForTimeout(162)
     await page.mouse.move(619,451);
-    await page.waitForTimeout(361)
+    await page.waitForTimeout(52);
+    await page.mouse.move(620,443);
+    await page.waitForTimeout(51);
+    await page.mouse.move(620,442);
+    await page.waitForTimeout(50);
+    await page.mouse.move(622,441);
+    await page.waitForTimeout(51);
+    await page.mouse.move(622,437);
+    await page.waitForTimeout(50);
+    await page.mouse.move(624,435);
+    await page.waitForTimeout(50);
+    await page.mouse.move(626,429);
+    await page.waitForTimeout(57);
     await page.mouse.move(627,426);
     await page.waitForTimeout(67)
-    await page.waitForTimeout(206)
-    await page.waitForTimeout(46)
-    await page.waitForTimeout(10)
-    await page.waitForTimeout(70)
+    await page.waitForTimeout(202)
+    await page.waitForTimeout(4)
+    await page.waitForTimeout(305)
+    await page.waitForTimeout(259)
+    await page.waitForTimeout(11)
+    await page.waitForTimeout(1)
+    await page.waitForTimeout(14)
+    await page.waitForTimeout(56)
     await page.setViewportSize({ width: 1280, height: 619 });
     await page.waitForTimeout(12)
     await page.mouse.move(627,419);
-    await page.waitForTimeout(162)
+    await page.waitForTimeout(53);
+    await page.mouse.move(627,406);
+    await page.waitForTimeout(55);
+    await page.mouse.move(627,403);
+    await page.waitForTimeout(54);
     await page.mouse.move(626,390);
     await page.waitForTimeout(217)
     await page.mouse.move(626,373);
-    await page.waitForTimeout(1182)
+    await page.waitForTimeout(50);
+    await page.mouse.move(633,333);
+    await page.waitForTimeout(51);
+    await page.mouse.move(636,328);
+    await page.waitForTimeout(50);
+    await page.mouse.move(650,318);
+    await page.waitForTimeout(50);
+    await page.mouse.move(672,303);
+    await page.waitForTimeout(59);
+    await page.mouse.move(700,285);
+    await page.waitForTimeout(51);
+    await page.mouse.move(712,273);
+    await page.waitForTimeout(55);
+    await page.mouse.move(714,271);
+    await page.waitForTimeout(433);
+    await page.mouse.move(714,269);
+    await page.waitForTimeout(50);
+    await page.mouse.move(714,244);
+    await page.waitForTimeout(50);
+    await page.mouse.move(747,189);
+    await page.waitForTimeout(50);
+    await page.mouse.move(788,147);
+    await page.waitForTimeout(61);
+    await page.mouse.move(799,135);
+    await page.waitForTimeout(72);
+    await page.mouse.move(805,132);
+    await page.waitForTimeout(50);
+    await page.mouse.move(818,132);
+    await page.waitForTimeout(50);
     await page.mouse.move(862,121);
     await page.waitForTimeout(211)
     await context.addCookies([{name: 'user', value: '8ad378e2-d16b-253c-a559-ad175baebea8', url: 'https://www.demoblaze.com/index.html'}])
     await page.waitForTimeout(1022)
     await page.mouse.move(892,110);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(55)
     await page.mouse.move(1022,47);
-    await page.waitForTimeout(0)
-
     await page.waitForTimeout(53)
     await page.mouse.move(1059,25);
-    await page.waitForTimeout(58)
+    await page.waitForTimeout(58);
     await page.mouse.move(1068,23);
     await page.waitForTimeout(107)
     await page.mouse.move(1089,12);
-    await page.waitForTimeout(752)
+    await page.waitForTimeout(51);
+    await page.mouse.move(1094,7);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1097,1);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1098,0);
+    await page.waitForTimeout(399);
+    await page.mouse.move(1144,0);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1160,3);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1178,3);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1184,3);
+    await page.waitForTimeout(52);
     await page.mouse.move(1200,1);
     await browser.close()
 })

@@ -70,7 +70,7 @@ export class SessionGenerator {
         }
     }
 
-    toPlaywrightScript(fileName: string, headless?: boolean, slowMo?: number, devtools?: boolean) {
+    toPlaywrightScript(fileName: string, headless?: boolean, slowMo?: number, devtools?: boolean, sessionIsolation?: boolean) {
 
         const project = new Project({});
         const playwrightFile = project.createSourceFile(`playwright-script-generated/` + `${fileName}` + `.ts`, "", {overwrite: true})
@@ -79,35 +79,55 @@ export class SessionGenerator {
         playwrightFile.addStatements((writer) => {
 
             writer.write('(async () =>').block(() => {
-                    writer.writeLine('let localStorage;')
-                    writer.writeLine('let sessionStorage;')
+                    let eventsToConsider = this.customEventList.filter((e) => e.eventName !== 'cookie-data' && e.eventName !== 'local-full' && e.eventName !== 'session-full')
                     writer.writeLine('let selector;')
                     writer.writeLine('let element;')
                     writer.writeLine('let text;')
                     writer.writeLine(`const browser = await chromium.launch({headless: ${headless}, slowMo: ${slowMo}, devtools: ${devtools}})`)
                     writer.writeLine(`const context = await browser.newContext()`)
 
+                  /*
+                    //Logout session
                     const foundCookieEvent = this.customEventList.find((event) => event.eventName === 'cookie-data')
                     if (foundCookieEvent) {
                         this.customEventList.splice(this.customEventList.indexOf(foundCookieEvent), 1)
                         writer.writeLine(foundCookieEvent.getPlaywrightInstruction())
                     }
+                   */
 
                     writer.writeLine("const page = await context.newPage()")
 
-                    writer.writeLine(new HttpEventsRouterGenerator().generateRoutes(this.customEventList))
+                    if(sessionIsolation){
+                        eventsToConsider = this.customEventList
+                        writer.writeLine(new HttpEventsRouterGenerator().generateRoutes(this.customEventList))
+                        writer.writeLine('let localStorage;')
+                        writer.writeLine('let sessionStorage;')
+                    }
 
-                    for (const event of this.customEventList) {
+                    for (let event of eventsToConsider) {
                         if (event.eventName !== 'after-response') {
                             writer.writeLine(event.getPlaywrightInstruction())
-                            if (this.customEventList.indexOf(event) !== this.customEventList.length - 1) {
-                                let indexOfNextElement = this.customEventList.indexOf(event) + 1
-                                writer.writeLine(`await page.waitForTimeout(${Math.abs(event.timestamp - this.customEventList[indexOfNextElement].timestamp)})`)
+                            if (eventsToConsider.indexOf(event) !== eventsToConsider.length - 1) {
+                                let indexOfNextElement = eventsToConsider.indexOf(event) + 1
+                                if(event.eventName === 'mousemove'){
+                                    let {moves} = event as unknown as MouseMoveEventType
+                                    if (moves && moves.length > 0) {
+                                        let sumTs = event.timestamp
+                                        for (let m of moves) {
+                                            sumTs += m.at
+                                        }
+                                        event.setTimestamp(sumTs)
+                                    }
+                                }
+                                writer.writeLine(`await page.waitForTimeout(${Math.abs(event.timestamp - eventsToConsider[indexOfNextElement].timestamp)})`)
                             }
                         } else {
-                            if (this.customEventList.indexOf(event) !== this.customEventList.length - 1) {
-                                let indexOfNextElement = this.customEventList.indexOf(event) + 1
-                                writer.writeLine(`await page.waitForTimeout(${Math.abs(event.timestamp - this.customEventList[indexOfNextElement].timestamp)})`)
+                            let afterResponseEvent = event as AfterResponseEvent
+                            let timestampOfTheResponse = afterResponseEvent.getResponseTimestamp()
+                            writer.writeLine(`await page.waitForTimeout(${Math.abs(event.timestamp - timestampOfTheResponse)})`)
+                            if (eventsToConsider.indexOf(event) !== eventsToConsider.length - 1) {
+                                let indexOfNextElement = eventsToConsider.indexOf(event) + 1
+                                writer.writeLine(`await page.waitForTimeout(${Math.abs(timestampOfTheResponse - eventsToConsider[indexOfNextElement].timestamp)})`)
                             }
                         }
                     }

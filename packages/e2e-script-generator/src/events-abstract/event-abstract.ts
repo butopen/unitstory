@@ -17,6 +17,10 @@ export abstract class SignificantEvent<T extends BLEvent> {
         return this.event.timestamp;
     }
 
+    setTimestamp(timestamp: number): void {
+        this.event.timestamp = timestamp
+    }
+
     protected abstract getPlaywrightInstruction(): string;
 
 }

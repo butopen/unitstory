@@ -9,7 +9,7 @@ describe(`Test playwright script generator`, () => {
         const events = reader.read('product-choice-monclick.json');
         const session = new SessionGenerator()
         session.createSession(events)
-        session.toPlaywrightScript('playwright-script', false, 0, false)
+        session.toPlaywrightScript('playwright-script', false, 0, false, false)
         console.log('Playwright script created')
         console.log(session.toString())
     })
