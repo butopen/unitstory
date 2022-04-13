@@ -15,6 +15,7 @@ import {WindowResizeEvent, WindowResizeEventType} from "../significant-events/wi
 import {HttpEventsRouterGenerator} from "../significant-events/http-events-router-generator";
 import {InputEvent, InputEventType} from "../significant-events/input";
 import {ElementScrollEvent, ElementScrollEventType} from "../significant-events/element-scroll";
+import {DeviceEvent, DeviceEventType} from "../significant-events/device";
 
 type CustomEvent =
     AfterResponseEvent
@@ -29,7 +30,9 @@ type CustomEvent =
     | MouseScrollEvent
     | SessionStartEvent
     | WindowResizeEvent
-
+    | DeviceEvent
+    | ElementScrollEvent
+    | InputEvent
 
 export class SessionGenerator {
 
@@ -66,6 +69,8 @@ export class SessionGenerator {
                 this.customEventList.push(new InputEvent(e as InputEventType))
             } else if (e.name === 'elementscroll') {
                 this.customEventList.push(new ElementScrollEvent(e as ElementScrollEventType))
+            } else if (e.name === 'device-information') {
+                this.customEventList.push(new DeviceEvent(e as DeviceEventType))
             }
         }
     }
@@ -84,20 +89,20 @@ export class SessionGenerator {
                     writer.writeLine('let element;')
                     writer.writeLine('let text;')
                     writer.writeLine(`const browser = await chromium.launch({headless: ${headless}, slowMo: ${slowMo}, devtools: ${devtools}})`)
-                    writer.writeLine(`const context = await browser.newContext()`)
+                    writer.writeLine(`const context = await browser.newContext({viewport: {width: 1280, height: 619}})`)
 
-                  /*
-                    //Logout session
-                    const foundCookieEvent = this.customEventList.find((event) => event.eventName === 'cookie-data')
-                    if (foundCookieEvent) {
-                        this.customEventList.splice(this.customEventList.indexOf(foundCookieEvent), 1)
-                        writer.writeLine(foundCookieEvent.getPlaywrightInstruction())
-                    }
-                   */
+                    /*
+                      //Logout session
+                      const foundCookieEvent = this.customEventList.find((event) => event.eventName === 'cookie-data')
+                      if (foundCookieEvent) {
+                          this.customEventList.splice(this.customEventList.indexOf(foundCookieEvent), 1)
+                          writer.writeLine(foundCookieEvent.getPlaywrightInstruction())
+                      }
+                     */
 
                     writer.writeLine("const page = await context.newPage()")
 
-                    if(sessionIsolation){
+                    if (sessionIsolation) {
                         eventsToConsider = this.customEventList
                         writer.writeLine(new HttpEventsRouterGenerator().generateRoutes(this.customEventList))
                         writer.writeLine('let localStorage;')
@@ -109,7 +114,7 @@ export class SessionGenerator {
                             writer.writeLine(event.getPlaywrightInstruction())
                             if (eventsToConsider.indexOf(event) !== eventsToConsider.length - 1) {
                                 let indexOfNextElement = eventsToConsider.indexOf(event) + 1
-                                if(event.eventName === 'mousemove'){
+                                if (event.eventName === 'mousemove') {
                                     let {moves} = event as unknown as MouseMoveEventType
                                     if (moves && moves.length > 0) {
                                         let sumTs = event.timestamp

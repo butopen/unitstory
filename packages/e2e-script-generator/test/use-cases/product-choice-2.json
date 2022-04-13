@@ -1,0 +1,6796 @@
+[
+  {
+    "device": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36",
+      "screen": {
+        "availHeight": 690,
+        "availWidth": 1280,
+        "colorDepth": 24,
+        "height": 720,
+        "width": 1280,
+        "pixelDepth": 24,
+        "orientation": "landscape-primary 0"
+      },
+      "dpi": 1.5,
+      "timeZone": "Europe/Rome",
+      "timeZoneOffset": -120,
+      "language": "en-US",
+      "platform": "Win32",
+      "vendor": "Google Inc.",
+      "cpuCores": 8,
+      "gpu": {
+        "performance": {
+          "timeOrigin": 1649843079958,
+          "timing": {
+            "connectStart": 1649843079959,
+            "navigationStart": 1649843079958,
+            "loadEventEnd": 1649843080530,
+            "domLoading": 1649843080117,
+            "secureConnectionStart": 0,
+            "fetchStart": 1649843079959,
+            "domContentLoadedEventStart": 1649843080262,
+            "responseStart": 1649843080109,
+            "responseEnd": 1649843080128,
+            "domInteractive": 1649843080261,
+            "domainLookupEnd": 1649843079959,
+            "redirectStart": 0,
+            "requestStart": 1649843079963,
+            "unloadEventEnd": 1649843080115,
+            "unloadEventStart": 1649843080115,
+            "domComplete": 1649843080497,
+            "domainLookupStart": 1649843079959,
+            "loadEventStart": 1649843080497,
+            "domContentLoadedEventEnd": 1649843080306,
+            "redirectEnd": 0,
+            "connectEnd": 1649843079959
+          },
+          "navigation": {
+            "type": 1,
+            "redirectCount": 0
+          }
+        },
+        "renderer": "WebKit WebGL",
+        "renderer2": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "WebKit",
+        "vendor2": "Google Inc. (Intel)"
+      }
+    },
+    "name": "device-information",
+    "type": "device",
+    "timestamp": 1649843080377,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "name": "session-start",
+    "type": "session",
+    "timestamp": 1649843080377,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "referrer": "https://www.google.it/",
+    "name": "referrer",
+    "type": "page",
+    "timestamp": 1649843080378,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "timing": {
+      "connectStart": 1649843079959,
+      "navigationStart": 1649843079958,
+      "loadEventEnd": 1649843080530,
+      "domLoading": 1649843080117,
+      "secureConnectionStart": 0,
+      "fetchStart": 1649843079959,
+      "domContentLoadedEventStart": 1649843080262,
+      "responseStart": 1649843080109,
+      "responseEnd": 1649843080128,
+      "domInteractive": 1649843080261,
+      "domainLookupEnd": 1649843079959,
+      "redirectStart": 0,
+      "requestStart": 1649843079963,
+      "unloadEventEnd": 1649843080115,
+      "unloadEventStart": 1649843080115,
+      "domComplete": 1649843080497,
+      "domainLookupStart": 1649843079959,
+      "loadEventStart": 1649843080497,
+      "domContentLoadedEventEnd": 1649843080306,
+      "redirectEnd": 0,
+      "connectEnd": 1649843079959
+    },
+    "name": "timing",
+    "type": "performance",
+    "timestamp": 1649843080378,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "storage": {
+      "BL_BUGLINK": "{\"version\":1}",
+      "lastRskxRun": "1649843055837",
+      "rCookie": "b39jqbgctnawod0lk0bril1xdyh9c",
+      "BL_CROSS_TAB_KEY": "{\"tabIsDuplicated\":\"duplicated\",\"version\":3,\"tabId\":1649843080332}",
+      "rskxRunCookie": "0"
+    },
+    "name": "session-full",
+    "type": "storage",
+    "timestamp": 1649843080378,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "storage": {
+      "BL_BUGLINK": "{\"sid\":1649843080329,\"version\":1}",
+      "lastRskxRun": "{\"value\":1649843055837,\"expiration_date\":\"Fri, 12 Apr 2024 09:44:15 GMT\"}",
+      "rCookie": "{\"value\":\"b39jqbgctnawod0lk0bril1xdyh9c\",\"expiration_date\":\"Fri, 12 Apr 2024 09:44:17 GMT\"}",
+      "BL_CROSS_TAB_KEY": "{\"version\":3}",
+      "rskxRunCookie": "{\"value\":0,\"expiration_date\":\"Fri, 12 Apr 2024 09:44:15 GMT\"}"
+    },
+    "name": "local-full",
+    "type": "storage",
+    "timestamp": 1649843080378,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843080384,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -2,
+        "y": 2,
+        "at": 1805
+      }
+    ],
+    "x": 1106,
+    "y": 133
+  },
+  {
+    "target": "",
+    "checked": false,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843080821,
+    "selector": "input#ot-group-id-C0002.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0002\"][aria-checked=\"false\"][role=\"switch\"][aria-labelledby=\"ot-header-id-C0002\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843080822,
+    "selector": "input#ot-group-id-C0003.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0003\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0003\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": false,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843080822,
+    "selector": "input#ot-group-id-C0004.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0004\"][aria-checked=\"false\"][role=\"switch\"][aria-labelledby=\"ot-header-id-C0004\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": false,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843080823,
+    "selector": "input#ot-group-id-C0005.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0005\"][aria-checked=\"false\"][role=\"switch\"][aria-labelledby=\"ot-header-id-C0005\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "performance": -2.01,
+    "name": "cpu",
+    "type": "performance",
+    "timestamp": 1649843080824,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "open": false,
+    "name": "devtools-open",
+    "type": "devtools",
+    "timestamp": 1649843080885,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "cookie": "BKD_BLC=cKkmepKrsa8PV3jH; CodiceClienteProvvisorio=354781160; _gcl_au=1.1.726434497.1649843055; _gid=GA1.2.1962050470.1649843055; _gat_UA-344477-10=1; mkprivacybanner=hidden; rskxRunCookie=0; rCookie=b39jqbgctnawod0lk0bril1xdyh9c; _ga_JZS533B77G=GS1.1.1649843055.1.1.1649843080.0; _ga=GA1.1.1471162759.1649843055; lastRskxRun=1649843080562; OptanonConsent=isIABGlobal=false&datestamp=Wed+Apr+13+2022+11%3A44%3A40+GMT%2B0200+(Ora+legale+dell%E2%80%99Europa+centrale)&version=6.15.0&hosts=&consentId=60afa995-b133-4a5c-b44b-60ff4fc63b1c&interactionCount=1&landingPath=https%3A%2F%2Fwww.monclick.it%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1%2CC0004%3A0%2CC0005%3A0",
+    "name": "cookie-data",
+    "type": "cookie",
+    "timestamp": 1649843081392,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "active": true,
+    "name": "visibility",
+    "type": "page",
+    "timestamp": 1649843081392,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843082239,
+    "type": "mouse",
+    "moves": [],
+    "x": 1089,
+    "y": 149
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843082289,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -16,
+        "y": 24,
+        "at": 50
+      }
+    ],
+    "x": 1078,
+    "y": 171
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843082391,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -2,
+        "y": 4,
+        "at": 50
+      },
+      {
+        "x": -6,
+        "y": 9,
+        "at": 51
+      },
+      {
+        "x": -5,
+        "y": 8,
+        "at": 50
+      },
+      {
+        "x": -5,
+        "y": 7,
+        "at": 51
+      },
+      {
+        "x": -3,
+        "y": 7,
+        "at": 56
+      },
+      {
+        "x": -5,
+        "y": 7,
+        "at": 56
+      }
+    ],
+    "x": 1056,
+    "y": 209
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843082755,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -6,
+        "y": 10,
+        "at": 50
+      },
+      {
+        "x": -10,
+        "y": 18,
+        "at": 51
+      },
+      {
+        "x": -19,
+        "y": 29,
+        "at": 49
+      },
+      {
+        "x": -18,
+        "y": 27,
+        "at": 50
+      },
+      {
+        "x": -13,
+        "y": 20,
+        "at": 50
+      },
+      {
+        "x": -8,
+        "y": 12,
+        "at": 50
+      },
+      {
+        "x": -10,
+        "y": 12,
+        "at": 50
+      },
+      {
+        "x": -7,
+        "y": 12,
+        "at": 50
+      },
+      {
+        "x": -3,
+        "y": 6,
+        "at": 50
+      },
+      {
+        "x": -3,
+        "y": 7,
+        "at": 50
+      },
+      {
+        "x": -3,
+        "y": 11,
+        "at": 50
+      },
+      {
+        "x": -2,
+        "y": 12,
+        "at": 50
+      },
+      {
+        "x": 0,
+        "y": 16,
+        "at": 50
+      },
+      {
+        "x": 0,
+        "y": 18,
+        "at": 50
+      },
+      {
+        "x": 0,
+        "y": 15,
+        "at": 50
+      },
+      {
+        "x": 2,
+        "y": 11,
+        "at": 50
+      },
+      {
+        "x": 1,
+        "y": 12,
+        "at": 50
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "at": 50
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "at": 56
+      }
+    ],
+    "x": 1018,
+    "y": 269
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843083763,
+    "type": "mouse",
+    "moves": [],
+    "x": 922,
+    "y": 537
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843083819,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 3,
+        "y": 9,
+        "at": 52
+      }
+    ],
+    "x": 923,
+    "y": 544
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843083921,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 1,
+        "y": 3,
+        "at": 50
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "at": 51
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "at": 149
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 11,
+        "y": 0,
+        "at": 50
+      }
+    ],
+    "x": 932,
+    "y": 570
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843084421,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 4,
+        "y": 0,
+        "at": 58
+      },
+      {
+        "x": 29,
+        "y": 0,
+        "at": 58
+      }
+    ],
+    "x": 980,
+    "y": 577
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843084587,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 27,
+        "y": -1,
+        "at": 50
+      },
+      {
+        "x": 25,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "at": 54
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "at": 57
+      },
+      {
+        "x": 13,
+        "y": 0,
+        "at": 55
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "at": 51
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "at": 53
+      }
+    ],
+    "x": 1041,
+    "y": 577
+  },
+  {
+    "memory": {
+      "totalJSHeapSize": 31471493,
+      "usedJSHeapSize": 22634465,
+      "jsHeapSizeLimit": 4294705152
+    },
+    "name": "memory",
+    "type": "performance",
+    "timestamp": 1649843085385,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "x": 1137,
+    "y": 576,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 96.208251953125,
+      "y": 19.9791259765625
+    },
+    "name": "mousedown",
+    "type": "mouse",
+    "timestamp": 1649843085974,
+    "selector": "button#onetrust-accept-btn-handler",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "x": 1137,
+    "y": 576,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 96.208251953125,
+      "y": 19.9791259765625
+    },
+    "name": "mouseup",
+    "type": "mouse",
+    "timestamp": 1649843086051,
+    "selector": "button#onetrust-accept-btn-handler",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "x": 1137,
+    "y": 576,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 96.208251953125,
+      "y": 19.9791259765625
+    },
+    "name": "click",
+    "type": "mouse",
+    "timestamp": 1649843086052,
+    "selector": "button#onetrust-accept-btn-handler",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843086094,
+    "selector": "input#ot-group-id-C0002.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0002\"][aria-checked=\"true\"][role=\"switch\"][aria-labelledby=\"ot-header-id-C0002\"][checked]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843086095,
+    "selector": "input#ot-group-id-C0003.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0003\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0003\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843086095,
+    "selector": "input#ot-group-id-C0004.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0004\"][aria-checked=\"true\"][role=\"switch\"][aria-labelledby=\"ot-header-id-C0004\"][checked]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843086095,
+    "selector": "input#ot-group-id-C0005.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0005\"][aria-checked=\"true\"][role=\"switch\"][aria-labelledby=\"ot-header-id-C0005\"][checked]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086196,
+    "selector": "input#desktop-catalog-search-input.input-group-field.mk-search-field.ui-autocomplete-input[type=\"text\"][placeholder=\"Cosa\\ stai\\ cercando\\?\"][value][autocomplete=\"off\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086196,
+    "selector": "input#mobile-catalog-search-input.input-group-field.mk-search-field.ui-autocomplete-input[type=\"text\"][placeholder=\"Cosa\\ stai\\ cercando\\?\"][autocomplete=\"off\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086197,
+    "selector": "input#subscribe-newsletter-footer-field[placeholder=\"Inserisci\\ il\\ tuo\\ indirizzo\\ e-mail\"][name=\"subscribe-newsletter-footer-field\"][type=\"email\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086197,
+    "selector": "input#ot-group-id-C0002.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0002\"][aria-checked=\"true\"][role=\"switch\"][aria-labelledby=\"ot-header-id-C0002\"][checked]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086197,
+    "selector": "input#ot-group-id-C0003.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0003\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0003\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086197,
+    "selector": "input#ot-group-id-C0004.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0004\"][aria-checked=\"true\"][role=\"switch\"][aria-labelledby=\"ot-header-id-C0004\"][checked]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086197,
+    "selector": "input#ot-group-id-C0005.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0005\"][aria-checked=\"true\"][role=\"switch\"][aria-labelledby=\"ot-header-id-C0005\"][checked]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086197,
+    "selector": "input#vendor-search-handler[aria-label=\"Vendor\\ Search\"][type=\"text\"][placeholder=\"Search\\.\\.\\.\"][name=\"vendor-search-handler\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086198,
+    "selector": "input#select-all-hosts-groups-handler[type=\"checkbox\"][aria-checked=\"false\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086198,
+    "selector": "input#select-all-vendor-groups-handler[type=\"checkbox\"][aria-checked=\"false\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086198,
+    "selector": "input#select-all-vendor-leg-handler[type=\"checkbox\"][aria-checked=\"false\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086199,
+    "selector": "input#chkbox-id.category-filter-handler[type=\"checkbox\"][aria-checked=\"false\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "performance": -4,
+    "name": "cpu",
+    "type": "performance",
+    "timestamp": 1649843086199,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "performance": -2,
+    "name": "cpu",
+    "type": "performance",
+    "timestamp": 1649843086357,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "cookie": "BKD_BLC=cKkmepKrsa8PV3jH; CodiceClienteProvvisorio=354781160; _gcl_au=1.1.726434497.1649843055; _gid=GA1.2.1962050470.1649843055; _gat_UA-344477-10=1; mkprivacybanner=hidden; rskxRunCookie=0; rCookie=b39jqbgctnawod0lk0bril1xdyh9c; lastRskxRun=1649843080562; _ga_JZS533B77G=GS1.1.1649843055.1.1.1649843086.0; OptanonAlertBoxClosed=2022-04-13T09:44:46.059Z; OptanonConsent=isIABGlobal=false&datestamp=Wed+Apr+13+2022+11%3A44%3A46+GMT%2B0200+(Ora+legale+dell%E2%80%99Europa+centrale)&version=6.15.0&hosts=&consentId=60afa995-b133-4a5c-b44b-60ff4fc63b1c&interactionCount=2&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1%2CC0005%3A1; _ga=GA1.2.1471162759.1649843055; kk_leadtag=true; _fbp=fb.1.1649843086370.1615759373",
+    "name": "cookie-data",
+    "type": "cookie",
+    "timestamp": 1649843086381,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843086752,
+    "type": "mouse",
+    "moves": [],
+    "x": 1136,
+    "y": 576
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843086807,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -36,
+        "y": -24,
+        "at": 52
+      },
+      {
+        "x": -118,
+        "y": -89,
+        "at": 54
+      },
+      {
+        "x": -80,
+        "y": -96,
+        "at": 55
+      },
+      {
+        "x": -60,
+        "y": -64,
+        "at": 51
+      }
+    ],
+    "x": 1100,
+    "y": 548
+  },
+  {
+    "target": "",
+    "value": "t",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086808,
+    "selector": "input[value=\"t\"][type=\"radio\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843086808,
+    "selector": "input[type=\"checkbox\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1004183656309957",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086904,
+    "selector": "input[name=\"id\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "Microdata",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086904,
+    "selector": "input[name=\"ev\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "https://www.monclick.it/",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086905,
+    "selector": "input[name=\"dl\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "https://www.google.it/",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086905,
+    "selector": "input[name=\"rl\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "false",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086905,
+    "selector": "input[name=\"if\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1649843086882",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086905,
+    "selector": "input[name=\"ts\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "[]",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086906,
+    "selector": "input[name=\"cd\\[DataLayer\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "{\"title\":\"Monclick.it - Elettrodomestici | Computer | TV | Smartphone\",\"meta:keywords\":\"notebook, tv led, tv lcd, plasma, cellulari, computer, pc, monitor lcd, fotocamere digitali, videocamere, navigatori satellitari, networking, smartphone, software pc, accessori pc, stampanti, palmari, climatizzatori, piccoli elettrodomestici, grandi elettrodomestici, Monclick\",\"meta:description\":\"Le migliori offerte sono su Monclick: sconti fino al 70% su elettrodomestici, computer, TV, smartphone, climatizzatori e molto altro. Scegli la convenienza.\"}",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086906,
+    "selector": "input[name=\"cd\\[Meta\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "{}",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086907,
+    "selector": "input[name=\"cd\\[OpenGraph\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "[{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Workstation\",\"url\":\"/vendita_workstation\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in PC Notebook e Tablet\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Monitor e Periferiche PC\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Stampanti e Scanner\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Chiavette USB\",\"url\":\"/vendita_chiavette-usb\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in HDD e Componenti PC\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Networking e Wireless\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Software\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Decoder\",\"url\":\"/vendita_decoder\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in TV LED e Video\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Home Cinema e Audio\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Fotocamere e Videocamere\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Auricolari Bluetooth\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Telefoni cellulari e fissi\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Giochi e Console\",\"url\":\"/vendite_giochi-console\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Autoradio e Navigatori\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Grandi elettrodomestici\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Elettrodomestici da incasso\",\"url\":\"/vendite_elettrodomestici-incasso\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Piccoli elettrodomestici\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Climatizzazione\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Salute e Bellezza\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Cavi HDMI\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Accessori\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Consumabili\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Prodotti per ufficio\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Barattoli e ciotole\",\"url\":\"/vendita_barattoli-ciotole\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Casalinghi\",\"url\":\"/vendite_casalinghi\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Giardinaggio\",\"url\":\"/vendita_giardinaggio\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Tempo Libero\",\"url\":\"/vendite_tempo-libero\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"}]",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086907,
+    "selector": "input[name=\"cd\\[Schema\\.org\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "[{\"@type\":\"Organization\",\"@context\":\"http://schema.org\",\"url\":\"www.monclick.it\",\"name\":\"Monclick\"},{\"@type\":\"WebSite\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"http://www.monclick.it/Catalogo/SearchDispatcher.axd?testo={search_term_string}\",\"query-input\":\"required name=search_term_string\"},\"@context\":\"http://schema.org\",\"url\":\"www.monclick.it\",\"name\":\"Monclick\"}]",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086907,
+    "selector": "input[name=\"cd\\[JSON-LD\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1280",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086908,
+    "selector": "input[name=\"sw\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "720",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086908,
+    "selector": "input[name=\"sh\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "2.9.57",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086909,
+    "selector": "input[name=\"v\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "stable",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086909,
+    "selector": "input[name=\"r\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086909,
+    "selector": "input[name=\"ec\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "30",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086910,
+    "selector": "input[name=\"o\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "fb.1.1649843086370.1615759373",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086910,
+    "selector": "input[name=\"fbp\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1649843086211",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086910,
+    "selector": "input[name=\"it\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "false",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086911,
+    "selector": "input[name=\"coo\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "automatic",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086911,
+    "selector": "input[name=\"es\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "3",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086912,
+    "selector": "input[name=\"tm\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "p0",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086912,
+    "selector": "input[name=\"exp\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "formPOST",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843086912,
+    "selector": "input[name=\"rqm\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843087069,
+    "type": "mouse",
+    "moves": [],
+    "x": 794,
+    "y": 253
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843087121,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -7,
+        "y": -19,
+        "at": 56
+      },
+      {
+        "x": -5,
+        "y": -14,
+        "at": 50
+      },
+      {
+        "x": -2,
+        "y": -11,
+        "at": 50
+      },
+      {
+        "x": -2,
+        "y": -9,
+        "at": 52
+      },
+      {
+        "x": 0,
+        "y": -6,
+        "at": 53
+      },
+      {
+        "x": 0,
+        "y": -4,
+        "at": 53
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "at": 83
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "at": 50
+      },
+      {
+        "x": 21,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 17,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 25,
+        "y": 1,
+        "at": 50
+      },
+      {
+        "x": 31,
+        "y": 1,
+        "at": 50
+      },
+      {
+        "x": 12,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "at": 50
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 9,
+        "y": -1,
+        "at": 50
+      },
+      {
+        "x": 8,
+        "y": -1,
+        "at": 50
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "at": 57
+      },
+      {
+        "x": 9,
+        "y": -1,
+        "at": 56
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "at": 52
+      },
+      {
+        "x": 0,
+        "y": -2,
+        "at": 68
+      },
+      {
+        "x": -9,
+        "y": -4,
+        "at": 50
+      }
+    ],
+    "x": 792,
+    "y": 250
+  },
+  {
+    "cookie": "BKD_BLC=cKkmepKrsa8PV3jH; CodiceClienteProvvisorio=354781160; _gcl_au=1.1.726434497.1649843055; _gid=GA1.2.1962050470.1649843055; _gat_UA-344477-10=1; mkprivacybanner=hidden; rskxRunCookie=0; rCookie=b39jqbgctnawod0lk0bril1xdyh9c; lastRskxRun=1649843080562; _ga_JZS533B77G=GS1.1.1649843055.1.1.1649843086.0; OptanonAlertBoxClosed=2022-04-13T09:44:46.059Z; OptanonConsent=isIABGlobal=false&datestamp=Wed+Apr+13+2022+11%3A44%3A46+GMT%2B0200+(Ora+legale+dell%E2%80%99Europa+centrale)&version=6.15.0&hosts=&consentId=60afa995-b133-4a5c-b44b-60ff4fc63b1c&interactionCount=2&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1%2CC0005%3A1; _ga=GA1.2.1471162759.1649843055; kk_leadtag=true; _fbp=fb.1.1649843086370.1615759373; cto_bundle=TG8IHl96a1VVcThCNzU0JTJGV0pTRVNrcEFUQmRqdndLRnE1NHBid3R1NEFaQTclMkZMS1hVZllLUFcwYnBxNkpQMEpPMUglMkI1djd2cmFQdGJnWGd5TDJ6V3Q5ZHp1ckJuZ2RaZVhJQ1VRMUd4eXNoZTlFN2tCYWslMkJhZmpETks1YlAwNW1VRG9jZm1aYzM4OGR2WGFQRTJoOEdYamxOZyUzRCUzRA; flx1_session_id_22381=l1xdz4ws.12m",
+    "name": "cookie-data",
+    "type": "cookie",
+    "timestamp": 1649843087382,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843088401,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -60,
+        "y": -8,
+        "at": 50
+      },
+      {
+        "x": -23,
+        "y": -2,
+        "at": 58
+      },
+      {
+        "x": -49,
+        "y": -4,
+        "at": 51
+      }
+    ],
+    "x": 904,
+    "y": 175
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843088617,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -185,
+        "y": -7,
+        "at": 434
+      }
+    ],
+    "x": 408,
+    "y": 137
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843088667,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -43,
+        "y": -3,
+        "at": 53
+      },
+      {
+        "x": -5,
+        "y": 0,
+        "at": 52
+      }
+    ],
+    "x": 327,
+    "y": 133
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843088831,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -31,
+        "y": 0,
+        "at": 169
+      }
+    ],
+    "x": 260,
+    "y": 130
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843088884,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -5,
+        "y": 0,
+        "at": 66
+      }
+    ],
+    "x": 245,
+    "y": 130
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843089103,
+    "type": "mouse",
+    "moves": [],
+    "x": 212,
+    "y": 130
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843089159,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -14,
+        "y": 0,
+        "at": 56
+      }
+    ],
+    "x": 192,
+    "y": 129
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843089267,
+    "type": "mouse",
+    "moves": [],
+    "x": 134,
+    "y": 129
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843089318,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -3,
+        "y": 0,
+        "at": 58
+      },
+      {
+        "x": -10,
+        "y": 0,
+        "at": 58
+      }
+    ],
+    "x": 113,
+    "y": 129
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843089483,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -5,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": -7,
+        "y": 0,
+        "at": 51
+      },
+      {
+        "x": -4,
+        "y": 0,
+        "at": 58
+      }
+    ],
+    "x": 88,
+    "y": 129
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843090399,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 0,
+        "y": 11,
+        "at": 50
+      }
+    ],
+    "x": 68,
+    "y": 130
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843090501,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 0,
+        "y": 7,
+        "at": 50
+      },
+      {
+        "x": 2,
+        "y": 23,
+        "at": 51
+      },
+      {
+        "x": 0,
+        "y": 18,
+        "at": 55
+      }
+    ],
+    "x": 68,
+    "y": 157
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843090708,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 0,
+        "y": 16,
+        "at": 57
+      },
+      {
+        "x": 1,
+        "y": 18,
+        "at": 50
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "at": 50
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "at": 616
+      },
+      {
+        "x": 1,
+        "y": -6,
+        "at": 51
+      },
+      {
+        "x": 0,
+        "y": -2,
+        "at": 50
+      },
+      {
+        "x": 0,
+        "y": -5,
+        "at": 53
+      },
+      {
+        "x": 0,
+        "y": -6,
+        "at": 57
+      },
+      {
+        "x": 0,
+        "y": -6,
+        "at": 55
+      },
+      {
+        "x": 6,
+        "y": -6,
+        "at": 51
+      },
+      {
+        "x": 2,
+        "y": -2,
+        "at": 50
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "at": 266
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "at": 50
+      },
+      {
+        "x": 23,
+        "y": 3,
+        "at": 50
+      }
+    ],
+    "x": 70,
+    "y": 231
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843092414,
+    "type": "mouse",
+    "moves": [],
+    "x": 180,
+    "y": 247
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843092465,
+    "type": "mouse",
+    "moves": [],
+    "x": 250,
+    "y": 273
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843092515,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 7,
+        "y": 10,
+        "at": 50
+      }
+    ],
+    "x": 286,
+    "y": 302
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843092619,
+    "type": "mouse",
+    "moves": [],
+    "x": 306,
+    "y": 337
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843092676,
+    "type": "mouse",
+    "moves": [],
+    "x": 314,
+    "y": 363
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843092728,
+    "type": "mouse",
+    "moves": [],
+    "x": 324,
+    "y": 385
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843092780,
+    "type": "mouse",
+    "moves": [],
+    "x": 336,
+    "y": 416
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843092830,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 0,
+        "y": 9,
+        "at": 50
+      },
+      {
+        "x": 0,
+        "y": 7,
+        "at": 50
+      }
+    ],
+    "x": 337,
+    "y": 429
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843092981,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 0,
+        "y": 2,
+        "at": 52
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "at": 230
+      },
+      {
+        "x": 15,
+        "y": 1,
+        "at": 50
+      },
+      {
+        "x": 44,
+        "y": 1,
+        "at": 50
+      },
+      {
+        "x": 46,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 54,
+        "y": 1,
+        "at": 50
+      }
+    ],
+    "x": 336,
+    "y": 447
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843093513,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 11,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "at": 50
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "at": 58
+      }
+    ],
+    "x": 524,
+    "y": 453
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843094480,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 0,
+        "y": -1,
+        "at": 51
+      }
+    ],
+    "x": 552,
+    "y": 453
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843094588,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 3,
+        "y": -6,
+        "at": 57
+      },
+      {
+        "x": 2,
+        "y": -6,
+        "at": 50
+      },
+      {
+        "x": 0,
+        "y": -2,
+        "at": 667
+      }
+    ],
+    "x": 556,
+    "y": 443
+  },
+  {
+    "memory": {
+      "totalJSHeapSize": 29439730,
+      "usedJSHeapSize": 17528314,
+      "jsHeapSizeLimit": 4294705152
+    },
+    "name": "memory",
+    "type": "performance",
+    "timestamp": 1649843095378,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843095412,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 3,
+        "y": -6,
+        "at": 50
+      },
+      {
+        "x": 1,
+        "y": -2,
+        "at": 57
+      },
+      {
+        "x": 5,
+        "y": -5,
+        "at": 51
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "at": 674
+      }
+    ],
+    "x": 567,
+    "y": 422
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843096294,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 0,
+        "y": -6,
+        "at": 50
+      }
+    ],
+    "x": 577,
+    "y": 399
+  },
+  {
+    "url": "https://www.monclick.it/",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843096394,
+    "type": "mouse",
+    "moves": [],
+    "x": 577,
+    "y": 387
+  },
+  {
+    "x": 577,
+    "y": 387,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 61.65625,
+      "y": 8.010406494140625
+    },
+    "name": "mousedown",
+    "type": "mouse",
+    "timestamp": 1649843096724,
+    "selector": "a[itemprop=\"url\"][href=\"\\/vendita_applicazioni-office\"][title=\"Applicazioni\\ office\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "x": 577,
+    "y": 387,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 61.65625,
+      "y": 8.010406494140625
+    },
+    "name": "mouseup",
+    "type": "mouse",
+    "timestamp": 1649843096785,
+    "selector": "a[itemprop=\"url\"][href=\"\\/vendita_applicazioni-office\"][title=\"Applicazioni\\ office\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "x": 577,
+    "y": 387,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 61.65625,
+      "y": 8.010406494140625
+    },
+    "name": "click",
+    "type": "mouse",
+    "timestamp": 1649843096786,
+    "selector": "a[itemprop=\"url\"][href=\"\\/vendita_applicazioni-office\"][title=\"Applicazioni\\ office\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/",
+    "tab": 1649843080332
+  },
+  {
+    "name": "session-start",
+    "type": "session",
+    "timestamp": 1649843098517,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "referrer": "https://www.monclick.it/",
+    "name": "referrer",
+    "type": "page",
+    "timestamp": 1649843098518,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "timing": {
+      "connectStart": 1649843096801,
+      "navigationStart": 1649843096800,
+      "loadEventEnd": 1649843098642,
+      "domLoading": 1649843098346,
+      "secureConnectionStart": 0,
+      "fetchStart": 1649843096801,
+      "domContentLoadedEventStart": 1649843098461,
+      "responseStart": 1649843098334,
+      "responseEnd": 1649843098336,
+      "domInteractive": 1649843098461,
+      "domainLookupEnd": 1649843096801,
+      "redirectStart": 0,
+      "requestStart": 1649843096805,
+      "unloadEventEnd": 1649843098342,
+      "unloadEventStart": 1649843098342,
+      "domComplete": 1649843098640,
+      "domainLookupStart": 1649843096801,
+      "loadEventStart": 1649843098640,
+      "domContentLoadedEventEnd": 1649843098481,
+      "redirectEnd": 0,
+      "connectEnd": 1649843096801
+    },
+    "name": "timing",
+    "type": "performance",
+    "timestamp": 1649843098518,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "storage": {
+      "kk_leadtag": "true",
+      "BL_BUGLINK": "{\"version\":1}",
+      "lastRskxRun": "1649843080562",
+      "rCookie": "b39jqbgctnawod0lk0bril1xdyh9c",
+      "BL_CROSS_TAB_KEY": "{\"tabIsDuplicated\":\"duplicated\",\"version\":3,\"tabId\":1649843080332}",
+      "rskxRunCookie": "0"
+    },
+    "name": "session-full",
+    "type": "storage",
+    "timestamp": 1649843098518,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "storage": {
+      "kk_leadtag": "true",
+      "BL_BUGLINK": "{\"sid\":1649843080329,\"version\":1}",
+      "cto_bundle": "TG8IHl96a1VVcThCNzU0JTJGV0pTRVNrcEFUQmRqdndLRnE1NHBid3R1NEFaQTclMkZMS1hVZllLUFcwYnBxNkpQMEpPMUglMkI1djd2cmFQdGJnWGd5TDJ6V3Q5ZHp1ckJuZ2RaZVhJQ1VRMUd4eXNoZTlFN2tCYWslMkJhZmpETks1YlAwNW1VRG9jZm1aYzM4OGR2WGFQRTJoOEdYamxOZyUzRCUzRA",
+      "BL_CROSS_TAB_KEY": "{\"version\":3}",
+      "__rtbhouse.lid": "k1pzBq8dN2t6uFjiXdtr",
+      "rskxRunCookie": "{\"value\":0,\"expiration_date\":\"Fri, 12 Apr 2024 09:44:40 GMT\"}",
+      "onetag_sid": "9Fhv5HgdMdByh_n-oA3HQxxqMsy1tICyqCt82LRpBdo",
+      "lastRskxRun": "{\"value\":1649843080562,\"expiration_date\":\"Fri, 12 Apr 2024 09:44:40 GMT\"}",
+      "rCookie": "{\"value\":\"b39jqbgctnawod0lk0bril1xdyh9c\",\"expiration_date\":\"Fri, 12 Apr 2024 09:44:41 GMT\"}"
+    },
+    "name": "local-full",
+    "type": "storage",
+    "timestamp": 1649843098518,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843098533,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 1,
+        "y": -3,
+        "at": 53
+      },
+      {
+        "x": 4,
+        "y": -1,
+        "at": 672
+      },
+      {
+        "x": 24,
+        "y": -2,
+        "at": 50
+      },
+      {
+        "x": 64,
+        "y": -2,
+        "at": 50
+      }
+    ],
+    "x": 573,
+    "y": 373
+  },
+  {
+    "target": "",
+    "value": "t",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843098832,
+    "selector": "input[value=\"t\"][type=\"radio\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843098833,
+    "selector": "input[type=\"checkbox\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843098880,
+    "selector": "input#ot-group-id-C0002.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0002\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0002\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843098880,
+    "selector": "input#ot-group-id-C0003.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0003\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0003\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843098881,
+    "selector": "input#ot-group-id-C0004.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0004\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0004\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843098881,
+    "selector": "input#ot-group-id-C0005.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0005\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0005\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "open": false,
+    "name": "devtools-open",
+    "type": "devtools",
+    "timestamp": 1649843099023,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1004183656309957",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099326,
+    "selector": "input[name=\"id\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "Microdata",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099327,
+    "selector": "input[name=\"ev\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "https://www.monclick.it/vendita_applicazioni-office",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099327,
+    "selector": "input[name=\"dl\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "https://www.monclick.it/",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099328,
+    "selector": "input[name=\"rl\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "false",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099328,
+    "selector": "input[name=\"if\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1649843099317",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099328,
+    "selector": "input[name=\"ts\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "[]",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099329,
+    "selector": "input[name=\"cd\\[DataLayer\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "{\"title\":\"Applicazioni office in offerta - Acquista su Monclick\",\"meta:keywords\":\"Applicazioni office, vendita, shop online, monclick, prezzi Applicazioni office, Applicazioni office , vendita online Applicazioni office, acquista Applicazioni office, Applicazioni office monclick, offerta Applicazioni office, vendita online Applicazioni office , acquista Applicazioni office , offerta Applicazioni office \",\"meta:description\":\"Compra online Applicazioni office  in vendita su Monclick.it. Scegli tra le nostre offerte, sconti e prezzi convenienti di Applicazioni office \"}",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099329,
+    "selector": "input[name=\"cd\\[Meta\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "{}",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099330,
+    "selector": "input[name=\"cd\\[OpenGraph\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "[{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Workstation\",\"url\":\"/vendita_workstation\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in PC Notebook e Tablet\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Monitor e Periferiche PC\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Stampanti e Scanner\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Chiavette USB\",\"url\":\"/vendita_chiavette-usb\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in HDD e Componenti PC\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Networking e Wireless\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Software\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Decoder\",\"url\":\"/vendita_decoder\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in TV LED e Video\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Home Cinema e Audio\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Fotocamere e Videocamere\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Auricolari Bluetooth\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Telefoni cellulari e fissi\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Giochi e Console\",\"url\":\"/vendite_giochi-console\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Autoradio e Navigatori\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Grandi elettrodomestici\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Elettrodomestici da incasso\",\"url\":\"/vendite_elettrodomestici-incasso\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Piccoli elettrodomestici\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Climatizzazione\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Salute e Bellezza\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Cavi HDMI\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Accessori\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Consumabili\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Prodotti per ufficio\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Barattoli e ciotole\",\"url\":\"/vendita_barattoli-ciotole\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Casalinghi\",\"url\":\"/vendite_casalinghi\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Giardinaggio\",\"url\":\"/vendita_giardinaggio\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Tempo Libero\",\"url\":\"/vendite_tempo-libero\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"}]",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099330,
+    "selector": "input[name=\"cd\\[Schema\\.org\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "[{\"@type\":\"BreadcrumbList\",\"@context\":\"http://schema.org\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":{\"name\":\"Software\",\"@id\":\"http://www.monclick.it/vendite_software\"},\"position\":1},{\"@type\":\"ListItem\",\"item\":{\"name\":\"Applicazioni office\",\"@id\":\"http://www.monclick.it/vendita_applicazioni-office\"},\"position\":2}]}]",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099330,
+    "selector": "input[name=\"cd\\[JSON-LD\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1280",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099331,
+    "selector": "input[name=\"sw\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "720",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099331,
+    "selector": "input[name=\"sh\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "2.9.57",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099332,
+    "selector": "input[name=\"v\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "stable",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099332,
+    "selector": "input[name=\"r\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "3",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099332,
+    "selector": "input[name=\"ec\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "30",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099333,
+    "selector": "input[name=\"o\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "fb.1.1649843086370.1615759373",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099333,
+    "selector": "input[name=\"fbp\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1649843098760",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099334,
+    "selector": "input[name=\"it\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "false",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099334,
+    "selector": "input[name=\"coo\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "automatic",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099334,
+    "selector": "input[name=\"es\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "3",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099347,
+    "selector": "input[name=\"tm\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "p0",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099347,
+    "selector": "input[name=\"exp\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "formPOST",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843099348,
+    "selector": "input[name=\"rqm\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843099408,
+    "type": "mouse",
+    "moves": [],
+    "x": 756,
+    "y": 351
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843099458,
+    "type": "mouse",
+    "moves": [],
+    "x": 938,
+    "y": 273
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843099508,
+    "type": "mouse",
+    "moves": [],
+    "x": 1069,
+    "y": 203
+  },
+  {
+    "cookie": "BKD_BLC=cKkmepKrsa8PV3jH; CodiceClienteProvvisorio=354781160; _gcl_au=1.1.726434497.1649843055; _gid=GA1.2.1962050470.1649843055; _gat_UA-344477-10=1; mkprivacybanner=hidden; rskxRunCookie=0; rCookie=b39jqbgctnawod0lk0bril1xdyh9c; OptanonAlertBoxClosed=2022-04-13T09:44:46.059Z; kk_leadtag=true; _fbp=fb.1.1649843086370.1615759373; flx1_session_id_22381=l1xdz4ws.12m; _ga_JZS533B77G=GS1.1.1649843055.1.1.1649843098.0; _ga=GA1.2.1471162759.1649843055; lastRskxRun=1649843098648; OptanonConsent=isIABGlobal=false&datestamp=Wed+Apr+13+2022+11%3A44%3A58+GMT%2B0200+(Ora+legale+dell%E2%80%99Europa+centrale)&version=6.15.0&hosts=&consentId=60afa995-b133-4a5c-b44b-60ff4fc63b1c&interactionCount=2&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1%2CC0005%3A1&geolocation=IT%3B55&AwaitingReconsent=false; cto_bundle=3FikUF96a1VVcThCNzU0JTJGV0pTRVNrcEFUQlNpb3pmZVd0NDdlbWZjTnRnZDZsVzZEdm5xNVptZ2R4b0M2and3djlnSzUlMkJ3TFElMkJWOFo0Y1Ftbkd2dnRRRW9RR0EwM2VkbFBJaUI3SUtPQkVsNXFNUkRmRHMwNzVlRCUyRkFDa0VmdVV5NmxBdWZrbng1UHViJTJCa2tXb0VCOG9LT2tnJTNEJTNE",
+    "name": "cookie-data",
+    "type": "cookie",
+    "timestamp": 1649843099518,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "active": true,
+    "name": "visibility",
+    "type": "page",
+    "timestamp": 1649843099519,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843099558,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 32,
+        "y": -16,
+        "at": 50
+      }
+    ],
+    "x": 1128,
+    "y": 177
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843099658,
+    "type": "mouse",
+    "moves": [],
+    "x": 1177,
+    "y": 150
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843099708,
+    "type": "mouse",
+    "moves": [],
+    "x": 1194,
+    "y": 130
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843099759,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 1,
+        "y": -1,
+        "at": 51
+      },
+      {
+        "x": 36,
+        "y": -22,
+        "at": 173
+      }
+    ],
+    "x": 1217,
+    "y": 110
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843099866,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 20,
+        "y": -12,
+        "at": 63
+      }
+    ],
+    "x": 1232,
+    "y": 101
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843100037,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 6,
+        "y": -2,
+        "at": 54
+      },
+      {
+        "x": 3,
+        "y": -2,
+        "at": 50
+      }
+    ],
+    "x": 1270,
+    "y": 81
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843100690,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -2,
+        "y": 0,
+        "at": 284
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "at": 58
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "at": 58
+      },
+      {
+        "x": -1,
+        "y": 74,
+        "at": 1399
+      }
+    ],
+    "x": 1278,
+    "y": 77
+  },
+  {
+    "x": 1271,
+    "y": 76,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 1271,
+      "y": 76
+    },
+    "name": "mousedown",
+    "type": "mouse",
+    "timestamp": 1649843101192,
+    "selector": "html[lang=\"it\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2.6666667461395264,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843101290,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 30.66666603088379,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843101340,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 156.6666717529297,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843101390,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 236,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843101440,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 292,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843101490,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 352.6666564941406,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843101540,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 390,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843101590,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 399.3333435058594,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843101648,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 413.3333435058594,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843101701,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 427.3333435058594,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843101873,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 450.6666564941406,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843101923,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 464.6666564941406,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843101975,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 474,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843102026,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 488,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843102076,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 502.6666564941406,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843102133,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 512,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843102239,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 1270,
+    "y": 150,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 1270,
+      "y": 662
+    },
+    "name": "mouseup",
+    "type": "mouse",
+    "timestamp": 1649843102457,
+    "selector": "html[lang=\"it\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102558,
+    "selector": "input#desktop-catalog-search-input.input-group-field.mk-search-field.ui-autocomplete-input[type=\"text\"][placeholder=\"Cosa\\ stai\\ cercando\\?\"][value][autocomplete=\"off\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102559,
+    "selector": "input#mobile-catalog-search-input.input-group-field.mk-search-field.ui-autocomplete-input[type=\"text\"][placeholder=\"Cosa\\ stai\\ cercando\\?\"][autocomplete=\"off\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "66",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102559,
+    "selector": "input#minPrice.small-2.medium-1.large-2.digit.lessOrEqualThanId[name=\"minPrice\"][type=\"text\"][value=\"\\36 6\"][lessorequalthanid=\"maxPrice\"][lessorequalthanid-message=\"Il\\ prezzo\\ minimo\\ deve\\ essere\\ inferiore\\ al\\ prezzo\\ massimo\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1671",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102561,
+    "selector": "input#maxPrice.small-2.medium-1.large-2.digit[name=\"maxPrice\"][type=\"text\"][value=\"\\31 671\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1.671",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102561,
+    "selector": "input#maxPrice[name=\"maxPrice\"][type=\"hidden\"][value=\"\\31 \\.671\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "66",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102562,
+    "selector": "input#minPrice[name=\"minPrice\"][type=\"hidden\"][value=\"\\36 6\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102562,
+    "selector": "section.small-12.medium-12.large-12.columns.mk-listingProduct:nth-child(1) > input.mk-listingCheckbox.show-for-medium[type=\"checkbox\"][name=\"product-compare\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102564,
+    "selector": "section.small-12.medium-12.large-12.columns.mk-listingProduct:nth-child(2) > input.mk-listingCheckbox.show-for-medium[type=\"checkbox\"][name=\"product-compare\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102565,
+    "selector": "section.small-12.medium-12.large-12.columns.mk-listingProduct:nth-child(3) > input.mk-listingCheckbox.show-for-medium[type=\"checkbox\"][name=\"product-compare\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102565,
+    "selector": "section.small-12.medium-12.large-12.columns.mk-listingProduct:nth-child(4) > input.mk-listingCheckbox.show-for-medium[type=\"checkbox\"][name=\"product-compare\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102566,
+    "selector": "section.small-12.medium-12.large-12.columns.mk-listingProduct:nth-child(5) > input.mk-listingCheckbox.show-for-medium[type=\"checkbox\"][name=\"product-compare\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102566,
+    "selector": "section.small-12.medium-12.large-12.columns.mk-listingProduct:nth-child(6) > input.mk-listingCheckbox.show-for-medium[type=\"checkbox\"][name=\"product-compare\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102567,
+    "selector": "section.small-12.medium-12.large-12.columns.mk-listingProduct:nth-child(7) > input.mk-listingCheckbox.show-for-medium[type=\"checkbox\"][name=\"product-compare\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102568,
+    "selector": "section.small-12.medium-12.large-12.columns.mk-listingProduct:nth-child(8) > input.mk-listingCheckbox.show-for-medium[type=\"checkbox\"][name=\"product-compare\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102568,
+    "selector": "section.small-12.medium-12.large-12.columns.mk-listingProduct:nth-child(9) > input.mk-listingCheckbox.show-for-medium[type=\"checkbox\"][name=\"product-compare\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102568,
+    "selector": "section.small-12.medium-12.large-12.columns.mk-listingProduct:nth-child(10) > input.mk-listingCheckbox.show-for-medium[type=\"checkbox\"][name=\"product-compare\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102569,
+    "selector": "input#subscribe-newsletter-footer-field[placeholder=\"Inserisci\\ il\\ tuo\\ indirizzo\\ e-mail\"][name=\"subscribe-newsletter-footer-field\"][type=\"email\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102569,
+    "selector": "input#ot-group-id-C0002.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0002\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0002\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102569,
+    "selector": "input#ot-group-id-C0003.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0003\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0003\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102570,
+    "selector": "input#ot-group-id-C0004.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0004\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0004\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102570,
+    "selector": "input#ot-group-id-C0005.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0005\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0005\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102570,
+    "selector": "input#vendor-search-handler[aria-label=\"Vendor\\ Search\"][type=\"text\"][placeholder=\"Search\\.\\.\\.\"][name=\"vendor-search-handler\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102571,
+    "selector": "input#select-all-hosts-groups-handler[type=\"checkbox\"][aria-checked=\"false\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102571,
+    "selector": "input#select-all-vendor-groups-handler[type=\"checkbox\"][aria-checked=\"false\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102571,
+    "selector": "input#select-all-vendor-leg-handler[type=\"checkbox\"][aria-checked=\"false\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843102571,
+    "selector": "input#chkbox-id.category-filter-handler[type=\"checkbox\"][aria-checked=\"false\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843102623,
+    "type": "mouse",
+    "moves": [],
+    "x": 1267,
+    "y": 150
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843102674,
+    "type": "mouse",
+    "moves": [],
+    "x": 1253,
+    "y": 154
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843102723,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -34,
+        "y": 14,
+        "at": 51
+      }
+    ],
+    "x": 1246,
+    "y": 155
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843102829,
+    "type": "mouse",
+    "moves": [],
+    "x": 1177,
+    "y": 183
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843102880,
+    "type": "mouse",
+    "moves": [],
+    "x": 1141,
+    "y": 198
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843102931,
+    "type": "mouse",
+    "moves": [],
+    "x": 1076,
+    "y": 212
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843102989,
+    "type": "mouse",
+    "moves": [],
+    "x": 944,
+    "y": 228
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843103039,
+    "type": "mouse",
+    "moves": [],
+    "x": 864,
+    "y": 233
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843103089,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -31,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": -97,
+        "y": 1,
+        "at": 56
+      },
+      {
+        "x": -84,
+        "y": 2,
+        "at": 60
+      },
+      {
+        "x": -117,
+        "y": 2,
+        "at": 50
+      },
+      {
+        "x": -51,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": -39,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": -27,
+        "y": -1,
+        "at": 50
+      },
+      {
+        "x": -16,
+        "y": -1,
+        "at": 50
+      },
+      {
+        "x": -7,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": -4,
+        "y": 0,
+        "at": 58
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "at": 615
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "at": 51
+      }
+    ],
+    "x": 772,
+    "y": 238
+  },
+  {
+    "memory": {
+      "totalJSHeapSize": 21789816,
+      "usedJSHeapSize": 16281024,
+      "jsHeapSizeLimit": 4294705152
+    },
+    "name": "memory",
+    "type": "performance",
+    "timestamp": 1649843103519,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843104382,
+    "type": "mouse",
+    "moves": [],
+    "x": 306,
+    "y": 247
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843104437,
+    "type": "mouse",
+    "moves": [],
+    "x": 317,
+    "y": 258
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843104487,
+    "type": "mouse",
+    "moves": [],
+    "x": 324,
+    "y": 269
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843104537,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 1,
+        "y": 3,
+        "at": 50
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "at": 400
+      },
+      {
+        "x": 0,
+        "y": -4,
+        "at": 50
+      }
+    ],
+    "x": 327,
+    "y": 281
+  },
+  {
+    "x": 328,
+    "y": 281,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 64.72915649414062,
+      "y": 13.010406494140625
+    },
+    "name": "mousedown",
+    "type": "mouse",
+    "timestamp": 1649843105366,
+    "selector": "strong > a[title=\"Software\\ Microsoft\\ -\\ 365\\ family\\ -\\ licenza\\ a\\ termine\\ \\(1\\ anno\\)\\ -\\ fino\\ a\\ 6\\ utenti\\ 6gq-01587\"][href=\"\\/prodotti\\/2\\/AOF\\/microsoft\\/MK_000000256249\\.htm\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 328,
+    "y": 281,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 64.72915649414062,
+      "y": 13.010406494140625
+    },
+    "name": "mouseup",
+    "type": "mouse",
+    "timestamp": 1649843105445,
+    "selector": "strong > a[title=\"Software\\ Microsoft\\ -\\ 365\\ family\\ -\\ licenza\\ a\\ termine\\ \\(1\\ anno\\)\\ -\\ fino\\ a\\ 6\\ utenti\\ 6gq-01587\"][href=\"\\/prodotti\\/2\\/AOF\\/microsoft\\/MK_000000256249\\.htm\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "x": 328,
+    "y": 281,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 64.72915649414062,
+      "y": 13.010406494140625
+    },
+    "name": "click",
+    "type": "mouse",
+    "timestamp": 1649843105446,
+    "selector": "strong > a[title=\"Software\\ Microsoft\\ -\\ 365\\ family\\ -\\ licenza\\ a\\ termine\\ \\(1\\ anno\\)\\ -\\ fino\\ a\\ 6\\ utenti\\ 6gq-01587\"][href=\"\\/prodotti\\/2\\/AOF\\/microsoft\\/MK_000000256249\\.htm\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "tab": 1649843080332
+  },
+  {
+    "tab": 1649843080332,
+    "name": "tab-closed",
+    "type": "tab",
+    "timestamp": 1649843105453,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office"
+  },
+  {
+    "tab": 1649843080332,
+    "name": "tab-closed",
+    "type": "tab",
+    "timestamp": 1649843105456,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office"
+  },
+  {
+    "tab": 1649843080332,
+    "name": "tab-closed",
+    "type": "tab",
+    "timestamp": 1649843105457,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/vendita_applicazioni-office"
+  },
+  {
+    "name": "session-start",
+    "type": "session",
+    "timestamp": 1649843106178,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "referrer": "https://www.monclick.it/vendita_applicazioni-office",
+    "name": "referrer",
+    "type": "page",
+    "timestamp": 1649843106178,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "timing": {
+      "connectStart": 1649843105466,
+      "navigationStart": 1649843105462,
+      "loadEventEnd": 0,
+      "domLoading": 1649843106059,
+      "secureConnectionStart": 0,
+      "fetchStart": 1649843105466,
+      "domContentLoadedEventStart": 1649843106179,
+      "responseStart": 1649843106048,
+      "responseEnd": 1649843106050,
+      "domInteractive": 1649843106179,
+      "domainLookupEnd": 1649843105466,
+      "redirectStart": 0,
+      "requestStart": 1649843105469,
+      "unloadEventEnd": 1649843106055,
+      "unloadEventStart": 1649843106055,
+      "domComplete": 0,
+      "domainLookupStart": 1649843105466,
+      "loadEventStart": 0,
+      "domContentLoadedEventEnd": 1649843106228,
+      "redirectEnd": 0,
+      "connectEnd": 1649843105466
+    },
+    "name": "timing",
+    "type": "performance",
+    "timestamp": 1649843106178,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "storage": {
+      "kk_leadtag": "true",
+      "BL_BUGLINK": "{\"version\":1}",
+      "lastRskxRun": "1649843098648",
+      "rCookie": "b39jqbgctnawod0lk0bril1xdyh9c",
+      "BL_CROSS_TAB_KEY": "{\"tabIsDuplicated\":\"duplicated\",\"version\":3,\"tabId\":1649843080332}",
+      "rskxRunCookie": "0"
+    },
+    "name": "session-full",
+    "type": "storage",
+    "timestamp": 1649843106178,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "storage": {
+      "kk_leadtag": "true",
+      "BL_BUGLINK": "{\"sid\":1649843080329,\"version\":1}",
+      "cto_bundle": "3FikUF96a1VVcThCNzU0JTJGV0pTRVNrcEFUQlNpb3pmZVd0NDdlbWZjTnRnZDZsVzZEdm5xNVptZ2R4b0M2and3djlnSzUlMkJ3TFElMkJWOFo0Y1Ftbkd2dnRRRW9RR0EwM2VkbFBJaUI3SUtPQkVsNXFNUkRmRHMwNzVlRCUyRkFDa0VmdVV5NmxBdWZrbng1UHViJTJCa2tXb0VCOG9LT2tnJTNEJTNE",
+      "BL_CROSS_TAB_KEY": "{\"version\":3}",
+      "__rtbhouse.lid": "k1pzBq8dN2t6uFjiXdtr",
+      "rskxRunCookie": "{\"value\":0,\"expiration_date\":\"Fri, 12 Apr 2024 09:44:58 GMT\"}",
+      "onetag_sid": "9Fhv5HgdMdByh_n-oA3HQxxqMsy1tICyqCt82LRpBdo",
+      "lastRskxRun": "{\"value\":1649843098648,\"expiration_date\":\"Fri, 12 Apr 2024 09:44:58 GMT\"}",
+      "rCookie": "{\"value\":\"b39jqbgctnawod0lk0bril1xdyh9c\",\"expiration_date\":\"Fri, 12 Apr 2024 09:44:59 GMT\"}",
+      "monclick_it": "Wed Apr 13 2022 11:44:59 GMT+0200 (Ora legale dell’Europa centrale)"
+    },
+    "name": "local-full",
+    "type": "storage",
+    "timestamp": 1649843106179,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "t",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843106475,
+    "selector": "input[value=\"t\"][type=\"radio\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843106476,
+    "selector": "input[type=\"checkbox\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843106529,
+    "selector": "input#ot-group-id-C0002.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0002\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0002\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843106530,
+    "selector": "input#ot-group-id-C0003.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0003\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0003\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843106530,
+    "selector": "input#ot-group-id-C0004.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0004\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0004\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "checked": true,
+    "name": "checked",
+    "type": "keyboard",
+    "timestamp": 1649843106530,
+    "selector": "input#ot-group-id-C0005.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0005\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0005\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843106569,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 27,
+        "y": 0,
+        "at": 50
+      }
+    ],
+    "x": 331,
+    "y": 281
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843106669,
+    "type": "mouse",
+    "moves": [],
+    "x": 390,
+    "y": 286
+  },
+  {
+    "open": false,
+    "name": "devtools-open",
+    "type": "devtools",
+    "timestamp": 1649843106686,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843106719,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 96,
+        "y": 11,
+        "at": 101
+      }
+    ],
+    "x": 444,
+    "y": 290
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843106769,
+    "type": "mouse",
+    "moves": [],
+    "x": 504,
+    "y": 296
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843106884,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 38,
+        "y": 6,
+        "at": 122
+      },
+      {
+        "x": 52,
+        "y": 2,
+        "at": 51
+      },
+      {
+        "x": 46,
+        "y": 4,
+        "at": 51
+      },
+      {
+        "x": 45,
+        "y": 4,
+        "at": 52
+      },
+      {
+        "x": 43,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 46,
+        "y": 0,
+        "at": 52
+      },
+      {
+        "x": 47,
+        "y": -1,
+        "at": 51
+      }
+    ],
+    "x": 580,
+    "y": 307
+  },
+  {
+    "message": "Uncaught TypeError: e.target.id.indexOf is not a function",
+    "lineno": 1,
+    "colno": 560467,
+    "error": {},
+    "filename": "https://www.monclick.it/staticresource/pongo.framework.js?key=f9a97b888e3af4dc13a9504cf234bc05&version=2&_=637853758787845700",
+    "stack": "Error\n    at onError (http://127.0.0.1:8081/index.browser.js:3165:23)\n    at d (https://connect.facebook.net/en_US/fbevents.js:24:61102)\n    at B (https://connect.facebook.net/en_US/fbevents.js:24:59437)\n    at d.value (https://connect.facebook.net/en_US/fbevents.js:24:26916)\n    at d.value (https://connect.facebook.net/en_US/fbevents.js:24:25665)\n    at d.value (https://connect.facebook.net/en_US/fbevents.js:24:25215)\n    at D (https://connect.facebook.net/signals/config/1004183656309957?v=2.9.57&r=stable:26:44846)\n    at https://connect.facebook.net/signals/config/1004183656309957?v=2.9.57&r=stable:26:45572",
+    "name": "global-error",
+    "type": "error",
+    "timestamp": 1649843107020,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "t",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107024,
+    "selector": "input[type=\"radio\"][value=\"t\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "performance": -4,
+    "name": "cpu",
+    "type": "performance",
+    "timestamp": 1649843107024,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 10.666666984558105,
+    "y": 10.666666984558105,
+    "target": "",
+    "currentTarget": "",
+    "name": "elementscroll",
+    "type": "mouse",
+    "timestamp": 1649843107033,
+    "selector": "div.resize-sensor-expand[style=\"pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1004183656309957",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107035,
+    "selector": "input[name=\"id\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "Microdata",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107035,
+    "selector": "input[name=\"ev\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107036,
+    "selector": "input[name=\"dl\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "https://www.monclick.it/vendita_applicazioni-office",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107036,
+    "selector": "input[name=\"rl\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "false",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107037,
+    "selector": "input[name=\"if\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1649843107015",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107037,
+    "selector": "input[name=\"ts\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "[]",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107037,
+    "selector": "input[name=\"cd\\[DataLayer\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "{\"title\":\"Software Microsoft 365 family - licenza a termine (1 anno) - fino a 6 utenti 6gq-01587 | Software in offerta su Monclick.\",\"meta:keywords\":\"365 family - licenza a termine (1 anno) - fino a 6 utenti 6gq-01587, Software, Microsoft, Monclick.\",\"meta:description\":\"Cerchi un Software 365 family - licenza a termine (1 anno) - fino a 6 utenti 6gq-01587 di Microsoft? Compra online su Monclick, è facile e sicuro grazie a foto, scheda, descrizione e recensioni del prodotto - MK_000000256249\"}",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107038,
+    "selector": "input[name=\"cd\\[Meta\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "{}",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107038,
+    "selector": "input[name=\"cd\\[OpenGraph\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "[{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Workstation\",\"url\":\"/vendita_workstation\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in PC Notebook e Tablet\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Monitor e Periferiche PC\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Stampanti e Scanner\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Chiavette USB\",\"url\":\"/vendita_chiavette-usb\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in HDD e Componenti PC\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Networking e Wireless\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Software\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Decoder\",\"url\":\"/vendita_decoder\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in TV LED e Video\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Home Cinema e Audio\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Fotocamere e Videocamere\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Auricolari Bluetooth\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Telefoni cellulari e fissi\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Giochi e Console\",\"url\":\"/vendite_giochi-console\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Autoradio e Navigatori\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Grandi elettrodomestici\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Elettrodomestici da incasso\",\"url\":\"/vendite_elettrodomestici-incasso\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Piccoli elettrodomestici\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Climatizzazione\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Salute e Bellezza\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Cavi HDMI\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Accessori\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Consumabili\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Prodotti per ufficio\",\"url\":\"javascript:;\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Barattoli e ciotole\",\"url\":\"/vendita_barattoli-ciotole\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Casalinghi\",\"url\":\"/vendite_casalinghi\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Giardinaggio\",\"url\":\"/vendita_giardinaggio\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"},{\"dimensions\":{\"h\":0,\"w\":0},\"properties\":{\"name\":\" Tutto in Tempo Libero\",\"url\":\"/vendite_tempo-libero\"},\"subscopes\":[],\"type\":\"http://www.schema.org/SiteNavigationElement\"}]",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107038,
+    "selector": "input[name=\"cd\\[Schema\\.org\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "[{\"@type\":\"BreadcrumbList\",\"@context\":\"http://schema.org\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":{\"name\":\"Software\",\"@id\":\"http://www.monclick.it/vendite_software\"},\"position\":1},{\"@type\":\"ListItem\",\"item\":{\"name\":\"Applicazioni office\",\"@id\":\"http://www.monclick.it/vendita_applicazioni-office\"},\"position\":2},{\"@type\":\"ListItem\",\"item\":{\"name\":\"Microsoft\",\"@id\":\"http://www.monclick.it/vendita_applicazioni-office_Microsoft\"},\"position\":3},{\"@type\":\"ListItem\",\"item\":{\"name\":\"365 family - licenza a termine (1 anno) - fino a 6 utenti 6gq-01587\",\"@id\":\"http://www.monclick.it\"},\"position\":4}]},{\"description\":\"\",\"@type\":\"Product\",\"name\":\"Software Microsoft - 365 family - licenza a termine (1 anno) - fino a 6 utenti 6gq-01587\",\"mpn\":\"6GQ-01587\",\"offers\":{\"seller\":{\"name\":\"Monclick\",\"@type\":\"Organization\"},\"priceCurrency\":\"EUR\",\"availability\":\"http://schema.org/InStock\",\"price\":103.99,\"priceValidUntil\":\"0001-01-01T00:00:00Z\",\"itemCondition\":\"http://schema.org/NewCondition\"},\"gtin13\":\"0889842862294\",\"brand\":{\"name\":\"Microsoft\",\"@type\":\"Thing\"},\"image\":\"https://pictures.monclick.it/serve/001/m/k/0/mk000000256249/250/e2a86d79a3bc4830b292a7e683ed37f2.jpg\",\"itemCondition\":\"http://schema.org/NewCondition\",\"@context\":\"http://schema.org\"}]",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107039,
+    "selector": "input[name=\"cd\\[JSON-LD\\]\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1280",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107039,
+    "selector": "input[name=\"sw\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "720",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107039,
+    "selector": "input[name=\"sh\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "2.9.57",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107040,
+    "selector": "input[name=\"v\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "stable",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107040,
+    "selector": "input[name=\"r\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "2",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107040,
+    "selector": "input[name=\"ec\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "30",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107040,
+    "selector": "input[name=\"o\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "fb.1.1649843086370.1615759373",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107041,
+    "selector": "input[name=\"fbp\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "1649843106401",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107041,
+    "selector": "input[name=\"it\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "false",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107041,
+    "selector": "input[name=\"coo\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "automatic",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107042,
+    "selector": "input[name=\"es\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "3",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107042,
+    "selector": "input[name=\"tm\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "p1",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107042,
+    "selector": "input[name=\"exp\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "formPOST",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843107043,
+    "selector": "input[name=\"rqm\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 884.6666870117188,
+    "y": 1822.6666259765625,
+    "target": "",
+    "currentTarget": null,
+    "name": "elementscroll",
+    "type": "mouse",
+    "timestamp": 1649843107086,
+    "selector": "div.resize-sensor-shrink[style=\"pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "cookie": "BKD_BLC=cKkmepKrsa8PV3jH; CodiceClienteProvvisorio=354781160; _gcl_au=1.1.726434497.1649843055; _gid=GA1.2.1962050470.1649843055; _gat_UA-344477-10=1; mkprivacybanner=hidden; rskxRunCookie=0; rCookie=b39jqbgctnawod0lk0bril1xdyh9c; OptanonAlertBoxClosed=2022-04-13T09:44:46.059Z; kk_leadtag=true; _fbp=fb.1.1649843086370.1615759373; flx1_session_id_22381=l1xdz4ws.12m; lastRskxRun=1649843098648; _ga_JZS533B77G=GS1.1.1649843055.1.1.1649843106.0; _ga=GA1.2.1471162759.1649843055; OptanonConsent=isIABGlobal=false&datestamp=Wed+Apr+13+2022+11%3A45%3A06+GMT%2B0200+(Ora+legale+dell%E2%80%99Europa+centrale)&version=6.15.0&hosts=&consentId=60afa995-b133-4a5c-b44b-60ff4fc63b1c&interactionCount=2&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1%2CC0005%3A1&geolocation=IT%3B55&AwaitingReconsent=false; cto_bundle=rzlmgV96a1VVcThCNzU0JTJGV0pTRVNrcEFUQmNnTGxhMDB3SXhnbm8zWFFzYWo0JTJGNVRvb1NoM2dBS1FQRWNIYTlTYlFleXNwZWpnVXA3WjRZWEQ5aW5Oc3BaZk05cFlERzB6TExWekpySFdRRUtjOExkeEslMkJaNHBSWnd5OVhSYzRRT1ZqR3RZcVhXQlRVc29KellZJTJCUkdmeThSZyUzRCUzRA; flixgvid=flix4fd5d699000000.68783157; inptime0_228_it=0",
+    "name": "cookie-data",
+    "type": "cookie",
+    "timestamp": 1649843107181,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "active": true,
+    "name": "visibility",
+    "type": "page",
+    "timestamp": 1649843107182,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 10.666666984558105,
+    "y": 0,
+    "target": "",
+    "currentTarget": "",
+    "name": "elementscroll",
+    "type": "mouse",
+    "timestamp": 1649843107203,
+    "selector": "div.resize-sensor-expand[style=\"pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 10.666666984558105,
+    "y": 10,
+    "target": "",
+    "currentTarget": null,
+    "name": "elementscroll",
+    "type": "mouse",
+    "timestamp": 1649843107254,
+    "selector": "div.resize-sensor-expand[style=\"pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843107368,
+    "type": "mouse",
+    "moves": [],
+    "x": 962,
+    "y": 308
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843107418,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 22,
+        "y": -4,
+        "at": 51
+      },
+      {
+        "x": 42,
+        "y": -8,
+        "at": 52
+      }
+    ],
+    "x": 1090,
+    "y": 271
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843107577,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 5,
+        "y": -11,
+        "at": 51
+      }
+    ],
+    "x": 1208,
+    "y": 248
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843107685,
+    "type": "mouse",
+    "moves": [],
+    "x": 1232,
+    "y": 183
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843107735,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 10,
+        "y": -23,
+        "at": 50
+      }
+    ],
+    "x": 1246,
+    "y": 143
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843107835,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 6,
+        "y": -12,
+        "at": 50
+      },
+      {
+        "x": 3,
+        "y": -5,
+        "at": 52
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "at": 56
+      },
+      {
+        "x": 2,
+        "y": -5,
+        "at": 51
+      },
+      {
+        "x": 0,
+        "y": -5,
+        "at": 51
+      },
+      {
+        "x": 0,
+        "y": -5,
+        "at": 55
+      }
+    ],
+    "x": 1265,
+    "y": 103
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843108201,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 0,
+        "y": -5,
+        "at": 51
+      },
+      {
+        "x": 0,
+        "y": -2,
+        "at": 65
+      }
+    ],
+    "x": 1276,
+    "y": 66
+  },
+  {
+    "x": 1276,
+    "y": 59,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 1276,
+      "y": 59
+    },
+    "name": "mousedown",
+    "type": "mouse",
+    "timestamp": 1649843108686,
+    "selector": "html[lang=\"it\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2.6666667461395264,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843108801,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 49.33333206176758,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843108851,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 100.66666412353516,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843108901,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 152.6666717529297,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843108951,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 199.3333282470703,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109001,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 245.3333282470703,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109051,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 291.3333435058594,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109101,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 314.6666564941406,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109154,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "cookie": "BKD_BLC=cKkmepKrsa8PV3jH; CodiceClienteProvvisorio=354781160; _gcl_au=1.1.726434497.1649843055; _gid=GA1.2.1962050470.1649843055; _gat_UA-344477-10=1; mkprivacybanner=hidden; rskxRunCookie=0; rCookie=b39jqbgctnawod0lk0bril1xdyh9c; OptanonAlertBoxClosed=2022-04-13T09:44:46.059Z; kk_leadtag=true; _fbp=fb.1.1649843086370.1615759373; flx1_session_id_22381=l1xdz4ws.12m; _ga_JZS533B77G=GS1.1.1649843055.1.1.1649843106.0; _ga=GA1.2.1471162759.1649843055; OptanonConsent=isIABGlobal=false&datestamp=Wed+Apr+13+2022+11%3A45%3A06+GMT%2B0200+(Ora+legale+dell%E2%80%99Europa+centrale)&version=6.15.0&hosts=&consentId=60afa995-b133-4a5c-b44b-60ff4fc63b1c&interactionCount=2&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1%2CC0005%3A1&geolocation=IT%3B55&AwaitingReconsent=false; cto_bundle=rzlmgV96a1VVcThCNzU0JTJGV0pTRVNrcEFUQmNnTGxhMDB3SXhnbm8zWFFzYWo0JTJGNVRvb1NoM2dBS1FQRWNIYTlTYlFleXNwZWpnVXA3WjRZWEQ5aW5Oc3BaZk05cFlERzB6TExWekpySFdRRUtjOExkeEslMkJaNHBSWnd5OVhSYzRRT1ZqR3RZcVhXQlRVc29KellZJTJCUkdmeThSZyUzRCUzRA; flixgvid=flix4fd5d699000000.68783157; inptime0_228_it=0; lastRskxRun=1649843108397",
+    "name": "cookie-data",
+    "type": "cookie",
+    "timestamp": 1649843109180,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 360.6666564941406,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109205,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 418.6666564941406,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109259,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 453.3333435058594,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109309,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 499.3333435058594,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109367,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 516.6666870117188,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109417,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 545.3333129882812,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109469,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 568.6666870117188,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109519,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 580,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109577,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 591.3333129882812,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109627,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 638,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109684,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 672.6666870117188,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109734,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 701.3333129882812,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109785,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 718.6666870117188,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109836,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 730,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109886,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 764.6666870117188,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109936,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 799.3333129882812,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843109995,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 851.3333129882812,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110049,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 920.6666870117188,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110099,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 995.3333129882812,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110152,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 884.6666870117188,
+    "y": 2304,
+    "target": "",
+    "currentTarget": null,
+    "name": "elementscroll",
+    "type": "mouse",
+    "timestamp": 1649843110205,
+    "selector": "div.resize-sensor-shrink[style=\"pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 10.666666984558105,
+    "y": 10,
+    "target": "",
+    "currentTarget": null,
+    "name": "elementscroll",
+    "type": "mouse",
+    "timestamp": 1649843110262,
+    "selector": "div.resize-sensor-expand[style=\"pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1089.3333740234375,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110315,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1124.6666259765625,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110366,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1190,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110416,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1237.3333740234375,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110468,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1290.6666259765625,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110518,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1320.6666259765625,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110569,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1374,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110622,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1427.3333740234375,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110677,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1492.6666259765625,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110729,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1546,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110780,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1611.3333740234375,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110832,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1670.6666259765625,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110883,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1708,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110933,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1769.3333740234375,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843110984,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1800,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111036,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1830.6666259765625,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111081,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1880,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111137,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "memory": {
+      "totalJSHeapSize": 39291014,
+      "usedJSHeapSize": 27018658,
+      "jsHeapSizeLimit": 4294705152
+    },
+    "name": "memory",
+    "type": "performance",
+    "timestamp": 1649843111178,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1942,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111188,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2009.3333740234375,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111243,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2058.666748046875,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111293,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2096,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111344,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 884.6666870117188,
+    "y": 3368,
+    "target": "",
+    "currentTarget": null,
+    "name": "elementscroll",
+    "type": "mouse",
+    "timestamp": 1649843111395,
+    "selector": "div.resize-sensor-shrink[style=\"pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 10.666666984558105,
+    "y": 10,
+    "target": "",
+    "currentTarget": null,
+    "name": "elementscroll",
+    "type": "mouse",
+    "timestamp": 1649843111447,
+    "selector": "div.resize-sensor-expand[style=\"pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2212,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111498,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2268,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111554,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2338,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111609,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2394,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111659,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2456.666748046875,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111709,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2491.333251953125,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111759,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2540.666748046875,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111809,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2589.333251953125,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111859,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2652,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111909,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2708,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843111959,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2770.666748046875,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112009,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2848,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112059,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2918,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112109,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2959.333251953125,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112159,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3029.333251953125,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112209,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3092,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112259,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3148,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112309,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3197.333251953125,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112359,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3252.666748046875,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112409,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3308.666748046875,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112459,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3344,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112509,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3378.666748046875,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112561,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3420.666748046875,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112617,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3455.333251953125,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112669,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3490.666748046875,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112721,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3532.666748046875,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112775,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3553.333251953125,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112825,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3567.333251953125,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112875,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3609.333251953125,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112925,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3651.333251953125,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843112975,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3693.333251953125,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843113025,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3728,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843113075,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3770,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843113125,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3784,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843113175,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 1272,
+    "y": 471,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 1272,
+      "y": 4255
+    },
+    "name": "mouseup",
+    "type": "mouse",
+    "timestamp": 1649843113371,
+    "selector": "html[lang=\"it\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843113392,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -2,
+        "y": 0,
+        "at": 99
+      }
+    ],
+    "x": 1272,
+    "y": 471
+  },
+  {
+    "target": "",
+    "value": "",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843113474,
+    "selector": "input#desktop-catalog-search-input.input-group-field.mk-search-field.ui-autocomplete-input[type=\"text\"][placeholder=\"Cosa\\ stai\\ cercando\\?\"][value][autocomplete=\"off\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843113474,
+    "selector": "input#mobile-catalog-search-input.input-group-field.mk-search-field.ui-autocomplete-input[type=\"text\"][placeholder=\"Cosa\\ stai\\ cercando\\?\"][autocomplete=\"off\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843113475,
+    "selector": "input#subscribe-newsletter-footer-field[placeholder=\"Inserisci\\ il\\ tuo\\ indirizzo\\ e-mail\"][name=\"subscribe-newsletter-footer-field\"][type=\"email\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843113475,
+    "selector": "input#ot-group-id-C0002.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0002\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0002\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843113475,
+    "selector": "input#ot-group-id-C0003.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0003\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0003\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843113475,
+    "selector": "input#ot-group-id-C0004.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0004\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0004\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843113476,
+    "selector": "input#ot-group-id-C0005.category-switch-handler[type=\"checkbox\"][name=\"ot-group-id-C0005\"][aria-checked=\"true\"][role=\"switch\"][checked][aria-labelledby=\"ot-header-id-C0005\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843113476,
+    "selector": "input#vendor-search-handler[aria-label=\"Vendor\\ Search\"][type=\"text\"][placeholder=\"Search\\.\\.\\.\"][name=\"vendor-search-handler\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843113477,
+    "selector": "input#select-all-hosts-groups-handler[type=\"checkbox\"][aria-checked=\"false\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843113477,
+    "selector": "input#select-all-vendor-groups-handler[type=\"checkbox\"][aria-checked=\"false\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843113477,
+    "selector": "input#select-all-vendor-leg-handler[type=\"checkbox\"][aria-checked=\"false\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "target": "",
+    "value": "on",
+    "name": "value",
+    "type": "keyboard",
+    "timestamp": 1649843113477,
+    "selector": "input#chkbox-id.category-filter-handler[type=\"checkbox\"][aria-checked=\"false\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843113541,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -136,
+        "y": -2,
+        "at": 50
+      }
+    ],
+    "x": 1239,
+    "y": 471
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843113641,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -147,
+        "y": -6,
+        "at": 50
+      },
+      {
+        "x": -28,
+        "y": -3,
+        "at": 50
+      },
+      {
+        "x": -7,
+        "y": -3,
+        "at": 50
+      },
+      {
+        "x": -6,
+        "y": -4,
+        "at": 50
+      }
+    ],
+    "x": 858,
+    "y": 469
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843113891,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -2,
+        "y": -1,
+        "at": 50
+      },
+      {
+        "x": -2,
+        "y": -4,
+        "at": 58
+      }
+    ],
+    "x": 666,
+    "y": 450
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843114191,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 0,
+        "y": -1,
+        "at": 58
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "at": 50
+      },
+      {
+        "x": -63,
+        "y": -71,
+        "at": 108
+      },
+      {
+        "x": 200,
+        "y": 4,
+        "at": 1282
+      },
+      {
+        "x": 11,
+        "y": 5,
+        "at": 50
+      },
+      {
+        "x": 71,
+        "y": 26,
+        "at": 400
+      }
+    ],
+    "x": 661,
+    "y": 444
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843114356,
+    "type": "mouse",
+    "moves": [],
+    "x": 666,
+    "y": 429
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843114457,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -3,
+        "y": -3,
+        "at": 250
+      },
+      {
+        "x": 12,
+        "y": -2,
+        "at": 50
+      },
+      {
+        "x": 30,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 19,
+        "y": -2,
+        "at": 50
+      },
+      {
+        "x": 8,
+        "y": -2,
+        "at": 50
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "at": 58
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "at": 58
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 10,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 14,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 15,
+        "y": 2,
+        "at": 50
+      },
+      {
+        "x": 15,
+        "y": 2,
+        "at": 50
+      },
+      {
+        "x": 16,
+        "y": 2,
+        "at": 55
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "at": 51
+      },
+      {
+        "x": 7,
+        "y": 2,
+        "at": 57
+      },
+      {
+        "x": 20,
+        "y": 6,
+        "at": 53
+      }
+    ],
+    "x": 585,
+    "y": 364
+  },
+  {
+    "cookie": "BKD_BLC=cKkmepKrsa8PV3jH; CodiceClienteProvvisorio=354781160; _gcl_au=1.1.726434497.1649843055; _gid=GA1.2.1962050470.1649843055; mkprivacybanner=hidden; rskxRunCookie=0; rCookie=b39jqbgctnawod0lk0bril1xdyh9c; OptanonAlertBoxClosed=2022-04-13T09:44:46.059Z; kk_leadtag=true; _fbp=fb.1.1649843086370.1615759373; flx1_session_id_22381=l1xdz4ws.12m; _ga_JZS533B77G=GS1.1.1649843055.1.1.1649843106.0; _ga=GA1.2.1471162759.1649843055; OptanonConsent=isIABGlobal=false&datestamp=Wed+Apr+13+2022+11%3A45%3A06+GMT%2B0200+(Ora+legale+dell%E2%80%99Europa+centrale)&version=6.15.0&hosts=&consentId=60afa995-b133-4a5c-b44b-60ff4fc63b1c&interactionCount=2&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1%2CC0005%3A1&geolocation=IT%3B55&AwaitingReconsent=false; cto_bundle=rzlmgV96a1VVcThCNzU0JTJGV0pTRVNrcEFUQmNnTGxhMDB3SXhnbm8zWFFzYWo0JTJGNVRvb1NoM2dBS1FQRWNIYTlTYlFleXNwZWpnVXA3WjRZWEQ5aW5Oc3BaZk05cFlERzB6TExWekpySFdRRUtjOExkeEslMkJaNHBSWnd5OVhSYzRRT1ZqR3RZcVhXQlRVc29KellZJTJCUkdmeThSZyUzRCUzRA; flixgvid=flix4fd5d699000000.68783157; inptime0_228_it=0; lastRskxRun=1649843108397",
+    "name": "cookie-data",
+    "type": "cookie",
+    "timestamp": 1649843115175,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843115789,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 10,
+        "y": 2,
+        "at": 50
+      },
+      {
+        "x": 11,
+        "y": 4,
+        "at": 50
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "at": 50
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "at": 50
+      },
+      {
+        "x": 7,
+        "y": 2,
+        "at": 50
+      }
+    ],
+    "x": 820,
+    "y": 383
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843116189,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 14,
+        "y": 8,
+        "at": 50
+      }
+    ],
+    "x": 900,
+    "y": 418
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843116289,
+    "type": "mouse",
+    "moves": [],
+    "x": 928,
+    "y": 437
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843116339,
+    "type": "mouse",
+    "moves": [],
+    "x": 940,
+    "y": 444
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843116389,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 2,
+        "y": 0,
+        "at": 54
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 11,
+        "y": 2,
+        "at": 55
+      },
+      {
+        "x": 11,
+        "y": 1,
+        "at": 52
+      },
+      {
+        "x": 29,
+        "y": 4,
+        "at": 55
+      },
+      {
+        "x": 7,
+        "y": 1,
+        "at": 50
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 8,
+        "y": 2,
+        "at": 50
+      },
+      {
+        "x": 12,
+        "y": 2,
+        "at": 50
+      },
+      {
+        "x": 18,
+        "y": 2,
+        "at": 50
+      },
+      {
+        "x": 15,
+        "y": 2,
+        "at": 50
+      },
+      {
+        "x": 13,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 15,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 32,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": 50,
+        "y": -1,
+        "at": 50
+      },
+      {
+        "x": 37,
+        "y": -2,
+        "at": 52
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "at": 51
+      },
+      {
+        "x": 12,
+        "y": -5,
+        "at": 53
+      },
+      {
+        "x": 8,
+        "y": -8,
+        "at": 59
+      },
+      {
+        "x": 8,
+        "y": -12,
+        "at": 51
+      }
+    ],
+    "x": 946,
+    "y": 447
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843117471,
+    "type": "mouse",
+    "moves": [],
+    "x": 1258,
+    "y": 418
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843117521,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 3,
+        "y": -2,
+        "at": 50
+      },
+      {
+        "x": 4,
+        "y": -3,
+        "at": 50
+      },
+      {
+        "x": 2,
+        "y": -1,
+        "at": 53
+      },
+      {
+        "x": 3,
+        "y": -1,
+        "at": 55
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "at": 56
+      }
+    ],
+    "x": 1263,
+    "y": 415
+  },
+  {
+    "x": 1276,
+    "y": 407,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 1276,
+      "y": 4191
+    },
+    "name": "mousedown",
+    "type": "mouse",
+    "timestamp": 1649843117978,
+    "selector": "html[lang=\"it\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3766.666748046875,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118104,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3640.666748046875,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118154,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3480,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118204,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 3074.666748046875,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118254,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2767.333251953125,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118304,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2606.666748046875,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118354,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2425.333251953125,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118404,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2271.333251953125,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118455,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 2096.666748046875,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118506,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1971.3333740234375,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118558,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1887.3333740234375,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118614,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1831.3333740234375,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118670,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1719.3333740234375,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118720,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1622,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118770,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1419.3333740234375,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118820,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1321.3333740234375,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118870,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1244.6666259765625,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118920,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1196,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843118970,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1126,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119020,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1056,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119070,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1000,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119120,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 888.6666870117188,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119170,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 846.6666870117188,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119221,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 783.3333129882812,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119273,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 728,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119323,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 672,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119373,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 608.6666870117188,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119432,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 518,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119482,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 483.3333435058594,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119536,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 427.3333435058594,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119586,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 371.3333435058594,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119636,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 336.6666564941406,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119686,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 315.3333435058594,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119886,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 210.6666717529297,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119936,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 29.33333396911621,
+    "target": "",
+    "currentTarget": "",
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843119986,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 0,
+    "y": 1.3333333730697632,
+    "target": "",
+    "currentTarget": null,
+    "name": "scroll",
+    "type": "mouse",
+    "timestamp": 1649843120037,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "x": 1279,
+    "y": 45,
+    "target": "",
+    "currentTarget": "",
+    "relative": {
+      "x": 1279,
+      "y": 46.33333337306976
+    },
+    "name": "mouseup",
+    "type": "mouse",
+    "timestamp": 1649843120461,
+    "selector": "html[lang=\"it\"]",
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843120485,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 0,
+        "y": 2,
+        "at": 117
+      },
+      {
+        "x": -11,
+        "y": 16,
+        "at": 50
+      }
+    ],
+    "x": 1279,
+    "y": 45
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843120702,
+    "type": "mouse",
+    "moves": [],
+    "x": 1234,
+    "y": 117
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843120753,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -21,
+        "y": 16,
+        "at": 57
+      },
+      {
+        "x": -249,
+        "y": 6,
+        "at": 758
+      },
+      {
+        "x": 23,
+        "y": -16,
+        "at": 50
+      }
+    ],
+    "x": 1200,
+    "y": 157
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843120862,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -49,
+        "y": 24,
+        "at": 54
+      }
+    ],
+    "x": 1124,
+    "y": 209
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843120968,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -45,
+        "y": 0,
+        "at": 50
+      },
+      {
+        "x": -48,
+        "y": -10,
+        "at": 50
+      },
+      {
+        "x": -46,
+        "y": -8,
+        "at": 50
+      }
+    ],
+    "x": 1007,
+    "y": 241
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843121168,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 0,
+        "y": -3,
+        "at": 83
+      },
+      {
+        "x": 14,
+        "y": -13,
+        "at": 50
+      }
+    ],
+    "x": 850,
+    "y": 221
+  },
+  {
+    "memory": {
+      "totalJSHeapSize": 26979726,
+      "usedJSHeapSize": 21339274,
+      "jsHeapSizeLimit": 4294705152
+    },
+    "name": "memory",
+    "type": "performance",
+    "timestamp": 1649843121177,
+    "sid": 1649843080329,
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "tab": 1649843080332
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843121352,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": 5,
+        "y": -3,
+        "at": 55
+      },
+      {
+        "x": 9,
+        "y": -4,
+        "at": 51
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "at": 56
+      }
+    ],
+    "x": 885,
+    "y": 194
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843121674,
+    "type": "mouse",
+    "moves": [],
+    "x": 966,
+    "y": 152
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843121727,
+    "type": "mouse",
+    "moves": [],
+    "x": 982,
+    "y": 136
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843121784,
+    "type": "mouse",
+    "moves": [],
+    "x": 1012,
+    "y": 113
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843121834,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -10,
+        "y": -9,
+        "at": 50
+      }
+    ],
+    "x": 1022,
+    "y": 98
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843121936,
+    "type": "mouse",
+    "moves": [],
+    "x": 962,
+    "y": 77
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843121987,
+    "type": "mouse",
+    "moves": [],
+    "x": 948,
+    "y": 76
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843122043,
+    "type": "mouse",
+    "moves": [
+      {
+        "x": -110,
+        "y": -9,
+        "at": 50
+      }
+    ],
+    "x": 828,
+    "y": 66
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm",
+    "sid": 1649843080329,
+    "tab": 1649843080332,
+    "target": "",
+    "name": "mousemove",
+    "timestamp": 1649843122151,
+    "type": "mouse",
+    "moves": [],
+    "x": 493,
+    "y": 25
+  }
+]
