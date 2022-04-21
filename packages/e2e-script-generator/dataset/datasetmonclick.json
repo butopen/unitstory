@@ -1,0 +1,4002 @@
+[
+  {
+    "url": "https://www.monclick.it/vendite_networking-wireless",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_tv-lcd-video",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_fotocamere-videocamere",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_telefoni-cellulari-fissi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_giochi-console",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_grandi-elettrodomestici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_piccoli-elettrodomestici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_Elettrodomestici-incasso",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_climatizzazione",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_salute-bellezza",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_prodotti-ufficio",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_software",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_autoradio-navigatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_home-cinema-audio",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_accessori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_consumabili",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_tempo-libero",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_casalinghi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendite_servizi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_stendibiancheria",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lavagne-planning",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_switch-kvm",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_stampanti-inkjet",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_grafica-editing-audio-video",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_frullatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_forni-microonde",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_floppy-disk",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_fotocamere-digitali-mirrorless",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_fermagli-ed-elastici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_fotocamere-digitali-compatte",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_chiavette-usb",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_fotocopiatrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_componenti-condizionatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cavi-di-rete-usb-periferiche",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_arredo-ufficio-accessori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_carta",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_casse-pc",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_biglietti-da-visita",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_droni-professionali",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_baby-care",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_timbri",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_telescopi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_creativita-bambini",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cappe",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cavi-pc-server-alimentazione",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_congelatori-da-incasso",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_centrifughe",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cartucce-toner",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pesalettere-pesacolli",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_affettatrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_tostapane",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_articoli-sportivi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_acquerelli",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_puzzle",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_piani-cottura-a-induzione",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cinturini-per-smartwatch",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_soundbar-soundbase",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_hotel-tv",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_umidificatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_tritatutto-omogeneizzatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-per-stiro-bucato",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_fasce-da-braccio",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-telefoni-voip",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-per-videoproiettori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_backup",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_termocoperte",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_macchine-per-sottovuoto",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_ssd",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_strumenti-per-disegno-tecnico",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_radio",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lettori-recorder-dvd",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_quaderni-blocchi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_ventole",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_power-line",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_mini-pc",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_misuratori-pressione",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_mobili-kit-di-fissaggio",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_macchine-caffe",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lettori-smart-card",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_giradischi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_ferri-da-stiro-a-caldaia",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_etichette-rotoli",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pellicole-fotografiche",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-video",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_sbattitori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_stampanti-3d",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-per-server",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-scanner",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-telefonia",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_autoradio",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-pc",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_alimentatori-pc",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-lettori-codici-a-barre",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-fotografia-vari",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pulitori-a-vapore",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-server-networking",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-biciclette-monopattini",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-da-cucina",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-fotocopiatrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_barattoli-ciotole",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_contenitori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_fotocamere-analogiche",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cuffie-tv",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_smartwatch",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-per-droni",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cinghie-tamburi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_consumabili-vari-per-stampanti",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_divisori-pedonali",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_server",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_schermi-videoproiettori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_sistemi-operativi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_sicurezza",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_segnaletica",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_scope-elettriche",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_schede-audio",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cura-del-viso",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_sistemi-per-videoconferenza",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_raccoglitori-classificatori-valigette",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_piastre-stiracapelli",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_plotter",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_notebook",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_monitor-tv",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_macchine-pasta",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lettori-mp3",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lampadine-led",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_kit-vivavoce",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_print-server",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_massaggiatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_telecomandi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_hardware-gestione-audio-video",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_vaporiere",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_tritacarne",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_trolley-articoli-da-viaggio",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_torce-elettriche-lenti-ingrandimento",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_telefoni-fissi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lampade-abbronzanti",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_stampanti-fotografiche",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_spremiagrumi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_temperini",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_regolabarba",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_plastificatrici-piegatrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pennini",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pile",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_proteggischermo",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_prodotti-per-la-pulizia",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_obiettivi-zoom",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_nastri",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_schede-pci",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_router-access-point",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_hard-disk-interni",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_hard-disk-esterni",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_attrezzi-ginnastica",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_tappetini-mouse",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_stampanti-termiche",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_prese",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_occhiali-3d",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_macchine-pane",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_internet-tv",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_masterizzatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lavastoviglie",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_videoproiettori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lavatrici-da-incasso",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lavagne-multimediali",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_home-theatre",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_gruppi-continuita",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_firewall",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_frigoriferi-portatili",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_forni-a-microonde-da-incasso",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_estensioni-assistenza",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_droni-giocattolo",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lavastoviglie-da-incasso",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_action-cam",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_adattatori-bluetooth-wireless",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_aspirabriciole",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_forni-incasso",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_forbici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_etichettatrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_ebook-reader",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cavi-per-gps-telefonini-autoradio-videogiochi-e-stampanti",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_consumabili-per-scanner-fax",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lettori-cd-dvd",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_box-hard-disk-esterno",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cucine",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cavi-fibra-ottica",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_casse-e-diffusori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_bidoni-aspiratutto",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-videocamere",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_asciugatrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-grandi-elettrodomestici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_sedie-gaming",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-console",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_giocattoli-costruzioni",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_spazzole-liscianti",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_espansioni-di-memoria",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_webcam-videoconferenza",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_deumidificatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_condizionatori-portatili",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_matite",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_memorie-ram",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_multifunzione-laser",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_microfoni",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_modulistica",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lettori-memory-card",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_stampanti-laser",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_kit-immagini-contenitori-di-recupero-toner",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_nas-storage-di-rete",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_navigatori-satellitari-gps",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_depilatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cavi-audio-video-hdmi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_processori-pc",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_buste",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_bacheche-pannelli",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_batterie",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_antenne",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_smart-speaker",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_riscaldamento",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_monopattini-hoverboard",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_portanomi-portabadge",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_protezione-pc-mac",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cartellette",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_caricabatterie",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_calcolatrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_biciclette",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_bilance-cucina",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_bistecchiere-barbecue",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-networking",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_aspirapolvere",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_penne",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-per-piccoli-elettrodomestici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_videocamere-digitali",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_telefoni-voip",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_tavolette-grafiche",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_tempere",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_taglierine",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_switch",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_staffe-supporti",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_robot-da-cucina-impastatrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_oggettistica-per-la-casa",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_custodie",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_termometri",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_registratori-vocali",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_gelatiere",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_frigo-cantina",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_fai-da-te",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_fax",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_epilatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_decoder",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_conviviali",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cd-dvd",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lavelli",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cover",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cucitrici-levapunti",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_aerosol",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_arricciacapelli",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-rack",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-server",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-navigatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_borse-termiche",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_album-disegno-cartoncini",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_coprilibri-copriquaderni",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_abbonamenti-live",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_motherboard",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_manicure-pedicure",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_ventilatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_videogiochi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_treppiedi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_kit-tastiere-mouse",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_telefoni-cellulari",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_astucci",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_schede-pcmcia",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_speaker-microfoni",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_mouse",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_scatole",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_archivi-casseforti",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_post-it",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pastelli-pennarelli",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lettori-blu-ray",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_perforatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cornici-digitali",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_rubriche",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_nastri-per-etichettatrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_scanner",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_docking-station",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_frigoriferi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_hub",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_sintoamplificatori-componenti-hi-fi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_sd-e-memory-card",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_schede-video",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_miscelatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_rilegatrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_piani-cottura",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_phon",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_prodotti-dj",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_videosorveglianza",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_tablet",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_manutenzione",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lampade-lampadari",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lenti",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lettori-codici-barre",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_grattugie",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_giardinaggio",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_ferri-da-stiro-vapore",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_fotocamere-reflex-digitali",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_modem",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_frigoriferi-da-incasso",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_supporti-storage",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_supporti-di-registrazione-vari",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_colle-e-nastri-adesivi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_controller-e-joystick",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_borse-custodie",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-ufficio-vari",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-cellulari-palmari",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_applicazioni-office",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_armadi-rack",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cuffie-gaming",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_strumenti-musicali",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_condizionatori-fissi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_bottiglie-termiche",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lucidatrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pentole-coperchi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_binocoli",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_smartphone-ricondizionati",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_sistemi-domotici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_mini-micro-hi-fi-boombox",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_robot-aspirapolvere",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_asciugatrici-da-incasso",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_friggitrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_forni-elettrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_distruggi-documenti",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_smartphone",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_tagliacapelli",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_tastiere",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_rasoi-elettrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_purificatori-aria",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lettori-dvd-portatili",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_poltrone-relax",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_bilance-pesa-persone",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_tritaghiaccio",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pennelli",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-alimentatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_monitor-pc",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_multifunzione-inkjet",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_macchine-cucire",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lavatrici",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lavasciuga",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lavasciuga-da-incasso",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_igiene-orale",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pc-desktop",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_caraffe-filtranti-gasatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_stampanti-ad-aghi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_assi-da-stiro",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_creativita",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_controller-raid",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_correttori-gomme",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_congelatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cuffie-e-auricolari",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cabinet-case-pc",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_bollitori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-per-stampanti",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_adattatori-rete-ethernet",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_supporti-accessori-per-monitor",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_all-in-one",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_tv",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_salute-igiene",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_adattatori",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_coperte",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_caffettiere",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_posate-utensili-da-cucina",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_speaker-wireless",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_monitor-lfd",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_console",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_workstation",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-server-networking_Logitech",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_temperini_Pelikan",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cornici-digitali_MEDIACOM",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_spremiagrumi_Macom",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_server_Dell+Technologies",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_all-in-one_Lenovo",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_bistecchiere-barbecue_Bosch",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pastelli-pennarelli_Carioca",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_tablet_Microsoft",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_stampanti-inkjet_Xiaomi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cover_Tom+Tom",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_adattatori_PNY",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-fotografia-vari_Sigma",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_estensioni-assistenza_Epson",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_monitor-pc_HP",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_all-in-one_Asus",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_videosorveglianza_Digicom",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-per-videoproiettori_Logitech",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-alimentatori_Sigma",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_adattatori-rete-ethernet_Trendnet",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_hard-disk-interni_Seagate",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_staffe-supporti_Hamlet",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_telefoni-fissi_Nilox",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_phon_Beurer",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_vaporiere_Girmi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cavi-pc-server-alimentazione_Sitecom",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_caricabatterie_Verbatim",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_hard-disk-interni_Matrox",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_conviviali_De+Longhi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_ssd_Seagate",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_smartphone_Lenovo",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_hard-disk-interni_Hewlett+Packard+Enterprise",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_casse-pc_Conceptronic",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cavi-di-rete-usb-periferiche_Datalogic",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cinghie-tamburi_Olivetti",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_power-line_Digicom",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_hub_Digicom",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_chiavette-usb_Intenso",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_etichette-rotoli_Dymo",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_conviviali_RGV",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_workstation_HP",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_batterie_HP",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_adattatori_Trust",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_creativita-bambini_Crayola",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_modem_Huawei",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cappe_La+Germania",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pc-desktop_Acer",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_speaker-wireless_Redline",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_conviviali_Glem+Gas",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pastelli-pennarelli_Tombow",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-rack_Aten",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_treppiedi_PRIMAPHOTO",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_congelatori_Comfee",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lettori-codici-barre_Zebra",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_epilatori_Beurer",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cartellette_Nobo",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_aerosol_HOMEDICS",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_videosorveglianza_Netatmo",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_tastiere_Microsoft",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_controller-e-joystick_Take+Two+Interactive",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-per-piccoli-elettrodomestici_Kaercher",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_correttori-gomme_Faber+Castell",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-fotografia-vari_Startech",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_Colle-e-nastri-adesivi_Uhu",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_soundbar-soundbase_Philips",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_staffe-supporti_Lenovo",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_speaker-wireless_Trust",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_caricabatterie_Telesystem",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_stampanti-fotografiche_HP",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_speaker-wireless_TP-LINK",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_perforatori_Rapid",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_adattatori-bluetooth-wireless_Lenovo",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-per-stiro-bucato_Braun",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_frigo-cantina_Hoover",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-console_4SIDE",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-pc_HP",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-rack_Logitech",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_termometri_Mide",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_masterizzatori_Apple",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_telefoni-cellulari_Nokia",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-alimentatori_V7",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cartellette_Viva",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_penne_Maped",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_mobili-kit-di-fissaggio_Meliconi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pennini_Targus",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_frigoriferi_LG",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_quaderni-blocchi_Cartotecnica+Favini",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_nastri_Olivetti",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_puzzle_Meccano",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_fermagli-ed-elastici_Lebez",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_lavatrici_Indesit",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-fotografia-vari_KENKO",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_quaderni-blocchi_Oregon+Scientific",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_decoder_Samsung",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-grandi-elettrodomestici_Samsung",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-da-cucina_PENGO",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pastelli-pennarelli_Lyra",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pc-desktop_HP",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-ufficio-vari_Zenith",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_router-access-point_Startech",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cavi-di-rete-usb-periferiche_Atlantis+Land",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-grandi-elettrodomestici_Hama",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_Colle-e-nastri-adesivi_Tesa",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_controller-e-joystick_Lamborghini",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_adattatori_Belkin",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_riscaldamento_Ardes",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_videosorveglianza_Digital+Data",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cavi-di-rete-usb-periferiche_Aiino",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_consumabili-vari-per-stampanti_Sharebot",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_consumabili-vari-per-stampanti_HP",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cavi-di-rete-usb-periferiche_Ednet",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_chiavette-usb_Sony",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_sicurezza_Conceptronic",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cartellette_Cartotecnica+Favini",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_astucci_Faber+Castell",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_pulitori-a-vapore_Hoover",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_mouse_Logitech",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_memorie-ram_Fujitsu",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_stampanti-laser_Kyocera",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_staffe-supporti_Lindy",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_cucitrici-levapunti_Esselte",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_hard-disk-interni_Fujitsu",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_adattatori_Barco",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_macchine-pasta_G3+Ferrari",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_accessori-per-piccoli-elettrodomestici_BISSEL",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_monitor-lfd_Sony",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_mini-micro-hi-fi-boombox_Trevi",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/vendita_salute-igiene_S3+PLUS",
+    "label": "category"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/AAM/colombo+new+scal+spa/MK_000000282976.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/AAM/foppa+pedretti/MK_000000339979.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/AAM/gimi/MK_000000285639.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/AAM/foppa+pedretti/9800504503.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/AAM/foppa+pedretti/MK_000000339949.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/AAM/foppa+pedretti/MK_000000339966.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/AAM/foppa+pedretti/9900420412.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/AAM/colombo+new+scal+spa/MK_000000241689.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/AAM/colombo+new+scal+spa/MK_000000241690.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/AAM/colombo+new+scal+spa/MK_000000241691.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/AAM/colombo+new+scal+spa/MK_000000241692.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000111248.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000111257.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000111258.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000055920.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000055921.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000056591.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/giotto/580600.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/giotto/580700.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000313586.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000313587.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000313634.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000241948.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000241949.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000241950.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000241951.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/1033.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/10369.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/06000534.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/09803550S.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/09829742S.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/04204105.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/04204205.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/04204310.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200001400.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200001413.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200001414.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200001417.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200001420.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200001423.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002406.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002409.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002413.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002414.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002416.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002417.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002420.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002423.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002424.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002428.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002429.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002436.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/09703550S.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/09729742S.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000150848.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000150849.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400048293.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400048297.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400052349.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400052383.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000152797.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000152810.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000152812.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000152821.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000152824.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000152833.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000152836.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040176.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040177.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040178.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040179.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040180.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040196.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040203.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040217.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041134.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041135.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041136.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041137.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041138.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041141.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041142.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041143.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041144.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041147.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041148.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041149.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151038.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151039.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151040.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151041.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151042.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151043.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/710%2f10.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/701%2f12.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/701%2f6.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/701%2f7.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/07786.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/MK_000000210349.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400075787.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/42450700.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/42450706.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/42450707.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/42450708.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/42450709.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/42450710.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/42450711.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/42450713.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/42450714.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/42450715.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000313639.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000313640.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000313641.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200000281.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200000282.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/06452.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040152.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040154.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040155.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040156.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040157.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040158.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040159.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040160.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040161.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040164.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040165.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040166.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040167.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040168.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040169.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040170.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040171.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040172.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200040173.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000111077.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000111221.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/57521297.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002568.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200002570.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000165252.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000220763.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000220764.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000220765.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000220766.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000220767.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000220768.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000220769.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000220770.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000220771.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000220774.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000220776.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000220777.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/205154223.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/205154327.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/205154610.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000128306.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041171.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200807216.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/giotto/580200.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/giotto/580300.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/giotto/580400.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107866.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107867.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107868.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107870.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107871.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107873.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107874.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107875.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107878.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107879.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107880.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107881.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107882.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107885.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107886.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107887.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107890.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107891.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107892.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107893.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107894.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107895.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107896.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107897.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107900.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041150.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041151.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041153.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041154.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041155.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041156.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041157.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041158.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041160.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041162.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041163.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041164.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041165.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041166.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041167.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200041168.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/44312433S.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151044.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151045.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151046.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151047.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151048.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151049.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151050.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151051.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151052.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151053.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151055.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151057.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151060.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151061.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151062.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151064.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151065.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151067.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000151068.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/MK_000000158542.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000220779.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6503.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6504B.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6505.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6173.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6174.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6175.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6176.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6177.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/06200534.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/06201534.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/1399.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213836.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213837.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213838.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213839.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213840.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213841.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213842.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213843.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213844.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213845.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213846.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213847.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213849.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213850.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213851.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000213852.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/scatto/MK_000000221490.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/1425.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/42450716.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/42450717.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/42450718.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/51600697.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/65251524.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/65251533.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400089594.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400089595.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400089597.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/100500446A.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105508.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105509.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105511.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105516.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105524.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105527.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105530.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105535.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105536.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105537.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105538.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105542.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105547.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105554.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105564.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105566.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105569.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105570.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105571.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/MK_000000218460.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/51700697.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/post-it/MK_000000323927.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/post-it/MK_000000323929.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/post-it/MK_000000323932.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/58521297.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6166.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6167.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6168.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6169.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6170.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6171.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/6172.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000165662.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/55502433.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000110957.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000110984.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000242089.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/5707.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000117675.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/blasetti/MK_000000235465.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/19002129.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200005778.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200005812A.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200005813.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200005824.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200005825A.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200005826.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/200005827.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/46435118.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/46470107.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/46435100.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/46435106.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/46435108.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/46435109.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/46435110.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/46435111.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/46435113.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/46435114.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/46435115.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/46435116.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/46435117.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000150831.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000150832.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000150833.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000150835.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000150837.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000150840.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000150842.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000150844.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400015583.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400015588.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400015600.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400015601.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400015602.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/400039170.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/100500448A.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/100500449.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/100500450.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/100500451A.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/100500452.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/100500453.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/100500454.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/canson/100500455A.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/post-it/MK_000000323944.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/post-it/MK_000000323945.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A12X244.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/lebez/J-303.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/lebez/J-940409.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105499.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105503.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000105504.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/04001017.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/04004105.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000106473.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000152785.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000152786.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000152791.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000152792.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/05100.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000111267.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000111272.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000111276.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000111277.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000111282.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000111283.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000111284.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000111290.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107419.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107902.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107903.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107904.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107905.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107906.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/MK_000000107907.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A16X374.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A200704.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A200705.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A200706.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A313101.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A330012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A333012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33A012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33B012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33D012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33E012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33G012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33H012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33K012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33L012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33N012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33P012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33R012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33S012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33T012.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33X023.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cartotecnica+favini/A33X502.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/706%2f24.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000110989.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000110999.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000111014.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000111035.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000111036.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000111043.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000111047.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000111048.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/cwr/MK_000000111058.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/19/ABD/fabriano/MK_000000343096.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/ACX/guzzini/032950134.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/ACX/guzzini/032950165.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/ACX/guzzini/03295084.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/ACX/guzzini/032953134.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/ACX/guzzini/032953165.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/ACX/regalo+italiano/MK_000000154994.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/ACX/regalo+italiano/MK_000000154995.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/ACX/rivacase/MK_000000111459.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/ACX/rivacase/MK_000000111472.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/ACX/mercury+srl/MK_000000144236.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/25/ACX/guzzini/03295384.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/lenovo/45-405-026.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/lenovo/33-397-062.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/zyxel/ZYXEXT-114.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/tom+tom/9SDA_001_04.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/lenovo/47-058-200.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/tom+tom/9UGE_001_00.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/tom+tom/9UGE_001_01.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/tom+tom/9UGE_001_03.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/tom+tom/9UGE_001_04.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/tom+tom/9UGE_001_06.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/tom+tom/9UJC_001_01.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/tom+tom/9UUB_001_14.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/mophie/MK_000000127568.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/tom+tom/9UUC_001_01.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/tom+tom/9UUC_001_22.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/tom+tom/9UUC_001_24.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/AGP/tom+tom/9UUC_001_26.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/APS/acronis/MK_000000314525.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/APS/acronis/MK_000000314526.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/APS/acronis/MK_000000314527.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/APS/acronis/MK_000000314528.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/APS/acronis/MK_000000253157.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/APS/acronis/MK_000000253158.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/2/APS/acronis/MK_000000253150.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309084.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309085.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309086.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309087.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309088.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309089.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309090.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309091.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309092.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309093.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309094.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309095.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309096.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309097.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/itrack/309098.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/dell+technologies/770-11170.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/dell+technologies/770-13066.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/dell+technologies/770-BBIC.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/dell+technologies/770-BBIO.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/dell+technologies/770-BBJR.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/dell+technologies/770-BBJS.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/dell+technologies/770-BBKW.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/hewlett+packard+enterprise/867809-B21.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/hewlett+packard+enterprise/734807-B21.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/trendnet/TC-CT68.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/trendnet/TC-P16C6.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/aten/PE8108G.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/aten/PE8208G.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/WALLMNT12.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/WALLMOUNT6.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/WALLMOUNT8.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/WALLMOUNTH1.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/WALLMOUNTH2.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/WALLMOUNTH4.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/WALLSHELF4U.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/apc/MK_000000144862.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/apc/MK_000000144934.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/MK_000000194109.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/DRW150SATBK.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/matrox/7D4F6.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/MK_000000153555.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/MK_000000202484.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/S25SLOTR.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/RK1233BKM.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/RK1236BKF.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/RK12OD.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/RK12WALHM.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/RK12WALLO.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/RK12WALLOA.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/RK1520WALHM.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/RK15WALLO.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/startech/RK15WALLOA.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/apc/AP4421.htm",
+    "label": "product"
+  },
+  {
+    "url": "https://www.monclick.it/prodotti/5/ARA/apc/AP4422.htm",
+    "label": "product"
+  }
+]
