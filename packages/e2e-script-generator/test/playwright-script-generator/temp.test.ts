@@ -8,1092 +8,635 @@ test("temp test", async () => {
     const browser = await chromium.launch({headless: false, slowMo: 0, devtools: false})
     const context = await browser.newContext({viewport: {width: 1280, height: 619}})
     const page = await context.newPage()
-    
+
+    let localStorage;
+    let sessionStorage;
+
+    await page.waitForTimeout(1)
+    await page.goto('https://www.onlinestore.it/468263-xiaomi-mi-11-173-cm-681-doppia-sim-android-100-5g-usb-tipo-c-8-gb-256-gb-4600-mah-blu-6934177734090.html', {waitUntil: 'load'});
+    await page.waitForTimeout(3)
+    sessionStorage = JSON.parse('{"BL_BUGLINK":"{\\"version\\":1}","BL_CROSS_TAB_KEY":"{\\"tabIsDuplicated\\":\\"duplicated\\",\\"version\\":3,\\"tabId\\":1650918448129}"}');
+    await page.evaluate(sessionStorage => {
+        for (const key in sessionStorage) {
+            window.sessionStorage.setItem(key, sessionStorage[key]);
+        }
+    }, sessionStorage);
     await page.waitForTimeout(0)
-    await page.goto('https://www.monclick.it/', {waitUntil: 'load'});
-    await page.waitForTimeout(7)
-    await page.mouse.move(1106,133);
-    await page.waitForTimeout(1805);
-    await page.mouse.move(1104,135);
-    await page.waitForTimeout(1855)
-    await page.mouse.move(1089,149);
-    await page.waitForTimeout(50)
-    await page.mouse.move(1078,171);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1062,195);
-    await page.waitForTimeout(102)
-    await page.mouse.move(1056,209);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1054,213);
-    await page.waitForTimeout(51);
-    await page.mouse.move(1048,222);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1043,230);
-    await page.waitForTimeout(51);
-    await page.mouse.move(1038,237);
-    await page.waitForTimeout(56);
-    await page.mouse.move(1035,244);
-    await page.waitForTimeout(56);
-    await page.mouse.move(1030,251);
-    await page.waitForTimeout(364)
-    await page.mouse.move(1018,269);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1012,279);
-    await page.waitForTimeout(51);
-    await page.mouse.move(1002,297);
-    await page.waitForTimeout(49);
-    await page.mouse.move(983,326);
-    await page.waitForTimeout(50);
-    await page.mouse.move(965,353);
-    await page.waitForTimeout(50);
-    await page.mouse.move(952,373);
-    await page.waitForTimeout(50);
-    await page.mouse.move(944,385);
-    await page.waitForTimeout(50);
-    await page.mouse.move(934,397);
-    await page.waitForTimeout(50);
-    await page.mouse.move(927,409);
-    await page.waitForTimeout(50);
-    await page.mouse.move(924,415);
-    await page.waitForTimeout(50);
-    await page.mouse.move(921,422);
-    await page.waitForTimeout(50);
-    await page.mouse.move(918,433);
-    await page.waitForTimeout(50);
-    await page.mouse.move(916,445);
-    await page.waitForTimeout(50);
-    await page.mouse.move(916,461);
-    await page.waitForTimeout(50);
-    await page.mouse.move(916,479);
-    await page.waitForTimeout(50);
-    await page.mouse.move(916,494);
-    await page.waitForTimeout(50);
-    await page.mouse.move(918,505);
-    await page.waitForTimeout(50);
-    await page.mouse.move(919,517);
-    await page.waitForTimeout(50);
-    await page.mouse.move(920,523);
-    await page.waitForTimeout(56);
-    await page.mouse.move(920,527);
-    await page.waitForTimeout(1008)
-    await page.mouse.move(922,537);
-    await page.waitForTimeout(56)
-    await page.mouse.move(923,544);
-    await page.waitForTimeout(52);
-    await page.mouse.move(926,553);
-    await page.waitForTimeout(102)
-    await page.mouse.move(932,570);
-    await page.waitForTimeout(50);
-    await page.mouse.move(933,573);
-    await page.waitForTimeout(51);
-    await page.mouse.move(934,575);
-    await page.waitForTimeout(149);
-    await page.mouse.move(938,577);
-    await page.waitForTimeout(50);
-    await page.mouse.move(944,577);
-    await page.waitForTimeout(50);
-    await page.mouse.move(951,577);
-    await page.waitForTimeout(50);
-    await page.mouse.move(959,577);
-    await page.waitForTimeout(50);
-    await page.mouse.move(970,577);
-    await page.waitForTimeout(500)
-    await page.mouse.move(980,577);
-    await page.waitForTimeout(58);
-    await page.mouse.move(984,577);
-    await page.waitForTimeout(58);
-    await page.mouse.move(1013,577);
-    await page.waitForTimeout(166)
-    await page.mouse.move(1041,577);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1068,576);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1093,576);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1102,576);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1108,576);
-    await page.waitForTimeout(54);
-    await page.mouse.move(1110,576);
-    await page.waitForTimeout(57);
-    await page.mouse.move(1112,576);
-    await page.waitForTimeout(55);
-    await page.mouse.move(1125,576);
-    await page.waitForTimeout(51);
-    await page.mouse.move(1134,576);
-    await page.waitForTimeout(53);
-    await page.mouse.move(1135,576);
-    await page.waitForTimeout(1387)
-    await page.mouse.move(1137, 576);
-    await page.mouse.down();
-    await page.waitForTimeout(77)
-    await page.mouse.up();
-    await page.waitForTimeout(701)
-    await page.mouse.move(1136,576);
-    await page.waitForTimeout(55)
-    await page.mouse.move(1100,548);
-    await page.waitForTimeout(52);
-    await page.mouse.move(1064,524);
-    await page.waitForTimeout(54);
-    await page.mouse.move(946,435);
-    await page.waitForTimeout(55);
-    await page.mouse.move(866,339);
-    await page.waitForTimeout(51);
-    await page.mouse.move(806,275);
-    await page.waitForTimeout(262)
-    await page.mouse.move(794,253);
-    await page.waitForTimeout(52)
-    await page.mouse.move(792,250);
-    await page.waitForTimeout(56);
-    await page.mouse.move(785,231);
-    await page.waitForTimeout(50);
-    await page.mouse.move(780,217);
-    await page.waitForTimeout(50);
-    await page.mouse.move(778,206);
-    await page.waitForTimeout(52);
-    await page.mouse.move(776,197);
-    await page.waitForTimeout(53);
-    await page.mouse.move(776,191);
-    await page.waitForTimeout(53);
-    await page.mouse.move(776,187);
-    await page.waitForTimeout(83);
-    await page.mouse.move(776,186);
-    await page.waitForTimeout(50);
-    await page.mouse.move(777,185);
-    await page.waitForTimeout(50);
-    await page.mouse.move(798,185);
-    await page.waitForTimeout(50);
-    await page.mouse.move(815,185);
-    await page.waitForTimeout(50);
-    await page.mouse.move(840,186);
-    await page.waitForTimeout(50);
-    await page.mouse.move(871,187);
-    await page.waitForTimeout(50);
-    await page.mouse.move(883,187);
-    await page.waitForTimeout(50);
-    await page.mouse.move(888,188);
-    await page.waitForTimeout(50);
-    await page.mouse.move(893,188);
-    await page.waitForTimeout(50);
-    await page.mouse.move(900,188);
-    await page.waitForTimeout(50);
-    await page.mouse.move(909,187);
-    await page.waitForTimeout(50);
-    await page.mouse.move(917,186);
-    await page.waitForTimeout(57);
-    await page.mouse.move(920,186);
-    await page.waitForTimeout(56);
-    await page.mouse.move(929,185);
-    await page.waitForTimeout(52);
-    await page.mouse.move(934,185);
-    await page.waitForTimeout(68);
-    await page.mouse.move(934,183);
-    await page.waitForTimeout(50);
-    await page.mouse.move(925,179);
-    await page.waitForTimeout(1280)
-    await page.mouse.move(904,175);
-    await page.waitForTimeout(50);
-    await page.mouse.move(844,167);
-    await page.waitForTimeout(58);
-    await page.mouse.move(821,165);
-    await page.waitForTimeout(51);
-    await page.mouse.move(772,161);
-    await page.waitForTimeout(216)
-    await page.mouse.move(408,137);
-    await page.waitForTimeout(434);
-    await page.mouse.move(223,130);
-    await page.waitForTimeout(50)
-    await page.mouse.move(327,133);
-    await page.waitForTimeout(53);
-    await page.mouse.move(284,130);
-    await page.waitForTimeout(52);
-    await page.mouse.move(279,130);
-    await page.waitForTimeout(164)
-    await page.mouse.move(260,130);
-    await page.waitForTimeout(169);
-    await page.mouse.move(229,130);
-    await page.waitForTimeout(53)
-    await page.mouse.move(245,130);
-    await page.waitForTimeout(66);
-    await page.mouse.move(240,130);
-    await page.waitForTimeout(219)
-    await page.mouse.move(212,130);
-    await page.waitForTimeout(56)
-    await page.mouse.move(192,129);
-    await page.waitForTimeout(56);
-    await page.mouse.move(178,129);
-    await page.waitForTimeout(108)
-    await page.mouse.move(134,129);
-    await page.waitForTimeout(51)
-    await page.mouse.move(113,129);
-    await page.waitForTimeout(58);
-    await page.mouse.move(110,129);
-    await page.waitForTimeout(58);
-    await page.mouse.move(100,129);
-    await page.waitForTimeout(165)
-    await page.mouse.move(88,129);
-    await page.waitForTimeout(50);
-    await page.mouse.move(83,129);
-    await page.waitForTimeout(51);
-    await page.mouse.move(76,129);
-    await page.waitForTimeout(58);
-    await page.mouse.move(72,129);
-    await page.waitForTimeout(916)
-    await page.mouse.move(68,130);
-    await page.waitForTimeout(50);
-    await page.mouse.move(68,141);
-    await page.waitForTimeout(102)
-    await page.mouse.move(68,157);
-    await page.waitForTimeout(50);
-    await page.mouse.move(68,164);
-    await page.waitForTimeout(51);
-    await page.mouse.move(70,187);
-    await page.waitForTimeout(55);
-    await page.mouse.move(70,205);
-    await page.waitForTimeout(207)
-    await page.mouse.move(70,231);
-    await page.waitForTimeout(57);
-    await page.mouse.move(70,247);
-    await page.waitForTimeout(50);
-    await page.mouse.move(71,265);
-    await page.waitForTimeout(50);
-    await page.mouse.move(71,267);
-    await page.waitForTimeout(616);
-    await page.mouse.move(71,266);
-    await page.waitForTimeout(51);
-    await page.mouse.move(72,260);
-    await page.waitForTimeout(50);
-    await page.mouse.move(72,258);
-    await page.waitForTimeout(53);
-    await page.mouse.move(72,253);
-    await page.waitForTimeout(57);
-    await page.mouse.move(72,247);
-    await page.waitForTimeout(55);
-    await page.mouse.move(72,241);
-    await page.waitForTimeout(51);
-    await page.mouse.move(78,235);
-    await page.waitForTimeout(50);
-    await page.mouse.move(80,233);
-    await page.waitForTimeout(266);
-    await page.mouse.move(81,233);
-    await page.waitForTimeout(50);
-    await page.mouse.move(88,233);
-    await page.waitForTimeout(50);
-    await page.mouse.move(90,233);
-    await page.waitForTimeout(50);
-    await page.mouse.move(98,233);
-    await page.waitForTimeout(50);
-    await page.mouse.move(107,234);
-    await page.waitForTimeout(50);
-    await page.mouse.move(130,237);
-    await page.waitForTimeout(1706)
-    await page.mouse.move(180,247);
-    await page.waitForTimeout(51)
-    await page.mouse.move(250,273);
-    await page.waitForTimeout(50)
-    await page.mouse.move(286,302);
-    await page.waitForTimeout(50);
-    await page.mouse.move(293,312);
-    await page.waitForTimeout(104)
-    await page.mouse.move(306,337);
-    await page.waitForTimeout(57)
-    await page.mouse.move(314,363);
-    await page.waitForTimeout(52)
-    await page.mouse.move(324,385);
-    await page.waitForTimeout(52)
-    await page.mouse.move(336,416);
-    await page.waitForTimeout(50)
-    await page.mouse.move(337,429);
-    await page.waitForTimeout(50);
-    await page.mouse.move(337,438);
-    await page.waitForTimeout(50);
-    await page.mouse.move(337,445);
-    await page.waitForTimeout(151)
-    await page.mouse.move(336,447);
-    await page.waitForTimeout(52);
-    await page.mouse.move(336,449);
-    await page.waitForTimeout(230);
-    await page.mouse.move(337,450);
-    await page.waitForTimeout(50);
-    await page.mouse.move(352,451);
-    await page.waitForTimeout(50);
-    await page.mouse.move(396,452);
-    await page.waitForTimeout(50);
-    await page.mouse.move(442,452);
-    await page.waitForTimeout(50);
-    await page.mouse.move(496,453);
-    await page.waitForTimeout(532)
-    await page.mouse.move(524,453);
-    await page.waitForTimeout(50);
-    await page.mouse.move(535,453);
-    await page.waitForTimeout(50);
-    await page.mouse.move(540,454);
-    await page.waitForTimeout(50);
-    await page.mouse.move(542,454);
-    await page.waitForTimeout(50);
-    await page.mouse.move(548,454);
-    await page.waitForTimeout(58);
-    await page.mouse.move(550,455);
-    await page.waitForTimeout(967)
-    await page.mouse.move(552,453);
-    await page.waitForTimeout(51);
-    await page.mouse.move(552,452);
-    await page.waitForTimeout(108)
-    await page.mouse.move(556,443);
-    await page.waitForTimeout(57);
-    await page.mouse.move(559,437);
-    await page.waitForTimeout(50);
-    await page.mouse.move(561,431);
-    await page.waitForTimeout(667);
-    await page.mouse.move(561,429);
-    await page.waitForTimeout(824)
-    await page.mouse.move(567,422);
-    await page.waitForTimeout(50);
-    await page.mouse.move(570,416);
-    await page.waitForTimeout(57);
-    await page.mouse.move(571,414);
-    await page.waitForTimeout(51);
-    await page.mouse.move(576,409);
-    await page.waitForTimeout(674);
-    await page.mouse.move(577,408);
-    await page.waitForTimeout(882)
-    await page.mouse.move(577,399);
-    await page.waitForTimeout(50);
-    await page.mouse.move(577,393);
-    await page.waitForTimeout(100)
-    await page.mouse.move(577,387);
-    await page.waitForTimeout(330)
-    await page.mouse.move(577, 387);
-    await page.mouse.down();
-    await page.waitForTimeout(61)
-    await page.mouse.up();
-    await page.waitForTimeout(1732)
-    await page.goto('https://www.monclick.it/vendita_applicazioni-office', {waitUntil: 'load'});
-    await page.waitForTimeout(16)
-    await page.mouse.move(573,373);
-    await page.waitForTimeout(53);
-    await page.mouse.move(574,370);
-    await page.waitForTimeout(672);
-    await page.mouse.move(578,369);
-    await page.waitForTimeout(50);
-    await page.mouse.move(602,367);
-    await page.waitForTimeout(50);
-    await page.mouse.move(666,365);
-    await page.waitForTimeout(875)
-    await page.mouse.move(756,351);
-    await page.waitForTimeout(50)
-    await page.mouse.move(938,273);
-    await page.waitForTimeout(50)
-    await page.mouse.move(1069,203);
-    await page.waitForTimeout(50)
-    await page.mouse.move(1128,177);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1160,161);
-    await page.waitForTimeout(100)
-    await page.mouse.move(1177,150);
-    await page.waitForTimeout(50)
-    await page.mouse.move(1194,130);
-    await page.waitForTimeout(51)
-    await page.mouse.move(1217,110);
-    await page.waitForTimeout(51);
-    await page.mouse.move(1218,109);
-    await page.waitForTimeout(173);
-    await page.mouse.move(1254,87);
-    await page.waitForTimeout(107)
-    await page.mouse.move(1232,101);
-    await page.waitForTimeout(63);
-    await page.mouse.move(1252,89);
-    await page.waitForTimeout(171)
-    await page.mouse.move(1270,81);
-    await page.waitForTimeout(54);
-    await page.mouse.move(1276,79);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1279,77);
-    await page.waitForTimeout(653)
-    await page.mouse.move(1278,77);
-    await page.waitForTimeout(284);
-    await page.mouse.move(1276,77);
-    await page.waitForTimeout(58);
-    await page.mouse.move(1274,77);
-    await page.waitForTimeout(58);
-    await page.mouse.move(1271,76);
-    await page.waitForTimeout(1399);
-    await page.mouse.move(1270,150);
-    await page.waitForTimeout(502)
-    await page.mouse.move(1271, 76);
-    await page.mouse.down();
-    await page.waitForTimeout(98)
-    await page.evaluate(() => window.scroll(0,2.6666667461395264));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,30.66666603088379));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,156.6666717529297));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,236));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,292));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,352.6666564941406));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,390));
-    await page.waitForTimeout(58)
-    await page.evaluate(() => window.scroll(0,399.3333435058594));
-    await page.waitForTimeout(53)
-    await page.evaluate(() => window.scroll(0,413.3333435058594));
-    await page.waitForTimeout(172)
-    await page.evaluate(() => window.scroll(0,427.3333435058594));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,450.6666564941406));
-    await page.waitForTimeout(52)
-    await page.evaluate(() => window.scroll(0,464.6666564941406));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,474));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,488));
-    await page.waitForTimeout(57)
-    await page.evaluate(() => window.scroll(0,502.6666564941406));
-    await page.waitForTimeout(106)
-    await page.evaluate(() => window.scroll(0,512));
-    await page.waitForTimeout(218)
-    await page.mouse.up();
-    await page.waitForTimeout(166)
-    await page.mouse.move(1267,150);
-    await page.waitForTimeout(51)
-    await page.mouse.move(1253,154);
-    await page.waitForTimeout(49)
-    await page.mouse.move(1246,155);
-    await page.waitForTimeout(51);
-    await page.mouse.move(1212,169);
-    await page.waitForTimeout(106)
-    await page.mouse.move(1177,183);
-    await page.waitForTimeout(51)
-    await page.mouse.move(1141,198);
-    await page.waitForTimeout(51)
-    await page.mouse.move(1076,212);
-    await page.waitForTimeout(58)
-    await page.mouse.move(944,228);
-    await page.waitForTimeout(50)
-    await page.mouse.move(864,233);
-    await page.waitForTimeout(50)
-    await page.mouse.move(772,238);
-    await page.waitForTimeout(50);
-    await page.mouse.move(741,238);
-    await page.waitForTimeout(56);
-    await page.mouse.move(644,239);
+    localStorage = JSON.parse('{"BL_BUGLINK":"{\\"sid\\":1650918448125,\\"version\\":1}","BL_CROSS_TAB_KEY":"{\\"version\\":3}"}');
+    await page.evaluate(localStorage => {
+        for (const key in localStorage) {
+            window.localStorage.setItem(key, localStorage[key]);
+        }
+    }, localStorage);
+    await page.waitForTimeout(1019)
+    await context.addCookies([{
+        name: 'PHPSESSID',
+        value: 'tqh2p5tokl92p08ivpslrd7lhr',
+        url: 'https://www.onlinestore.it/468263-xiaomi-mi-11-173-cm-681-doppia-sim-android-100-5g-usb-tipo-c-8-gb-256-gb-4600-mah-blu-6934177734090.html'
+    }, {
+        name: '_fbp',
+        value: 'fb.1.1650918448757.1299632024',
+        url: 'https://www.onlinestore.it/468263-xiaomi-mi-11-173-cm-681-doppia-sim-android-100-5g-usb-tipo-c-8-gb-256-gb-4600-mah-blu-6934177734090.html'
+    }, {
+        name: 'flixgvid',
+        value: 'flix4c44eb53000000.85238380',
+        url: 'https://www.onlinestore.it/468263-xiaomi-mi-11-173-cm-681-doppia-sim-android-100-5g-usb-tipo-c-8-gb-256-gb-4600-mah-blu-6934177734090.html'
+    }, {
+        name: 'inptime0_14041_it',
+        value: '0',
+        url: 'https://www.onlinestore.it/468263-xiaomi-mi-11-173-cm-681-doppia-sim-android-100-5g-usb-tipo-c-8-gb-256-gb-4600-mah-blu-6934177734090.html'
+    }])
+    await page.waitForTimeout(59)
+    await page.mouse.move(541, 200);
     await page.waitForTimeout(60);
-    await page.mouse.move(560,241);
-    await page.waitForTimeout(50);
-    await page.mouse.move(443,243);
-    await page.waitForTimeout(50);
-    await page.mouse.move(392,243);
-    await page.waitForTimeout(50);
-    await page.mouse.move(353,243);
-    await page.waitForTimeout(50);
-    await page.mouse.move(326,242);
-    await page.waitForTimeout(50);
-    await page.mouse.move(310,241);
-    await page.waitForTimeout(50);
-    await page.mouse.move(303,241);
-    await page.waitForTimeout(50);
-    await page.mouse.move(302,241);
-    await page.waitForTimeout(58);
-    await page.mouse.move(298,241);
-    await page.waitForTimeout(615);
-    await page.mouse.move(300,242);
-    await page.waitForTimeout(51);
-    await page.mouse.move(301,242);
-    await page.waitForTimeout(1293)
-    await page.mouse.move(306,247);
-    await page.waitForTimeout(55)
-    await page.mouse.move(317,258);
-    await page.waitForTimeout(50)
-    await page.mouse.move(324,269);
-    await page.waitForTimeout(50)
-    await page.mouse.move(327,281);
-    await page.waitForTimeout(50);
-    await page.mouse.move(328,284);
-    await page.waitForTimeout(400);
-    await page.mouse.move(328,285);
-    await page.waitForTimeout(50);
-    await page.mouse.move(328,281);
-    await page.waitForTimeout(829)
-    await page.mouse.move(328, 281);
-    await page.mouse.down();
-    await page.waitForTimeout(79)
-    await page.mouse.up();
-    await page.waitForTimeout(733)
-    await page.goto('https://www.monclick.it/prodotti/2/AOF/microsoft/MK_000000256249.htm', {waitUntil: 'load'});
-    await page.waitForTimeout(391)
-    await page.mouse.move(331,281);
-    await page.waitForTimeout(50);
-    await page.mouse.move(358,281);
-    await page.waitForTimeout(100)
-    await page.mouse.move(390,286);
-    await page.waitForTimeout(50)
-    await page.mouse.move(444,290);
-    await page.waitForTimeout(101);
-    await page.mouse.move(540,301);
-    await page.waitForTimeout(50)
-    await page.mouse.move(504,296);
+    await page.mouse.move(546, 200);
     await page.waitForTimeout(115)
-    await page.mouse.move(580,307);
-    await page.waitForTimeout(122);
-    await page.mouse.move(618,313);
-    await page.waitForTimeout(51);
-    await page.mouse.move(670,315);
-    await page.waitForTimeout(51);
-    await page.mouse.move(716,319);
-    await page.waitForTimeout(52);
-    await page.mouse.move(761,323);
+    await page.mouse.move(547, 200);
+    await page.waitForTimeout(349);
+    await page.mouse.move(548, 200);
     await page.waitForTimeout(50);
-    await page.mouse.move(804,323);
-    await page.waitForTimeout(52);
-    await page.mouse.move(850,323);
+    await page.mouse.move(554, 200);
     await page.waitForTimeout(51);
-    await page.mouse.move(897,322);
-    await page.waitForTimeout(149)
-    await page.evaluate(async (s) => {
-        const element = document.querySelector(s)!
-        element.scroll(10.666666984558105,10.666666984558105)
-    }, 'div.resize-sensor-expand[style="pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;"]');
-    await page.waitForTimeout(53)
-    await page.evaluate(async (s) => {
-        const element = document.querySelector(s)!
-        element.scroll(884.6666870117188,1822.6666259765625)
-    }, 'div.resize-sensor-shrink[style="pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;"]');
-    await page.waitForTimeout(117)
-    await page.evaluate(async (s) => {
-        const element = document.querySelector(s)!
-        element.scroll(10.666666984558105,0)
-    }, 'div.resize-sensor-expand[style="pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;"]');
+    await page.mouse.move(569, 200);
+    await page.waitForTimeout(51);
+    await page.mouse.move(572, 200);
+    await page.waitForTimeout(2181)
+    await page.mouse.move(578, 201);
     await page.waitForTimeout(51)
-    await page.evaluate(async (s) => {
-        const element = document.querySelector(s)!
-        element.scroll(10.666666984558105,10)
-    }, 'div.resize-sensor-expand[style="pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;"]');
-    await page.waitForTimeout(114)
-    await page.mouse.move(962,308);
+    await page.mouse.move(597, 213);
     await page.waitForTimeout(50)
-    await page.mouse.move(1090,271);
-    await page.waitForTimeout(51);
-    await page.mouse.move(1112,267);
-    await page.waitForTimeout(52);
-    await page.mouse.move(1154,259);
-    await page.waitForTimeout(159)
-    await page.mouse.move(1208,248);
-    await page.waitForTimeout(51);
-    await page.mouse.move(1213,237);
-    await page.waitForTimeout(108)
-    await page.mouse.move(1232,183);
-    await page.waitForTimeout(50)
-    await page.mouse.move(1246,143);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1256,120);
-    await page.waitForTimeout(100)
-    await page.mouse.move(1265,103);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1271,91);
-    await page.waitForTimeout(52);
-    await page.mouse.move(1274,86);
-    await page.waitForTimeout(56);
-    await page.mouse.move(1274,85);
-    await page.waitForTimeout(51);
-    await page.mouse.move(1276,80);
-    await page.waitForTimeout(51);
-    await page.mouse.move(1276,75);
-    await page.waitForTimeout(55);
-    await page.mouse.move(1276,70);
-    await page.waitForTimeout(366)
-    await page.mouse.move(1276,66);
-    await page.waitForTimeout(51);
-    await page.mouse.move(1276,61);
-    await page.waitForTimeout(65);
-    await page.mouse.move(1276,59);
-    await page.waitForTimeout(485)
-    await page.mouse.move(1276, 59);
-    await page.mouse.down();
-    await page.waitForTimeout(115)
-    await page.evaluate(() => window.scroll(0,2.6666667461395264));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,49.33333206176758));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,100.66666412353516));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,152.6666717529297));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,199.3333282470703));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,245.3333282470703));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,291.3333435058594));
-    await page.waitForTimeout(53)
-    await page.evaluate(() => window.scroll(0,314.6666564941406));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,360.6666564941406));
-    await page.waitForTimeout(54)
-    await page.evaluate(() => window.scroll(0,418.6666564941406));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,453.3333435058594));
+    await page.mouse.move(605, 217);
     await page.waitForTimeout(58)
-    await page.evaluate(() => window.scroll(0,499.3333435058594));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,516.6666870117188));
-    await page.waitForTimeout(52)
-    await page.evaluate(() => window.scroll(0,545.3333129882812));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,568.6666870117188));
-    await page.waitForTimeout(58)
-    await page.evaluate(() => window.scroll(0,580));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,591.3333129882812));
-    await page.waitForTimeout(57)
-    await page.evaluate(() => window.scroll(0,638));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,672.6666870117188));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,701.3333129882812));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,718.6666870117188));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,730));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,764.6666870117188));
-    await page.waitForTimeout(59)
-    await page.evaluate(() => window.scroll(0,799.3333129882812));
-    await page.waitForTimeout(54)
-    await page.evaluate(() => window.scroll(0,851.3333129882812));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,920.6666870117188));
-    await page.waitForTimeout(53)
-    await page.evaluate(() => window.scroll(0,995.3333129882812));
-    await page.waitForTimeout(53)
-    await page.evaluate(async (s) => {
-        const element = document.querySelector(s)!
-        element.scroll(884.6666870117188,2304)
-    }, 'div.resize-sensor-shrink[style="pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;"]');
-    await page.waitForTimeout(57)
-    await page.evaluate(async (s) => {
-        const element = document.querySelector(s)!
-        element.scroll(10.666666984558105,10)
-    }, 'div.resize-sensor-expand[style="pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;"]');
-    await page.waitForTimeout(53)
-    await page.evaluate(() => window.scroll(0,1089.3333740234375));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,1124.6666259765625));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,1190));
-    await page.waitForTimeout(52)
-    await page.evaluate(() => window.scroll(0,1237.3333740234375));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,1290.6666259765625));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,1320.6666259765625));
-    await page.waitForTimeout(53)
-    await page.evaluate(() => window.scroll(0,1374));
-    await page.waitForTimeout(55)
-    await page.evaluate(() => window.scroll(0,1427.3333740234375));
-    await page.waitForTimeout(52)
-    await page.evaluate(() => window.scroll(0,1492.6666259765625));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,1546));
-    await page.waitForTimeout(52)
-    await page.evaluate(() => window.scroll(0,1611.3333740234375));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,1670.6666259765625));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,1708));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,1769.3333740234375));
-    await page.waitForTimeout(52)
-    await page.evaluate(() => window.scroll(0,1800));
-    await page.waitForTimeout(45)
-    await page.evaluate(() => window.scroll(0,1830.6666259765625));
-    await page.waitForTimeout(56)
-    await page.evaluate(() => window.scroll(0,1880));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,1942));
-    await page.waitForTimeout(55)
-    await page.evaluate(() => window.scroll(0,2009.3333740234375));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2058.666748046875));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,2096));
-    await page.waitForTimeout(51)
-    await page.evaluate(async (s) => {
-        const element = document.querySelector(s)!
-        element.scroll(884.6666870117188,3368)
-    }, 'div.resize-sensor-shrink[style="pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;"]');
-    await page.waitForTimeout(52)
-    await page.evaluate(async (s) => {
-        const element = document.querySelector(s)!
-        element.scroll(10.666666984558105,10)
-    }, 'div.resize-sensor-expand[style="pointer-events\\:\\ none\\;\\ position\\:\\ absolute\\;\\ left\\:\\ 0px\\;\\ top\\:\\ 0px\\;\\ right\\:\\ 0\\;\\ bottom\\:\\ 0\\;\\ overflow\\:\\ hidden\\;\\ z-index\\:\\ -1\\;\\ visibility\\:\\ hidden\\;\\ max-width\\:\\ 100\\%\\;"]');
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,2212));
-    await page.waitForTimeout(56)
-    await page.evaluate(() => window.scroll(0,2268));
-    await page.waitForTimeout(55)
-    await page.evaluate(() => window.scroll(0,2338));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2394));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2456.666748046875));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2491.333251953125));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2540.666748046875));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2589.333251953125));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2652));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2708));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2770.666748046875));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2848));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2918));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2959.333251953125));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3029.333251953125));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3092));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3148));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3197.333251953125));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3252.666748046875));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3308.666748046875));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3344));
-    await page.waitForTimeout(52)
-    await page.evaluate(() => window.scroll(0,3378.666748046875));
-    await page.waitForTimeout(56)
-    await page.evaluate(() => window.scroll(0,3420.666748046875));
-    await page.waitForTimeout(52)
-    await page.evaluate(() => window.scroll(0,3455.333251953125));
-    await page.waitForTimeout(52)
-    await page.evaluate(() => window.scroll(0,3490.666748046875));
-    await page.waitForTimeout(54)
-    await page.evaluate(() => window.scroll(0,3532.666748046875));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3553.333251953125));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3567.333251953125));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3609.333251953125));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3651.333251953125));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3693.333251953125));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3728));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3770));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3784));
-    await page.waitForTimeout(196)
-    await page.mouse.up();
-    await page.waitForTimeout(21)
-    await page.mouse.move(1272,471);
-    await page.waitForTimeout(99);
-    await page.mouse.move(1270,471);
-    await page.waitForTimeout(149)
-    await page.mouse.move(1239,471);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1103,469);
-    await page.waitForTimeout(100)
-    await page.mouse.move(858,469);
-    await page.waitForTimeout(50);
-    await page.mouse.move(711,463);
-    await page.waitForTimeout(50);
-    await page.mouse.move(683,460);
-    await page.waitForTimeout(50);
-    await page.mouse.move(676,457);
-    await page.waitForTimeout(50);
-    await page.mouse.move(670,453);
-    await page.waitForTimeout(250)
-    await page.mouse.move(666,450);
-    await page.waitForTimeout(50);
-    await page.mouse.move(664,449);
-    await page.waitForTimeout(58);
-    await page.mouse.move(662,445);
-    await page.waitForTimeout(300)
-    await page.mouse.move(661,444);
-    await page.waitForTimeout(58);
-    await page.mouse.move(661,443);
-    await page.waitForTimeout(50);
-    await page.mouse.move(661,442);
-    await page.waitForTimeout(108);
-    await page.mouse.move(598,371);
-    await page.waitForTimeout(1282);
-    await page.mouse.move(798,375);
-    await page.waitForTimeout(50);
-    await page.mouse.move(809,380);
-    await page.waitForTimeout(400);
-    await page.mouse.move(880,406);
-    await page.waitForTimeout(165)
-    await page.mouse.move(666,429);
-    await page.waitForTimeout(101)
-    await page.mouse.move(585,364);
-    await page.waitForTimeout(250);
-    await page.mouse.move(582,361);
-    await page.waitForTimeout(50);
-    await page.mouse.move(594,359);
-    await page.waitForTimeout(50);
-    await page.mouse.move(624,359);
-    await page.waitForTimeout(50);
-    await page.mouse.move(643,357);
-    await page.waitForTimeout(50);
-    await page.mouse.move(651,355);
-    await page.waitForTimeout(58);
-    await page.mouse.move(653,355);
-    await page.waitForTimeout(58);
-    await page.mouse.move(657,355);
-    await page.waitForTimeout(50);
-    await page.mouse.move(662,355);
-    await page.waitForTimeout(50);
-    await page.mouse.move(668,355);
-    await page.waitForTimeout(50);
-    await page.mouse.move(674,355);
-    await page.waitForTimeout(50);
-    await page.mouse.move(682,355);
-    await page.waitForTimeout(50);
-    await page.mouse.move(692,355);
-    await page.waitForTimeout(50);
-    await page.mouse.move(706,355);
-    await page.waitForTimeout(50);
-    await page.mouse.move(721,357);
-    await page.waitForTimeout(50);
-    await page.mouse.move(736,359);
-    await page.waitForTimeout(55);
-    await page.mouse.move(752,361);
-    await page.waitForTimeout(51);
-    await page.mouse.move(753,361);
+    await page.mouse.move(636, 232);
     await page.waitForTimeout(57);
-    await page.mouse.move(760,363);
+    await page.mouse.move(663, 240);
+    await page.waitForTimeout(84);
+    await page.mouse.move(666, 243);
     await page.waitForTimeout(53);
-    await page.mouse.move(780,369);
-    await page.waitForTimeout(1332)
-    await page.mouse.move(820,383);
+    await page.mouse.move(660, 260);
+    await page.waitForTimeout(52);
+    await page.mouse.move(657, 265);
+    await page.waitForTimeout(298)
+    await page.mouse.move(622, 312);
+    await page.waitForTimeout(54)
+    await page.mouse.move(580, 359);
+    await page.waitForTimeout(51)
+    await page.mouse.move(540, 395);
+    await page.waitForTimeout(55)
+    await page.mouse.move(450, 454);
+    await page.waitForTimeout(52)
+    await page.mouse.move(430, 466);
+    await page.waitForTimeout(1281);
+    await page.mouse.move(439, 452);
     await page.waitForTimeout(50);
-    await page.mouse.move(830,385);
-    await page.waitForTimeout(50);
-    await page.mouse.move(841,389);
-    await page.waitForTimeout(50);
-    await page.mouse.move(848,389);
-    await page.waitForTimeout(50);
-    await page.mouse.move(852,392);
-    await page.waitForTimeout(50);
-    await page.mouse.move(857,395);
-    await page.waitForTimeout(50);
-    await page.mouse.move(864,397);
-    await page.waitForTimeout(400)
-    await page.mouse.move(900,418);
-    await page.waitForTimeout(50);
-    await page.mouse.move(914,426);
-    await page.waitForTimeout(100)
-    await page.mouse.move(928,437);
-    await page.waitForTimeout(50)
-    await page.mouse.move(940,444);
-    await page.waitForTimeout(50)
-    await page.mouse.move(946,447);
+    await page.mouse.move(459, 449);
+    await page.waitForTimeout(57);
+    await page.mouse.move(548, 431);
     await page.waitForTimeout(54);
-    await page.mouse.move(948,447);
-    await page.waitForTimeout(50);
-    await page.mouse.move(950,447);
-    await page.waitForTimeout(55);
-    await page.mouse.move(961,449);
+    await page.mouse.move(684, 409);
+    await page.waitForTimeout(57)
+    await page.mouse.move(393, 486);
+    await page.waitForTimeout(56);
+    await page.mouse.move(342, 503);
+    await page.waitForTimeout(1001);
+    await page.mouse.move(174, 532);
+    await page.waitForTimeout(107)
+    await page.mouse.move(231, 535);
+    await page.waitForTimeout(50)
+    await page.mouse.move(201, 541);
     await page.waitForTimeout(52);
-    await page.mouse.move(972,450);
+    await page.mouse.move(195, 543);
     await page.waitForTimeout(55);
-    await page.mouse.move(1001,454);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1008,455);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1014,455);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1022,457);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1034,459);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1052,461);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1067,463);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1080,463);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1095,463);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1127,463);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1177,462);
-    await page.waitForTimeout(52);
-    await page.mouse.move(1214,460);
+    await page.mouse.move(174, 544);
     await page.waitForTimeout(51);
-    await page.mouse.move(1216,460);
+    await page.mouse.move(155, 545);
+    await page.waitForTimeout(213)
+    await page.mouse.move(141, 545);
     await page.waitForTimeout(53);
-    await page.mouse.move(1228,455);
+    await page.mouse.move(123, 545);
+    await page.waitForTimeout(50);
+    await page.mouse.move(116, 547);
     await page.waitForTimeout(59);
-    await page.mouse.move(1236,447);
-    await page.waitForTimeout(51);
-    await page.mouse.move(1244,435);
-    await page.waitForTimeout(1082)
-    await page.mouse.move(1258,418);
-    await page.waitForTimeout(50)
-    await page.mouse.move(1263,415);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1266,413);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1270,410);
-    await page.waitForTimeout(53);
-    await page.mouse.move(1272,409);
-    await page.waitForTimeout(55);
-    await page.mouse.move(1275,408);
-    await page.waitForTimeout(56);
-    await page.mouse.move(1276,407);
-    await page.waitForTimeout(457)
-    await page.mouse.move(1276, 407);
-    await page.mouse.down();
-    await page.waitForTimeout(126)
-    await page.evaluate(() => window.scroll(0,3766.666748046875));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3640.666748046875));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3480));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,3074.666748046875));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2767.333251953125));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2606.666748046875));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,2425.333251953125));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,2271.333251953125));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,2096.666748046875));
-    await page.waitForTimeout(52)
-    await page.evaluate(() => window.scroll(0,1971.3333740234375));
-    await page.waitForTimeout(56)
-    await page.evaluate(() => window.scroll(0,1887.3333740234375));
-    await page.waitForTimeout(56)
-    await page.evaluate(() => window.scroll(0,1831.3333740234375));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,1719.3333740234375));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,1622));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,1419.3333740234375));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,1321.3333740234375));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,1244.6666259765625));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,1196));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,1126));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,1056));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,1000));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,888.6666870117188));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,846.6666870117188));
-    await page.waitForTimeout(52)
-    await page.evaluate(() => window.scroll(0,783.3333129882812));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,728));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,672));
-    await page.waitForTimeout(59)
-    await page.evaluate(() => window.scroll(0,608.6666870117188));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,518));
-    await page.waitForTimeout(54)
-    await page.evaluate(() => window.scroll(0,483.3333435058594));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,427.3333435058594));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,371.3333435058594));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,336.6666564941406));
-    await page.waitForTimeout(200)
-    await page.evaluate(() => window.scroll(0,315.3333435058594));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,210.6666717529297));
-    await page.waitForTimeout(50)
-    await page.evaluate(() => window.scroll(0,29.33333396911621));
-    await page.waitForTimeout(51)
-    await page.evaluate(() => window.scroll(0,1.3333333730697632));
-    await page.waitForTimeout(424)
-    await page.mouse.up();
-    await page.waitForTimeout(24)
-    await page.mouse.move(1279,45);
-    await page.waitForTimeout(117);
-    await page.mouse.move(1279,47);
-    await page.waitForTimeout(50);
-    await page.mouse.move(1268,63);
-    await page.waitForTimeout(217)
-    await page.mouse.move(1234,117);
-    await page.waitForTimeout(51)
-    await page.mouse.move(1200,157);
+    await page.mouse.move(115, 547);
     await page.waitForTimeout(57);
-    await page.mouse.move(1179,173);
-    await page.waitForTimeout(758);
-    await page.mouse.move(930,179);
-    await page.waitForTimeout(50);
-    await page.mouse.move(953,163);
-    await page.waitForTimeout(109)
-    await page.mouse.move(1124,209);
-    await page.waitForTimeout(54);
-    await page.mouse.move(1075,233);
-    await page.waitForTimeout(106)
-    await page.mouse.move(1007,241);
-    await page.waitForTimeout(50);
-    await page.mouse.move(962,241);
-    await page.waitForTimeout(50);
-    await page.mouse.move(914,231);
-    await page.waitForTimeout(50);
-    await page.mouse.move(868,223);
-    await page.waitForTimeout(200)
-    await page.mouse.move(850,221);
-    await page.waitForTimeout(83);
-    await page.mouse.move(850,218);
-    await page.waitForTimeout(50);
-    await page.mouse.move(864,205);
-    await page.waitForTimeout(184)
-    await page.mouse.move(885,194);
-    await page.waitForTimeout(55);
-    await page.mouse.move(890,191);
+    await page.mouse.move(114, 547);
+    await page.waitForTimeout(167);
+    await page.mouse.move(114, 548);
+    await page.waitForTimeout(71);
+    await page.mouse.move(114, 548);
+    await page.waitForTimeout(129);
+    await page.mouse.move(115, 548);
     await page.waitForTimeout(51);
-    await page.mouse.move(899,187);
-    await page.waitForTimeout(56);
-    await page.mouse.move(908,187);
-    await page.waitForTimeout(322)
-    await page.mouse.move(966,152);
-    await page.waitForTimeout(53)
-    await page.mouse.move(982,136);
-    await page.waitForTimeout(57)
-    await page.mouse.move(1012,113);
+    await page.mouse.move(129, 545);
+    await page.waitForTimeout(378)
+    await page.mouse.move(114, 547);
+    await page.mouse.down();
+    await page.waitForTimeout(68)
+    await page.mouse.up();
+    await page.waitForTimeout(295)
+    await page.mouse.move(269, 499);
+    await page.waitForTimeout(58);
+    await page.mouse.move(294, 491);
+    await page.waitForTimeout(328)
+    await page.mouse.move(852, 378);
+    await page.waitForTimeout(50);
+    await page.mouse.move(927, 353);
+    await page.waitForTimeout(100)
+    await page.mouse.move(1002, 319);
     await page.waitForTimeout(50)
-    await page.mouse.move(1022,98);
+    await page.mouse.move(1054, 300);
+    await page.waitForTimeout(51);
+    await page.mouse.move(1082, 284);
+    await page.waitForTimeout(103)
+    await page.mouse.move(1090, 279);
+    await page.waitForTimeout(55)
+    await page.mouse.move(1106, 268);
+    await page.waitForTimeout(51);
+    await page.mouse.move(1132, 254);
+    await page.waitForTimeout(105)
+    await page.mouse.move(1149, 243);
+    await page.waitForTimeout(61)
+    await page.mouse.move(1242, 205);
+    await page.waitForTimeout(55);
+    await page.mouse.move(1247, 203);
+    await page.waitForTimeout(109)
+    await page.mouse.move(1279, 185);
     await page.waitForTimeout(50);
-    await page.mouse.move(1012,89);
-    await page.waitForTimeout(102)
-    await page.mouse.move(962,77);
+    await page.mouse.move(1279, 177);
+    await page.waitForTimeout(56);
+    await page.mouse.move(1279, 172);
+    await page.waitForTimeout(51);
+    await page.mouse.move(1279, 169);
+    await page.waitForTimeout(59);
+    await page.mouse.move(1276, 166);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1274, 165);
+    await page.waitForTimeout(463)
+    await page.mouse.move(1274, 165);
+    await page.mouse.down();
+    await page.waitForTimeout(137)
+    await page.evaluate(() => window.scroll(0, 1.3333333730697632));
     await page.waitForTimeout(51)
-    await page.mouse.move(948,76);
+    await page.evaluate(() => window.scroll(0, 4));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 16.66666603088379));
+    await page.waitForTimeout(54)
+    await page.evaluate(() => window.scroll(0, 32));
+    await page.waitForTimeout(52)
+    await page.evaluate(() => window.scroll(0, 47.33333206176758));
+    await page.waitForTimeout(61)
+    await page.evaluate(() => window.scroll(0, 64.66666412353516));
+    await page.waitForTimeout(49)
+    await page.evaluate(() => window.scroll(0, 77.33333587646484));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 88));
+    await page.waitForTimeout(53)
+    await page.evaluate(() => window.scroll(0, 92.66666412353516));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 103.33333587646484));
+    await page.waitForTimeout(53)
+    await page.evaluate(() => window.scroll(0, 110.66666412353516));
+    await page.waitForTimeout(57)
+    await page.evaluate(() => window.scroll(0, 118));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 123.33333587646484));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 133.3333282470703));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 141.3333282470703));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 151.3333282470703));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 164));
+    await page.waitForTimeout(53)
+    await page.evaluate(() => window.scroll(0, 176.6666717529297));
+    await page.waitForTimeout(54)
+    await page.evaluate(() => window.scroll(0, 182));
+    await page.waitForTimeout(53)
+    await page.evaluate(() => window.scroll(0, 194.6666717529297));
+    await page.waitForTimeout(55)
+    await page.evaluate(() => window.scroll(0, 202));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 204.6666717529297));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 217.3333282470703));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 222.6666717529297));
+    await page.waitForTimeout(52)
+    await page.evaluate(() => window.scroll(0, 232.6666717529297));
+    await page.waitForTimeout(55)
+    await page.evaluate(() => window.scroll(0, 240.6666717529297));
+    await page.waitForTimeout(54)
+    await page.evaluate(() => window.scroll(0, 250.6666717529297));
+    await page.waitForTimeout(55)
+    await page.evaluate(() => window.scroll(0, 260.6666564941406));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 266));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 276));
+    await page.waitForTimeout(54)
+    await page.evaluate(() => window.scroll(0, 278.6666564941406));
     await page.waitForTimeout(56)
-    await page.mouse.move(828,66);
+    await page.evaluate(() => window.scroll(0, 291.3333435058594));
+    await page.waitForTimeout(53)
+    await page.evaluate(() => window.scroll(0, 296.6666564941406));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 301.3333435058594));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 309.3333435058594));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 316.6666564941406));
+    await page.waitForTimeout(57)
+    await page.evaluate(() => window.scroll(0, 322));
+    await page.waitForTimeout(58)
+    await page.evaluate(() => window.scroll(0, 326.6666564941406));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 334.6666564941406));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 339.3333435058594));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 350));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 357.3333435058594));
+    await page.waitForTimeout(58)
+    await page.evaluate(() => window.scroll(0, 362.6666564941406));
+    await page.waitForTimeout(53)
+    await page.evaluate(() => window.scroll(0, 370));
+    await page.waitForTimeout(55)
+    await page.evaluate(() => window.scroll(0, 380));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 385.3333435058594));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 388));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 403.3333435058594));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 413.3333435058594));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 418.6666564941406));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 426));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 434));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 438.6666564941406));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 441.3333435058594));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 444));
+    await page.waitForTimeout(53)
+    await page.evaluate(() => window.scroll(0, 449.3333435058594));
+    await page.waitForTimeout(56)
+    await page.evaluate(() => window.scroll(0, 454));
+    await page.waitForTimeout(207)
+    await page.mouse.up();
+    await page.waitForTimeout(34)
+    await page.mouse.move(1279, 284);
+    await page.waitForTimeout(799)
+    await page.mouse.move(1279, 283);
     await page.waitForTimeout(50);
-    await page.mouse.move(718,57);
-    await page.waitForTimeout(108)
-    await page.mouse.move(493,25);
+    await page.mouse.move(1278, 280);
+    await page.waitForTimeout(55);
+    await page.mouse.move(1278, 279);
+    await page.waitForTimeout(55);
+    await page.mouse.move(1278, 277);
+    await page.waitForTimeout(52);
+    await page.mouse.move(1278, 276);
+    await page.waitForTimeout(55);
+    await page.mouse.move(1278, 274);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1277, 274);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1276, 273);
+    await page.waitForTimeout(58);
+    await page.mouse.move(1275, 272);
+    await page.waitForTimeout(55);
+    await page.mouse.move(1274, 271);
+    await page.waitForTimeout(53);
+    await page.mouse.move(1274, 270);
+    await page.waitForTimeout(668)
+    await page.mouse.move(1274, 270);
+    await page.mouse.down();
+    await page.waitForTimeout(115)
+    await page.evaluate(() => window.scroll(0, 455.3333435058594));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 470.6666564941406));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 483.3333435058594));
+    await page.waitForTimeout(54)
+    await page.evaluate(() => window.scroll(0, 493.3333435058594));
+    await page.waitForTimeout(53)
+    await page.evaluate(() => window.scroll(0, 501.3333435058594));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 508.6666564941406));
+    await page.waitForTimeout(56)
+    await page.evaluate(() => window.scroll(0, 524));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 542));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 562));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 577.3333129882812));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 595.3333129882812));
+    await page.waitForTimeout(49)
+    await page.evaluate(() => window.scroll(0, 605.3333129882812));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 618));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 630.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 641.3333129882812));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 661.3333129882812));
+    await page.waitForTimeout(57)
+    await page.evaluate(() => window.scroll(0, 671.3333129882812));
+    await page.waitForTimeout(54)
+    await page.evaluate(() => window.scroll(0, 679.3333129882812));
+    await page.waitForTimeout(55)
+    await page.evaluate(() => window.scroll(0, 692));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 707.3333129882812));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 712));
+    await page.waitForTimeout(57)
+    await page.evaluate(() => window.scroll(0, 722.6666870117188));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 725.3333129882812));
+    await page.waitForTimeout(56)
+    await page.evaluate(() => window.scroll(0, 727.3333129882812));
+    await page.waitForTimeout(52)
+    await page.evaluate(() => window.scroll(0, 735.3333129882812));
+    await page.waitForTimeout(58)
+    await page.evaluate(() => window.scroll(0, 738));
+    await page.waitForTimeout(52)
+    await page.evaluate(() => window.scroll(0, 745.3333129882812));
+    await page.waitForTimeout(57)
+    await page.evaluate(() => window.scroll(0, 748));
+    await page.waitForTimeout(82)
+    await page.evaluate(() => window.scroll(0, 750.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 755.3333129882812));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 758));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 768));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 770.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 773.3333129882812));
+    await page.waitForTimeout(64)
+    await page.evaluate(() => window.scroll(0, 776));
+    await page.waitForTimeout(66)
+    await page.evaluate(() => window.scroll(0, 778.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 788.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 796));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 806.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 819.3333129882812));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 826.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 834.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 839.3333129882812));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 857.3333129882812));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 870));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 885.3333129882812));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 892.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 910.6666870117188));
+    await page.waitForTimeout(53)
+    await page.evaluate(() => window.scroll(0, 926));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 956.6666870117188));
+    await page.waitForTimeout(57)
+    await page.evaluate(() => window.scroll(0, 982));
+    await page.waitForTimeout(54)
+    await page.evaluate(() => window.scroll(0, 1000));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 1020));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 1035.3333740234375));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 1050.6666259765625));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 1053.3333740234375));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 1063.3333740234375));
+    await page.waitForTimeout(57)
+    await page.evaluate(() => window.scroll(0, 1066));
+    await page.waitForTimeout(500)
+    await page.mouse.up();
+    await page.waitForTimeout(26)
+    await page.mouse.move(1279, 431);
+    await page.waitForTimeout(150);
+    await page.mouse.move(1279, 430);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1278, 425);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1276, 420);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1276, 415);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1274, 411);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1272, 403);
+    await page.waitForTimeout(51);
+    await page.mouse.move(1271, 401);
+    await page.waitForTimeout(57);
+    await page.mouse.move(1271, 400);
+    await page.waitForTimeout(731)
+    await page.mouse.move(1271, 400);
+    await page.mouse.down();
+    await page.waitForTimeout(152)
+    await page.evaluate(() => window.scroll(0, 1062));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 1052));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 1034));
+    await page.waitForTimeout(53)
+    await page.evaluate(() => window.scroll(0, 1021.3333129882812));
+    await page.waitForTimeout(55)
+    await page.evaluate(() => window.scroll(0, 1014));
+    await page.waitForTimeout(53)
+    await page.evaluate(() => window.scroll(0, 1008.6666870117188));
+    await page.waitForTimeout(55)
+    await page.evaluate(() => window.scroll(0, 998.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 980.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 968));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 962.6666870117188));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 952.6666870117188));
+    await page.waitForTimeout(52)
+    await page.evaluate(() => window.scroll(0, 940));
+    await page.waitForTimeout(52)
+    await page.evaluate(() => window.scroll(0, 930));
+    await page.waitForTimeout(58)
+    await page.evaluate(() => window.scroll(0, 912));
+    await page.waitForTimeout(52)
+    await page.evaluate(() => window.scroll(0, 899.3333129882812));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 889.3333129882812));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 874));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 856));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 848.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 833.3333129882812));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 818));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 805.3333129882812));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 797.3333129882812));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 782));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 772));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 764.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 756.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 749.3333129882812));
+    await page.waitForTimeout(54)
+    await page.evaluate(() => window.scroll(0, 741.3333129882812));
+    await page.waitForTimeout(57)
+    await page.evaluate(() => window.scroll(0, 734));
+    await page.waitForTimeout(55)
+    await page.evaluate(() => window.scroll(0, 728.6666870117188));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 724));
+    await page.waitForTimeout(57)
+    await page.evaluate(() => window.scroll(0, 718.6666870117188));
+    await page.waitForTimeout(1025)
+    await page.evaluate(() => window.scroll(0, 713.3333129882812));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 690.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 652.6666870117188));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 629.3333129882812));
+    await page.waitForTimeout(53)
+    await page.evaluate(() => window.scroll(0, 606.6666870117188));
+    await page.waitForTimeout(57)
+    await page.evaluate(() => window.scroll(0, 578.6666870117188));
+    await page.waitForTimeout(55)
+    await page.evaluate(() => window.scroll(0, 558.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 530.6666870117188));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 520));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 504.6666564941406));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 490));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 462));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 438.6666564941406));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 426));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 413.3333435058594));
+    await page.waitForTimeout(56)
+    await page.evaluate(() => window.scroll(0, 410.6666564941406));
+    await page.waitForTimeout(54)
+    await page.evaluate(() => window.scroll(0, 398));
+    await page.waitForTimeout(51)
+    await page.evaluate(() => window.scroll(0, 393.3333435058594));
+    await page.waitForTimeout(53)
+    await page.evaluate(() => window.scroll(0, 385.3333435058594));
+    await page.waitForTimeout(52)
+    await page.evaluate(() => window.scroll(0, 350));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 326.6666564941406));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 316.6666564941406));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 306.6666564941406));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 288.6666564941406));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 283.3333435058594));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 268.6666564941406));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 263.3333435058594));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 248));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 232.6666717529297));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 220));
+    await page.waitForTimeout(50)
+    await page.evaluate(() => window.scroll(0, 214.6666717529297));
+    await page.waitForTimeout(190)
+    await page.mouse.up();
+    await page.waitForTimeout(26)
+    await page.mouse.move(1279, 177);
+    await page.waitForTimeout(101);
+    await page.mouse.move(1278, 175);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1277, 175);
+    await page.waitForTimeout(56);
+    await page.mouse.move(1270, 173);
+    await page.waitForTimeout(257)
+    await page.mouse.move(1260, 173);
+    await page.waitForTimeout(51);
+    await page.mouse.move(1248, 174);
+    await page.waitForTimeout(102)
+    await page.mouse.move(1239, 174);
+    await page.waitForTimeout(57);
+    await page.mouse.move(1223, 173);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1210, 170);
+    await page.waitForTimeout(158)
+    await page.mouse.move(1188, 162);
+    await page.waitForTimeout(51)
+    await page.mouse.move(1177, 158);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1175, 157);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1167, 151);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1163, 147);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1160, 142);
+    await page.waitForTimeout(250)
+    await page.mouse.move(1156, 129);
+    await page.waitForTimeout(51)
+    await page.mouse.move(1156, 115);
+    await page.waitForTimeout(57)
+    await page.mouse.move(1158, 98);
+    await page.waitForTimeout(421);
+    await page.mouse.move(1203, 0);
+    await page.waitForTimeout(56)
+    await page.mouse.move(1162, 83);
+    await page.waitForTimeout(255);
+    await page.mouse.move(1183, 22);
+    await page.waitForTimeout(52);
+    await page.mouse.move(1190, 12);
+    await page.waitForTimeout(50)
+    await page.mouse.move(1170, 63);
+    await page.waitForTimeout(51)
+    await page.mouse.move(1178, 41);
+    await page.waitForTimeout(50);
+    await page.mouse.move(1180, 33);
+    await page.waitForTimeout(100)
+    await page.mouse.move(1182, 26);
     await browser.close()
 })

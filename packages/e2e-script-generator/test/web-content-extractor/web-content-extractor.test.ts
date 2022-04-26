@@ -1,13 +1,6 @@
 import {chromium} from "playwright"
 
 declare global {
-    interface Window {
-        blSerializer: any
-        blDeserializer: any
-    }
-}
-
-declare global {
     interface Coordinates {
         x: number
         y: number
@@ -48,7 +41,7 @@ test('web content extractor test', async () => {
     await page.goto('https://www.monclick.it/prodotti/18/ARD/jf+sound/MK_000000153280.htm', {waitUntil: 'load'})
 
     const {name, price} = await page.evaluate(async () => {
-        const name = document.querySelector('head > title')!.textContent!.split('|')[0]
+        const name = document.querySelector('head > title')!.textContent!.split('|')[0].trim()
         let nodeList = []
 
         function myDfs(node, nodeList: ElementInfo[], depth: number) {
