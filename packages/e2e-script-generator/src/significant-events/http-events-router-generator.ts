@@ -1,6 +1,7 @@
 import {BLEvent} from "@butopen/user-events-model";
 import {SignificantEvent} from "../events-abstract/event-abstract";
 import {AfterResponseEventType} from "./after-response";
+import {BBAction} from "../browserbot-actions-model/browserbot-actions.model";
 
 export class HttpEventsRouterGenerator {
     /**
@@ -33,6 +34,5 @@ export class HttpEventsRouterGenerator {
         }
     });`
     }
-
-
 }
+

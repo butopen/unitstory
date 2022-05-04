@@ -1,8 +1,9 @@
 import {SignificantEvent} from "../events-abstract/event-abstract";
 import {BLEvent} from "@butopen/user-events-model"
+import {BBAction} from "../browserbot-actions-model/browserbot-actions.model";
 
 
-type Headers = {[header:string]:string}
+type Headers = { [header: string]: string }
 
 export interface Request {
     headers: Headers;
@@ -42,6 +43,10 @@ export class AfterResponseEvent extends SignificantEvent<AfterResponseEventType>
 
     getResponseTimestamp(): number {
         return this.event.response.timestamp;
+    }
+
+    getBrowserbotAction(): BBAction {
+        return super.getBrowserbotAction();
     }
 
 }

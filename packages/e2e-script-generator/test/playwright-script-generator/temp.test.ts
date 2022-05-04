@@ -2,50 +2,13 @@ import {chromium} from "playwright"
 
 jest.setTimeout(3000 * 100)
 test("temp test", async () => {
-    let selector;
-    let element;
-    let text;
     const browser = await chromium.launch({headless: false, slowMo: 0, devtools: false})
     const context = await browser.newContext({viewport: {width: 1280, height: 619}})
     const page = await context.newPage()
-
-    let localStorage;
-    let sessionStorage;
-
     await page.waitForTimeout(1)
     await page.goto('https://www.onlinestore.it/468263-xiaomi-mi-11-173-cm-681-doppia-sim-android-100-5g-usb-tipo-c-8-gb-256-gb-4600-mah-blu-6934177734090.html', {waitUntil: 'load'});
     await page.waitForTimeout(3)
-    sessionStorage = JSON.parse('{"BL_BUGLINK":"{\\"version\\":1}","BL_CROSS_TAB_KEY":"{\\"tabIsDuplicated\\":\\"duplicated\\",\\"version\\":3,\\"tabId\\":1650918448129}"}');
-    await page.evaluate(sessionStorage => {
-        for (const key in sessionStorage) {
-            window.sessionStorage.setItem(key, sessionStorage[key]);
-        }
-    }, sessionStorage);
-    await page.waitForTimeout(0)
-    localStorage = JSON.parse('{"BL_BUGLINK":"{\\"sid\\":1650918448125,\\"version\\":1}","BL_CROSS_TAB_KEY":"{\\"version\\":3}"}');
-    await page.evaluate(localStorage => {
-        for (const key in localStorage) {
-            window.localStorage.setItem(key, localStorage[key]);
-        }
-    }, localStorage);
     await page.waitForTimeout(1019)
-    await context.addCookies([{
-        name: 'PHPSESSID',
-        value: 'tqh2p5tokl92p08ivpslrd7lhr',
-        url: 'https://www.onlinestore.it/468263-xiaomi-mi-11-173-cm-681-doppia-sim-android-100-5g-usb-tipo-c-8-gb-256-gb-4600-mah-blu-6934177734090.html'
-    }, {
-        name: '_fbp',
-        value: 'fb.1.1650918448757.1299632024',
-        url: 'https://www.onlinestore.it/468263-xiaomi-mi-11-173-cm-681-doppia-sim-android-100-5g-usb-tipo-c-8-gb-256-gb-4600-mah-blu-6934177734090.html'
-    }, {
-        name: 'flixgvid',
-        value: 'flix4c44eb53000000.85238380',
-        url: 'https://www.onlinestore.it/468263-xiaomi-mi-11-173-cm-681-doppia-sim-android-100-5g-usb-tipo-c-8-gb-256-gb-4600-mah-blu-6934177734090.html'
-    }, {
-        name: 'inptime0_14041_it',
-        value: '0',
-        url: 'https://www.onlinestore.it/468263-xiaomi-mi-11-173-cm-681-doppia-sim-android-100-5g-usb-tipo-c-8-gb-256-gb-4600-mah-blu-6934177734090.html'
-    }])
     await page.waitForTimeout(59)
     await page.mouse.move(541, 200);
     await page.waitForTimeout(60);

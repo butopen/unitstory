@@ -1,5 +1,6 @@
 import {SignificantEvent} from "../events-abstract/event-abstract";
 import {BLDeviceEvent} from "@butopen/user-events-model";
+import {BBDeviceInformationAction} from "../browserbot-actions-model/browserbot-actions.model";
 
 export interface Screen {
     availHeight: number;
@@ -82,6 +83,10 @@ export class DeviceEvent extends SignificantEvent<DeviceEventType> {
 
     getPlaywrightInstruction(): string {
         return '' // It can be useful to set the user agent
+    }
+
+    getBrowserbotAction(): BBDeviceInformationAction {
+        return {action: "device", userAgent: this.event.device.userAgent}
     }
 
 }

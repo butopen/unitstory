@@ -1,5 +1,6 @@
 import {SignificantEvent} from "../events-abstract/event-abstract";
 import {BLKeyboardEvent} from "@butopen/user-events-model"
+import {BBAction} from "../browserbot-actions-model/browserbot-actions.model";
 
 export type KeydownEventType = BLKeyboardEvent & { url: string, sid: number, tab: number }
 
@@ -14,10 +15,13 @@ await page.keyboard.down('${this.event.code}')`
         }
     }
 
+    getBrowserbotAction(): BBAction {
+        return super.getBrowserbotAction();
+    }
+
     private isUpper(str: string): boolean {
 
         return !/[a-z]/.test(str) && /[A-Z]/.test(str);
 
     }
-
 }

@@ -1,5 +1,6 @@
 import {BLCookieEvent} from "@butopen/user-events-model";
 import {SignificantEvent} from "../events-abstract/event-abstract";
+import {BBAction} from "../browserbot-actions-model/browserbot-actions.model";
 
 export type CookieEventType = BLCookieEvent & { url: string, sid: number, tab: number }
 
@@ -16,6 +17,10 @@ export class CookieEvent extends SignificantEvent<CookieEventType> {
         }
         str += '])'
         return str;
+    }
+
+    getBrowserbotAction(): BBAction {
+        return super.getBrowserbotAction();
     }
 
     private getCookieList(): { name: string, value: string, url: string }[] {

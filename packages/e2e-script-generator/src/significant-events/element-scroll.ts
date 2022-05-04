@@ -1,5 +1,6 @@
 import {SignificantEvent} from "../events-abstract/event-abstract";
 import {BLScrollEvent} from "@butopen/user-events-model";
+import {BBAction, BBScrollAction} from "../browserbot-actions-model/browserbot-actions.model";
 
 export type ElementScrollEventType = BLScrollEvent & { url: string, sid: number, tab: number, selector: string }
 
@@ -14,4 +15,7 @@ export class ElementScrollEvent extends SignificantEvent<ElementScrollEventType>
 
     }
 
+    getBrowserbotAction(): BBAction {
+        return super.getBrowserbotAction();
+    }
 }

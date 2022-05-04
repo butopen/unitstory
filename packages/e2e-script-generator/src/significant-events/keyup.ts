@@ -1,5 +1,6 @@
 import {SignificantEvent} from "../events-abstract/event-abstract";
 import {BLKeyboardEvent} from "@butopen/user-events-model"
+import {BBAction} from "../browserbot-actions-model/browserbot-actions.model";
 
 export type KeyupEventType = BLKeyboardEvent & { url: string, sid: number, tab: number }
 
@@ -12,6 +13,10 @@ await page.keyboard.up('Shift')`
         } else {
             return `await page.keyboard.up('${this.event.code}');`
         }
+    }
+
+    getBrowserbotAction(): BBAction {
+        return super.getBrowserbotAction();
     }
 
     private isUpper(str: string): boolean {

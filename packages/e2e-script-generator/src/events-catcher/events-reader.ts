@@ -39,7 +39,8 @@ export class EventsReader {
             event.name === 'session-full' ||
             event.name === 'resize' ||
             event.name === 'input' ||
-            event.name === 'device-information'
+            event.name === 'device-information' ||
+            event.name === 'referrer'
         );
     }
 

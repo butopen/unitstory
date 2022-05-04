@@ -16,6 +16,8 @@ import {HttpEventsRouterGenerator} from "../significant-events/http-events-route
 import {InputEvent, InputEventType} from "../significant-events/input";
 import {ElementScrollEvent, ElementScrollEventType} from "../significant-events/element-scroll";
 import {DeviceEvent, DeviceEventType} from "../significant-events/device";
+import {ReferrerEvent, ReferrerType} from "../significant-events/referer";
+import {BBAction, BBWaitAction} from "../browserbot-actions-model/browserbot-actions.model";
 
 type CustomEvent =
     AfterResponseEvent
@@ -33,6 +35,7 @@ type CustomEvent =
     | DeviceEvent
     | ElementScrollEvent
     | InputEvent
+    | ReferrerEvent
 
 export class SessionGenerator {
 
@@ -71,6 +74,8 @@ export class SessionGenerator {
                 this.customEventList.push(new ElementScrollEvent(e as ElementScrollEventType))
             } else if (e.name === 'device-information') {
                 this.customEventList.push(new DeviceEvent(e as DeviceEventType))
+            } else if (e.name === 'referrer') {
+                this.customEventList.push(new ReferrerEvent(e as ReferrerType))
             }
         }
     }
@@ -141,6 +146,36 @@ export class SessionGenerator {
             ).write(')')
         })
         playwrightFile.saveSync()
+    }
+
+    toActionsList(): BBAction[] {
+
+        let eventsToConsider = this.customEventList.filter((e) => e.eventName !== 'cookie-data' && e.eventName !== 'local-full' && e.eventName !== 'session-full')
+
+        const actionsList: BBAction[] = []
+        for (let event of eventsToConsider) {
+            actionsList.push(event.getBrowserbotAction())
+            if (eventsToConsider.indexOf(event) !== eventsToConsider.length - 1) {
+                let indexOfNextElement = eventsToConsider.indexOf(event) + 1
+                if (event.eventName === 'mousemove') {
+                    let {moves} = event as unknown as MouseMoveEventType
+                    if (moves && moves.length > 0) {
+                        let sumTs = event.timestamp
+                        for (let m of moves) {
+                            sumTs += m.at
+                        }
+                        event.setTimestamp(sumTs)
+                    }
+                }
+                actionsList.push({
+                    action: "wait",
+                    timeout: Math.abs(event.timestamp - eventsToConsider[indexOfNextElement].timestamp)
+                } as BBWaitAction)
+            }
+        }
+
+        return actionsList
+
     }
 
     toString(): string {

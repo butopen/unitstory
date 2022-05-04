@@ -7,10 +7,10 @@ import {gunzip} from "zlib";
 jest.setTimeout(300 * 1000)
 test('classifier test', async () => {
     const tokenizer = new UrlTokenizer()
-    const rawLogisticRegression = require('../../saved-model/lr-classifier-v4.json')
+    const rawLogisticRegression = require('../../saved-model/lr-classifier-v3.json')
     const rawBayes = require('../../saved-model/nb-classifier-v2.json')
     const porterStemmerIt = require('../../node_modules/natural/lib/natural/stemmers/porter_stemmer_it');
-    const logisticRegressionClassifier = natural.LogisticRegressionClassifier.restore(rawLogisticRegression);
+    const logisticRegressionClassifier = natural.LogisticRegressionClassifier.restore(rawLogisticRegression, porterStemmerIt);
     const bayesClassifier = natural.BayesClassifier.restore(rawBayes);
 
 

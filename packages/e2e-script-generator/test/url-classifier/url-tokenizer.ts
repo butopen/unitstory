@@ -1,6 +1,6 @@
 export class UrlTokenizer {
 
-    tokenize(url: string): string {
+    tokenize(url: string): string[] {
 
         url = url.replaceAll('https://www.', "")
 
@@ -26,13 +26,13 @@ export class UrlTokenizer {
 
         const numberOfTokens = url.trim().split(" ").length
 
-        // url = numberOfTokens + ' ' + numberOfSlash + ' ' + numberOfDigits + ' ' + numberOfHyphen + ' ' + url //v2-v3
+        url = numberOfTokens + ' ' + numberOfSlash + ' ' + numberOfDigits + ' ' + numberOfHyphen + ' ' + url //v2-v3
 
         // url = numberOfTokens + ' ' + numberOfDigits + ' ' + url //v4
 
-        //return url.trim().split(" ") //v2-v3-v4
+        return url.trim().split(" ") //v2-v3-v4
 
-        return url.trim() //lstm
+        // return url.trim() //lstm
 
     }
 

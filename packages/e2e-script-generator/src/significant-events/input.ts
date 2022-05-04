@@ -1,5 +1,6 @@
 import {BLInputChangeEvent} from "@butopen/user-events-model"
 import {SignificantEvent} from "../events-abstract/event-abstract";
+import {BBAction} from "../browserbot-actions-model/browserbot-actions.model";
 
 export type InputEventType = BLInputChangeEvent & { url: string, sid: number, tab: number, selector: string }
 
@@ -16,5 +17,9 @@ if(!selector.includes('password')){
         await page.fill(selector,'${this.event.value.replaceAll("\\", "\\\\")}')
     }
 }`
+    }
+
+    getBrowserbotAction(): BBAction {
+        return super.getBrowserbotAction();
     }
 }

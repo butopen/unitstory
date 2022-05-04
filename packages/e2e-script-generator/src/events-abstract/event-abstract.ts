@@ -1,12 +1,9 @@
 import {BLEvent, BLEventName} from "@butopen/user-events-model"
+import {BBAction} from "../browserbot-actions-model/browserbot-actions.model";
 
 export abstract class SignificantEvent<T extends BLEvent> {
 
     constructor(public event: T) {
-    }
-
-    toString(): string {
-        return `Event: ${JSON.stringify(this.event)}`
     }
 
     get eventName(): BLEventName {
@@ -17,10 +14,19 @@ export abstract class SignificantEvent<T extends BLEvent> {
         return this.event.timestamp;
     }
 
+    toString(): string {
+        return `Event: ${JSON.stringify(this.event)}`
+    }
+
     setTimestamp(timestamp: number): void {
         this.event.timestamp = timestamp
     }
 
     protected abstract getPlaywrightInstruction(): string;
+
+
+    protected getBrowserbotAction(): BBAction {
+        return {action: ''}
+    }
 
 }
