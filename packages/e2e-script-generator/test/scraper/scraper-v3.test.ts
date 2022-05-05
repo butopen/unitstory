@@ -5,8 +5,9 @@ import natural from 'natural'
 import GetSitemapLinks from "get-sitemap-links";
 import {UrlTokenizer} from "../url-classifier/url-tokenizer";
 import fetch from 'node-fetch'
+import fs from "fs";
 
-jest.setTimeout(180 * 10000)
+jest.setTimeout(10800000)
 test('e2e test', async () => {
 
     // 1: Get sitemap from domain
@@ -31,8 +32,8 @@ test('e2e test', async () => {
 
     // 3: Get urls (products and non products) and classify them
 
-    const categoryUrls = require('../../dataset/datasetonlinestore.json').slice(0, 100)
-    const productUrls = require('../../dataset/datasetonlinestore.json').slice(600, 700)
+    const categoryUrls = require('../../dataset/datasetmonclick.json').slice(0, 100)
+    const productUrls = require('../../dataset/datasetmonclick.json').slice(600, 700)
     const urlsToClassify = categoryUrls.concat(productUrls)
     urlsToClassify.sort(() => 0.5 - Math.random())
 
@@ -49,7 +50,6 @@ test('e2e test', async () => {
             predictedProductUrls.push(e.url)
         }
     })
-    predictedProductUrls = predictedProductUrls.slice(5, 7)
 
 
     // 4: Session Generalizer
@@ -65,15 +65,16 @@ test('e2e test', async () => {
     eventsOfRegisteredSession.sort((e1, e2) => e1.timestamp - e2.timestamp);
     const session = new SessionGenerator()
     session.createSession(eventsOfRegisteredSession)
-    let actionsListRegisteredSession: BBAction[] = []
-    actionsListRegisteredSession = session.toActionsList()
+    let actionsListRegisteredSession: BBAction[] = session.toActionsList()
     const generalizedSession = actionsListRegisteredSession.filter((e) => e.action !== 'goto')
 
 
     // 5: Call the gfc to scrape
+
     const productsScraped: any = []
     for (let productToScrape of predictedProductUrls) {
         try {
+            console.log(productToScrape)
             let action: BBGotoAction = {action: 'goto', url: `${productToScrape}`}
             generalizedSession.push(action)
             let body: { actions: BBAction[] } = {actions: generalizedSession}
@@ -89,10 +90,14 @@ test('e2e test', async () => {
             })
             let productScraped = await response.json()
             productsScraped.push(productScraped)
+            console.log(productScraped)
             generalizedSession.pop()
         } catch (e) {
             console.log(e)
         }
     }
-    console.log(productsScraped)
+    for (let product of productsScraped) {
+        fs.appendFileSync('./scraped-products/scrapedProducts.json', JSON.stringify(product) + '\n')
+    }
+
 })
