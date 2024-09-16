@@ -1,30 +1,48 @@
-import {SignificantEvent} from "../events-interface/event-interface";
-import {BLMouseEvent} from "@butopen/user-events-model";
+import {SignificantEvent} from "../events-abstract/event-abstract";
+import {BLMoveEvent} from "@butopen/user-events-model";
 
-export class MouseMoveEvent implements SignificantEvent {
+export type MouseMoveEventType = BLMoveEvent & { url: string, sid: number, tab: number }
 
-    private readonly x: number;
-    private readonly y: number;
-    private readonly url: string;
-    private readonly sid: number;
-    private readonly tab: number;
-    private readonly timestamp: number;
-
-    constructor(event: BLMouseEvent & { url: string, sid: number, tab: number }) {
-        this.x = event.x;
-        this.y = event.y;
-        this.url = event.url;
-        this.sid = event.sid;
-        this.tab = event.tab;
-        this.timestamp = event.timestamp;
-    }
+export class MouseMoveEvent extends SignificantEvent<MouseMoveEventType> {
 
     getPlaywrightInstruction(): string {
-        return `await page.mouse.move(${this.x},${this.y});`;
-    }
 
-    toString(): string {
-        return `Event name: mousemove ` + `Url: ${this.url} ` + `Sid: ${this.sid} ` + `Tab: ${this.tab} ` + `Timestamp: ${this.timestamp} ` + `x: ${this.x} ` + `y: ${this.y}`;
-    }
+         const {x, y, moves} = this.event
+         let first = {x, y, at: 0}
+         let prev = first
+         const events: { x: number, y: number, at: number }[] = []
+         events.push(first)
+         for (let e of moves) {
+             let next = {
+                 at: e.at,
+                 x: prev.x + e.x,
+                 y: prev.y + e.y
+             }  
+             events.push(next)
+             prev = next 
+         }
+         const moveInstructions = events.map((e) => {
+             let str = ''
+             if (e.at !== 0) {
+                 str += `await page.waitForTimeout(${e.at});\n`
+             }
+             str += `await page.mouse.move(${e.x},${e.y});`
+             return str;
+         })
+         return `${moveInstructions.join("\n")}`;
 
+       /* let lastMoveAction = ""
+        let sumTs = 0
+        if (moves && moves.length > 0) {
+            let lastX = x
+            let lastY = y
+            for (let m of moves) {
+                lastX += m.x
+                lastY += m.y
+                sumTs += m.at
+            }
+            lastMoveAction = `await page.mouse.move(${lastX},${lastY});`
+        }
+        return `await page.mouse.move(${x},${y});\nawait page.waitForTimeout(${sumTs})\n${lastMoveAction}`*/
+    }
 }

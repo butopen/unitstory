@@ -1,6 +1,7 @@
 
 const watch = process.argv.includes("-w")
-
+const execSync = require('child_process').execSync;
+execSync("node generator")
 
 const options = {
     entryPoints: ['src/index.ts'],
@@ -12,6 +13,7 @@ const options = {
 if (watch) {
     options.watch = {
         onRebuild(error, result) {
+            
             if (error) console.error('watch build failed:', error)
             else console.log('watch build succeeded:', result)
         },
